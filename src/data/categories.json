@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Medical Equipment",
+    "slug": "medical-equipment",
+    "description": "Medical equipment for hospitals and clinics."
+  },
+  {
+    "id": 2,
+    "name": "Hospital Furniture",
+    "slug": "hospital-furniture",
+    "description": "Hospital beds, cabinets and furniture."
+  },
+  {
+    "id": 3,
+    "name": "Medical Disposable",
+    "slug": "medical-disposable",
+    "description": "Disposable medical supplies."
+  },
+  {
+    "id": 4,
+    "name": "Healthcare Accessories",
+    "slug": "healthcare-accessories",
+    "description": "Healthcare accessories."
+  },
+  {
+    "id": 5,
+    "name": "Emergency First Aid",
+    "slug": "emergency-first-aid",
+    "description": "Emergency and first aid products."
+  },
+  {
+    "id": 6,
+    "name": "Mobility Aids",
+    "slug": "mobility-aids",
+    "description": "Wheelchairs and mobility products."
+  }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "id": 1,
+    "sku": "ME-001",
+    "name": "Digital Blood Pressure Monitor",
+    "slug": "digital-blood-pressure-monitor",
+    "categoryId": 1,
+    "brandId": 1,
+    "featured": true,
+    "shortDescription": "Digital BP monitor.",
+    "description": "Accurate digital blood pressure monitor for hospitals and home healthcare.",
+    "images": [
+      "/images/products/bp-monitor.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "sku": "ME-002",
+    "name": "Patient Monitor",
+    "slug": "patient-monitor",
+    "categoryId": 1,
+    "brandId": 2,
+    "featured": true,
+    "shortDescription": "Multi-parameter monitor.",
+    "description": "Advanced patient monitoring system for ICUs and hospitals.",
+    "images": [
+      "/images/products/patient-monitor.jpg"
+    ]
+  },
+
+  {
+    "id": 3,
+    "sku": "HF-001",
+    "name": "Electric Hospital Bed",
+    "slug": "electric-hospital-bed",
+    "categoryId": 2,
+    "brandId": 1,
+    "featured": true,
+    "shortDescription": "Electric hospital bed.",
+    "description": "Adjustable electric hospital bed with safety side rails.",
+    "images": [
+      "/images/products/hospital-bed.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "sku": "HF-002",
+    "name": "Bedside Cabinet",
+    "slug": "bedside-cabinet",
+    "categoryId": 2,
+    "brandId": 2,
+    "featured": false,
+    "shortDescription": "Hospital bedside cabinet.",
+    "description": "Durable bedside cabinet with drawers for patient use.",
+    "images": [
+      "/images/products/bedside-cabinet.jpg"
+    ]
+  },
+
+  {
+    "id": 5,
+    "sku": "MD-001",
+    "name": "Surgical Gloves",
+    "slug": "surgical-gloves",
+    "categoryId": 3,
+    "brandId": 3,
+    "featured": true,
+    "shortDescription": "Latex surgical gloves.",
+    "description": "Sterile disposable latex surgical gloves.",
+    "images": [
+      "/images/products/surgical-gloves.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "sku": "MD-002",
+    "name": "Disposable Face Mask",
+    "slug": "disposable-face-mask",
+    "categoryId": 3,
+    "brandId": 3,
+    "featured": false,
+    "shortDescription": "3-layer face mask.",
+    "description": "Disposable protective face mask for medical environments.",
+    "images": [
+      "/images/products/face-mask.jpg"
+    ]
+  },
+
+  {
+    "id": 7,
+    "sku": "HA-001",
+    "name": "Stethoscope",
+    "slug": "stethoscope",
+    "categoryId": 4,
+    "brandId": 2,
+    "featured": true,
+    "shortDescription": "Professional stethoscope.",
+    "description": "High acoustic sensitivity stethoscope for healthcare professionals.",
+    "images": [
+      "/images/products/stethoscope.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "sku": "HA-002",
+    "name": "Digital Thermometer",
+    "slug": "digital-thermometer",
+    "categoryId": 4,
+    "brandId": 2,
+    "featured": false,
+    "shortDescription": "Digital thermometer.",
+    "description": "Fast and accurate body temperature measurement.",
+    "images": [
+      "/images/products/thermometer.jpg"
+    ]
+  },
+
+  {
+    "id": 9,
+    "sku": "FA-001",
+    "name": "First Aid Kit",
+    "slug": "first-aid-kit",
+    "categoryId": 5,
+    "brandId": 4,
+    "featured": true,
+    "shortDescription": "Emergency first aid kit.",
+    "description": "Complete first aid kit for clinics, offices, and homes.",
+    "images": [
+      "/images/products/first-aid-kit.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "sku": "FA-002",
+    "name": "Trauma Bag",
+    "slug": "trauma-bag",
+    "categoryId": 5,
+    "brandId": 4,
+    "featured": false,
+    "shortDescription": "Emergency trauma bag.",
+    "description": "Professional emergency trauma response bag.",
+    "images": [
+      "/images/products/trauma-bag.jpg"
+    ]
+  },
+
+  {
+    "id": 11,
+    "sku": "MA-001",
+    "name": "Manual Wheelchair",
+    "slug": "manual-wheelchair",
+    "categoryId": 6,
+    "brandId": 5,
+    "featured": true,
+    "shortDescription": "Foldable wheelchair.",
+    "description": "Lightweight foldable wheelchair for daily mobility.",
+    "images": [
+      "/images/products/wheelchair.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "sku": "MA-002",
+    "name": "Walking Frame",
+    "slug": "walking-frame",
+    "categoryId": 6,
+    "brandId": 5,
+    "featured": false,
+    "shortDescription": "Aluminium walking frame.",
+    "description": "Adjustable lightweight walking frame for patient support.",
+    "images": [
+      "/images/products/walking-frame.jpg"
+    ]
+  }
+]
