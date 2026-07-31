@@ -4,8 +4,13 @@ import CoreValues from "../components/about/CoreValues";
 import IndustriesSection from "../components/about/IndustriesSection";
 import MissionVision from "../components/about/MissionVision";
 import CTASection from "../components/common/CTASection";
+import { useTranslation } from "react-i18next";
+import { company } from "../config/company";
+
+
 
 export default function About() {
+  const { t } = useTranslation("common");
   return (
     <>
       <AboutHero />
@@ -13,15 +18,14 @@ export default function About() {
       <MissionVision />
       <CoreValues />
       <IndustriesSection />
-<CTASection
-  badge="Let's Work Together"
-  title="Looking for Reliable Medical Equipment?"
-  description="Our experienced team is ready to help you find the right healthcare solutions for your hospital, clinic, or laboratory."
-  primaryButtonText="Contact Us"
-  primaryButtonLink="/contact"
-  secondaryButtonText="WhatsApp"
-  secondaryButtonLink="https://wa.me/966500000000"
-/>
+ <CTASection
+    title={t("cta.title")}
+    description={t("cta.description")}
+    primaryButtonText={t("cta.contact")}
+    primaryButtonLink="/contact"
+    secondaryButtonText={t("cta.whatsapp")}
+    secondaryButtonLink={`https://wa.me/${company.whatsapp}`}
+  />
     </>
   );
 }

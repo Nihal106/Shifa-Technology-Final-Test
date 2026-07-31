@@ -1,11 +1,16 @@
 import { CheckCircle } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 import Container from "../ui/Container";
 import SectionHeader from "../common/SectionHeader";
 
-import about from "../../data/about.json";
-
 export default function CompanyOverview() {
+  const { t, i18n } = useTranslation("about");
+
+  const features = t("overview.features", {
+    returnObjects: true,
+  });
+
   return (
     <section className="bg-white py-20">
       <Container>
@@ -26,16 +31,16 @@ export default function CompanyOverview() {
           <div>
 
             <SectionHeader
-              badge={about.overview.badge}
-              title={about.overview.title}
-              highlightedText={about.overview.highlightedText}
-              description={about.overview.description}
+              badge={t("overview.badge")}
+              title={t("overview.title")}
+              highlightedText={t("overview.highlight")}
+              description={t("overview.description")}
               center={false}
             />
 
             <div className="mt-8 space-y-4">
 
-              {about.overview.features.map((feature) => (
+              {features.map((feature) => (
                 <div
                   key={feature}
                   className="flex items-center gap-3"

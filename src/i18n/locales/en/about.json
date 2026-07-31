@@ -1,1 +1,53 @@
-{}
+{
+  "hero": {
+  "badge": "About Us",
+  "title": "Trusted Medical Equipment Supplier",
+  "description": "Delivering high-quality medical equipment and healthcare solutions to hospitals, clinics, laboratories, and healthcare professionals across Saudi Arabia.",
+  "contact": "Contact Us",
+  "browse": "Browse Products"
+},
+"overview": {
+  "badge": "Company Overview",
+  "title": "Committed to",
+  "highlight": "Quality Healthcare",
+  "description": "We provide trusted medical equipment and healthcare solutions that meet international quality standards and support healthcare professionals across Saudi Arabia.",
+  "features": [
+    "Premium quality medical equipment",
+    "Trusted global manufacturers",
+    "Reliable customer support",
+    "Fast nationwide delivery"
+  ]
+},
+
+
+"industries": {
+  "badge": "Industries We Serve",
+  "title": "Supporting Every",
+  "highlight": "Healthcare Sector",
+  "description": "We proudly provide medical equipment and healthcare solutions to organizations across the healthcare industry."
+},
+
+"missionVision": {
+  "badge": "Mission & Vision",
+  "title": "Driven by",
+  "highlight": "Purpose",
+  "description": "Everything we do is guided by our mission and vision."
+},
+
+"mission": {
+  "title": "Our Mission",
+  "description": "To deliver innovative healthcare solutions that improve patient care and support healthcare professionals with high-quality medical equipment."
+},
+
+"vision": {
+  "title": "Our Vision",
+  "description": "To become one of the leading medical equipment suppliers in Saudi Arabia through quality, trust and continuous innovation."
+},
+
+"coreValues": {
+  "badge": "Our Values",
+  "title": "The Principles That",
+  "highlight": "Guide Us",
+  "description": "Our commitment to quality, innovation, integrity, and customer satisfaction defines everything we do."
+}
+}

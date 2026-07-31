@@ -1,1 +1,41 @@
-{}
+{
+  "hero": {
+    "badge": "Trusted Medical Equipment Supplier",
+    "title": "Premium Medical Equipment &",
+    "highlight": "Healthcare Solutions",
+    "description": "Supplying hospitals, clinics, laboratories and healthcare professionals with high-quality medical equipment across Saudi Arabia.",
+    "browse": "Browse Categories",
+    "whatsapp": "WhatsApp"
+  },
+  "categories": {
+    "badge": "Categories",
+    "title": "Browse Our",
+    "highlight": "Categories",
+    "description": "Explore our wide range of premium medical products for hospitals, clinics and healthcare professionals."
+  },
+  "whyChooseUs": {
+  "badge": "Why Choose Us",
+  "title": "Why Choose",
+  "highlight": "Us?",
+  "description": "Trusted by hospitals, clinics and healthcare professionals across Saudi Arabia."
+},
+"brands": {
+  "badge": "Brands",
+  "title": "Our Trusted",
+  "highlight": "Brands",
+  "description": "We partner with leading medical equipment manufacturers to provide reliable healthcare solutions."
+},
+"featuredProducts": {
+  "badge": "Products",
+  "title": "Featured",
+  "highlight": "Products",
+  "description": "Explore some of our most popular medical products trusted by healthcare professionals.",
+  "whatsapp": "WhatsApp Inquiry"
+},
+"cta": {
+  "title": "Looking for Quality Medical Equipment?",
+  "description": "Our team is ready to help you choose the right products for your hospital, clinic or healthcare facility.",
+  "contact": "Contact Us",
+  "whatsapp": "WhatsApp"
+}
+}

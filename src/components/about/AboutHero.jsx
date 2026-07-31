@@ -1,10 +1,13 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import Container from "../ui/Container";
 import Button from "../ui/Button";
 
 export default function AboutHero() {
+  const { t, i18n } = useTranslation("about");
+
   return (
     <section className="bg-slate-50">
       <Container className="py-20">
@@ -14,35 +17,32 @@ export default function AboutHero() {
           <div>
 
             <span className="inline-block rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-              About Us
+              {t("hero.badge")}
             </span>
 
             <h1 className="mt-6 text-4xl font-bold leading-tight text-slate-900 lg:text-5xl">
-              Trusted Medical Equipment Supplier
+              {t("hero.title")}
             </h1>
 
             <p className="mt-6 text-lg leading-8 text-slate-600">
-              Delivering high-quality medical equipment
-              and healthcare solutions to hospitals,
-              clinics, laboratories, and healthcare
-              professionals across Saudi Arabia.
+              {t("hero.description")}
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
 
               <Link to="/contact">
                 <Button>
-                  Contact Us
+                  {t("hero.contact")}
                 </Button>
               </Link>
 
               <Link to="/">
                 <Button variant="outline">
-                  Browse Products
+                  {t("hero.browse")}
 
                   <ArrowRight
                     size={18}
-                    className="ml-2"
+                    className={i18n.language === "ar" ? "mr-2" : "ml-2"}
                   />
                 </Button>
               </Link>

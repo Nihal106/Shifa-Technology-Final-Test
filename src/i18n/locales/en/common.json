@@ -4,5 +4,33 @@
     "categories": "Categories",
     "about": "About",
     "contact": "Contact"
-  }
+  },
+
+  "search": {
+    "placeholder": "Search products...",
+    "noResults": "No products found."
+  },
+
+  "footer": {
+    "description": "Supplying hospitals, clinics and healthcare providers with reliable medical equipment across Saudi Arabia.",
+
+    "quickLinks": "Quick Links",
+
+    "categories": "Categories",
+
+    "contact": "Contact",
+
+    "privacy": "Privacy Policy",
+
+    "terms": "Terms & Conditions",
+
+    "copyright": "All rights reserved."
+  },
+"cta": {
+  "title": "Looking for Quality Medical Equipment?",
+  "description": "Our team is ready to help you choose the right products for your hospital, clinic or healthcare facility.",
+  "contact": "Contact Us",
+  "whatsapp": "WhatsApp"
+}
+
 }

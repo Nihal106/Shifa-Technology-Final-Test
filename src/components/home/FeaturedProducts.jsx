@@ -1,107 +1,79 @@
 import { FaWhatsapp } from "react-icons/fa";
 
-const products = [
-  {
-    id: 1,
-    name: "Digital Blood Pressure Monitor",
-    category: "Medical Equipment",
-    image: "https://placehold.co/400x300?text=BP+Monitor",
-  },
-  {
-    id: 2,
-    name: "Hospital Bed",
-    category: "Hospital Furniture",
-    image: "https://placehold.co/400x300?text=Hospital+Bed",
-  },
-  {
-    id: 3,
-    name: "Wheelchair",
-    category: "Mobility Aids",
-    image: "https://placehold.co/400x300?text=Wheelchair",
-  },
-  {
-    id: 4,
-    name: "Surgical Gloves",
-    category: "Medical Disposable",
-    image: "https://placehold.co/400x300?text=Gloves",
-  },
-];
+import Container from "../ui/Container";
+import SectionHeader from "../common/SectionHeader";
+
+import { company } from "../../config/company";
+import { getFeaturedProducts } from "../../services/productService";
+import { useTranslation } from "react-i18next";
 
 export default function FeaturedProducts() {
+  const featuredProducts = getFeaturedProducts();
+  const { t } = useTranslation("home");
 
   const whatsappLink = (product) => {
-    const phone = "966500000000"; // Replace later
+    const message = `Hello,
 
-    const message = `Hello, I'm interested in the product:
+I'm interested in the following product.
 
 Product: ${product.name}
-Category: ${product.category}`;
+Category: ${product.category.name}
+Brand: ${product.brand.name}
 
-    return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+Please provide more information.`;
+
+    return `https://wa.me/${company.whatsapp}?text=${encodeURIComponent(message)}`;
   };
 
   return (
-    <section className="py-20">
+    <section className="bg-white py-16 sm:py-20">
+      <Container>
+<SectionHeader
+  badge={t("featuredProducts.badge")}
+  title={t("featuredProducts.title")}
+  highlightedText={t("featuredProducts.highlight")}
+  description={t("featuredProducts.description")}
+/>
 
-      <div className="max-w-7xl mx-auto px-6">
-
-        <div className="text-center mb-14">
-
-          <h2 className="text-4xl font-bold">
-            Featured Products
-          </h2>
-
-          <p className="text-gray-500 mt-3">
-            Explore some of our most popular medical products.
-          </p>
-
-        </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-          {products.map((product) => (
-
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
+          {featuredProducts.map((product) => (
             <div
               key={product.id}
-              className="bg-white rounded-xl shadow hover:shadow-xl transition overflow-hidden"
+              className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-blue-200 hover:shadow-xl"
             >
-
               <img
-                src={product.image}
+                src={product.images[0]}
                 alt={product.name}
-                className="w-full h-60 object-cover"
+                className="h-52 w-full object-cover transition duration-300 group-hover:scale-105 sm:h-56 lg:h-60"
               />
 
-              <div className="p-5">
-
-                <span className="text-sm text-blue-600">
-                  {product.category}
+              <div className="flex flex-1 flex-col p-6">
+                <span className="text-sm font-medium text-blue-600">
+                  {product.category.name}
                 </span>
 
-                <h3 className="font-bold mt-2 text-lg">
+                <h3 className="mt-2 text-lg font-semibold text-slate-900">
                   {product.name}
                 </h3>
+
+                <p className="mt-3 flex-1 text-sm leading-6 text-slate-600">
+                  {product.shortDescription}
+                </p>
 
                 <a
                   href={whatsappLink(product)}
                   target="_blank"
-                  rel="noreferrer"
-                  className="mt-5 flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg transition"
+                  rel="noopener noreferrer"
+                  className="mt-6 flex items-center justify-center gap-2 rounded-xl bg-green-600 px-5 py-3 font-semibold text-white transition hover:bg-green-700"
                 >
                   <FaWhatsapp />
                   WhatsApp Inquiry
                 </a>
-
               </div>
-
             </div>
-
           ))}
-
         </div>
-
-      </div>
-
+      </Container>
     </section>
   );
 }

@@ -4,3 +4,30 @@ body{
     font-family: "Poppins", sans-serif;
     background:#F8FAFC;
 }
+
+
+/* ==========================
+   RTL Support
+========================== */
+
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+html[dir="ltr"] {
+  direction: ltr;
+}
+
+/* Better Arabic typography */
+
+html[dir="rtl"] body {
+  text-align: right;
+}
+
+/* Images should never flip */
+
+img,
+svg,
+video {
+  direction: ltr;
+}

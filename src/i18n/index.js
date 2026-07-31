@@ -61,5 +61,11 @@ i18n
 
     defaultNS: "common",
   });
-
+document.documentElement.lang = i18n.language;
+document.documentElement.dir =
+  i18n.language === "ar" ? "rtl" : "ltr";
+  i18n.on("languageChanged", (lng) => {
+  document.documentElement.lang = lng;
+  document.documentElement.dir = lng === "ar" ? "rtl" : "ltr";
+});
 export default i18n;

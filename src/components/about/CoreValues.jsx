@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import * as Icons from "lucide-react";
 
 import Container from "../ui/Container";
@@ -6,15 +7,17 @@ import SectionHeader from "../common/SectionHeader";
 import about from "../../data/about.json";
 
 export default function CoreValues() {
+  const { t } = useTranslation("about");
+
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-16 sm:py-20">
       <Container>
 
         <SectionHeader
-          badge="Our Values"
-          title="The Principles That"
-          highlightedText="Guide Us"
-          description="Our commitment to quality, innovation, integrity, and customer satisfaction defines everything we do."
+          badge={t("coreValues.badge")}
+          title={t("coreValues.title")}
+          highlightedText={t("coreValues.highlight")}
+          description={t("coreValues.description")}
         />
 
         <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 import Container from "../ui/Container";
 import SectionHeader from "../common/SectionHeader";
 
@@ -5,15 +7,17 @@ import about from "../../data/about.json";
 import { getIcon } from "../../utils/iconMapper";
 
 export default function IndustriesSection() {
+  const { t } = useTranslation("about");
+
   return (
-    <section className="bg-slate-50 py-20">
+    <section className="bg-slate-50 py-16 sm:py-20">
       <Container>
 
         <SectionHeader
-          badge="Industries We Serve"
-          title="Supporting Every"
-          highlightedText="Healthcare Sector"
-          description="We proudly provide medical equipment and healthcare solutions to organizations across the healthcare industry."
+          badge={t("industries.badge")}
+          title={t("industries.title")}
+          highlightedText={t("industries.highlight")}
+          description={t("industries.description")}
         />
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
