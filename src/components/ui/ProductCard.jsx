@@ -1,22 +1,58 @@
+import { useEffect, useRef, useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import Button from "./Button";
 
-export default function ProductCard({ product }) {
+export default function ProductCard({
+  product,
+  highlight,
+}) {
+  const cardRef = useRef(null);
+
+  const [isHighlighted, setIsHighlighted] = useState(false);
+
+  useEffect(() => {
+    if (!highlight) return;
+
+    // Scroll to the selected product
+    cardRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+
+    // Show highlight
+    setIsHighlighted(true);
+
+    // Remove highlight after 3 seconds
+    const timer = setTimeout(() => {
+      setIsHighlighted(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, [highlight]);
+
   const phone = "966500000000";
 
   const message = `Hello, I'm interested in:
 
 Product: ${product.name}`;
 
-  const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(
+    message
+  )}`;
 
   return (
-    <div className="group overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
-
+    <div
+      ref={cardRef}
+      className={`group overflow-hidden rounded-xl bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${
+        isHighlighted
+          ? "border-2 border-blue-600 ring-4 ring-blue-200"
+          : "border border-slate-200"
+      }`}
+    >
       {/* Product Image */}
       <div className="overflow-hidden">
         <img
-          src={product.image}
+          src={product.images?.[0]}
           alt={product.name}
           className="h-60 w-full object-cover transition duration-500 group-hover:scale-105"
         />
@@ -24,16 +60,11 @@ Product: ${product.name}`;
 
       {/* Content */}
       <div className="p-5">
-
-        <p className="text-sm text-blue-600 font-medium">
-          {product.category}
-        </p>
-
-        <h3 className="mt-2 text-lg font-semibold text-slate-900">
+        <h3 className="text-lg font-semibold text-slate-900">
           {product.name}
         </h3>
 
-        <p className="mt-3 text-sm text-slate-600 line-clamp-3">
+        <p className="mt-3 line-clamp-3 text-sm text-slate-600">
           {product.description}
         </p>
 
@@ -55,9 +86,7 @@ Product: ${product.name}`;
             </Button>
           </a>
         </div>
-
       </div>
-
     </div>
   );
 }

@@ -1,19 +1,35 @@
-import { FiSearch } from "react-icons/fi";
+import { useState } from "react";
+import { Search } from "lucide-react";
 
-const SearchBar = () => {
-    return (
-        <div className="relative w-full max-w-md">
-            <input
-                type="text"
-                placeholder="Search products..."
-                className="w-full rounded-full border border-gray-300 py-3 pl-5 pr-12 outline-none focus:border-blue-700"
-            />
+import { searchProducts } from "../../services/searchService";
+import SearchDropdown from "./SearchDropdown";
 
-            <FiSearch
-                className="absolute right-4 top-1/2 -translate-y-1/2 text-xl text-gray-500"
-            />
-        </div>
-    );
-};
+export default function SearchBar() {
+  const [query, setQuery] = useState("");
 
-export default SearchBar;
+  const results = searchProducts(query);
+
+  return (
+    <div className="relative w-full max-w-md">
+      <div className="relative">
+        <Search
+          className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+          size={18}
+        />
+
+        <input
+          type="text"
+          placeholder="Search products..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          className="w-full rounded-lg border border-gray-300 py-2 pl-10 pr-4 focus:border-blue-500 focus:outline-none"
+        />
+      </div>
+
+      <SearchDropdown
+        results={results}
+        query={query}
+      />
+    </div>
+  );
+}

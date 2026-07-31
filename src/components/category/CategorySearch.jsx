@@ -4,6 +4,11 @@ export default function CategorySearch({
   searchTerm,
   setSearchTerm,
 }) {
+    console.log({
+    searchTerm,
+    setSearchTerm,
+    type: typeof setSearchTerm,
+  });
   return (
     <div>
       <h3 className="mb-3 text-lg font-semibold text-slate-900">

@@ -1,6 +1,9 @@
 import ProductCard from "../ui/ProductCard";
 
-export default function ProductGrid({ products }) {
+export default function ProductGrid({
+  products,
+  highlightProduct,
+}) {
   if (!products.length) {
     return (
       <div className="rounded-xl border border-dashed border-slate-300 p-10 text-center text-slate-500">
@@ -15,6 +18,7 @@ export default function ProductGrid({ products }) {
         <ProductCard
           key={product.id}
           product={product}
+          highlight={highlightProduct === product.id}
         />
       ))}
     </div>

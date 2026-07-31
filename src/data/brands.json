@@ -1,15 +1,27 @@
 [
   {
     "id": 1,
-    "name": "Armani Exchange"
+    "name": "Philips",
+    "logo": "/images/brands/philips.png"
   },
-  
   {
     "id": 2,
-    "name": "Phillips"
+    "name": "Omron",
+    "logo": "/images/brands/omron.png"
   },
   {
     "id": 3,
-    "name": "Vivo"
+    "name": "3M",
+    "logo": "/images/brands/3m.png"
+  },
+  {
+    "id": 4,
+    "name": "Medline",
+    "logo": "/images/brands/medline.png"
+  },
+  {
+    "id": 5,
+    "name": "Drive Medical",
+    "logo": "/images/brands/drive-medical.png"
   }
 ]

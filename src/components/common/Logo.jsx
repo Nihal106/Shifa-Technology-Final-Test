@@ -1,9 +1,9 @@
 const Logo = () => {
     return (
         <div className="flex flex-col">
-            <h1 className="text-4xl font-extrabold">
-                <span className="text-red-600">Medi</span>
-                <span className="text-gray-800">spot</span>
+            <h1 className="text-3xl font-extrabold">
+                <span className="text-blue-600">Shifa</span>
+                <span className="text-green-800">Technologies Co.</span>
             </h1>
 
             <p className="text-xs text-gray-500">

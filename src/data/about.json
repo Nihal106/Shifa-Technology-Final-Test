@@ -1,0 +1,85 @@
+{
+  "hero": {
+    "badge": "About Us",
+    "title": "Trusted Medical Equipment Supplier",
+    "description": "Delivering high-quality medical equipment and healthcare solutions to hospitals, clinics, laboratories, and healthcare professionals across Saudi Arabia."
+  },
+
+  "overview": {
+    "badge": "Who We Are",
+    "title": "Trusted Healthcare",
+    "highlightedText": "Solutions Partner",
+    "description": "Shifa Technologies is a trusted supplier of medical equipment and healthcare solutions. We work closely with hospitals, clinics, laboratories, and healthcare professionals to deliver reliable products that improve patient care and operational efficiency.",
+    "features": [
+      "Premium Medical Equipment",
+      "Trusted Global Brands",
+      "Reliable Customer Support"
+    ]
+  },
+
+  "mission": {
+    "title": "Our Mission",
+    "description": "To provide reliable, innovative, and affordable medical equipment that helps healthcare providers deliver exceptional patient care."
+  },
+
+  "vision": {
+    "title": "Our Vision",
+    "description": "To become one of the leading healthcare equipment suppliers in the Middle East through quality, trust, and customer satisfaction."
+  },
+
+  "values": [
+  {
+    "icon": "ShieldCheck",
+    "title": "Quality",
+    "description": "We supply only high-quality medical equipment from trusted manufacturers."
+  },
+  {
+    "icon": "Handshake",
+    "title": "Integrity",
+    "description": "We build long-term relationships through honesty, transparency, and trust."
+  },
+  {
+    "icon": "Lightbulb",
+    "title": "Innovation",
+    "description": "We continuously introduce modern healthcare technologies and solutions."
+  },
+  {
+    "icon": "HeartHandshake",
+    "title": "Customer Focus",
+    "description": "Our customers are at the heart of everything we do, from consultation to after-sales support."
+  }
+],
+
+  "industries": [
+  {
+    "icon": "Hospital",
+    "title": "Hospitals",
+    "description": "Comprehensive medical equipment for public and private hospitals."
+  },
+  {
+    "icon": "Building2",
+    "title": "Clinics",
+    "description": "Reliable solutions for specialty and general healthcare clinics."
+  },
+  {
+    "icon": "FlaskConical",
+    "title": "Laboratories",
+    "description": "Modern laboratory instruments and diagnostic equipment."
+  },
+  {
+    "icon": "Ambulance",
+    "title": "Emergency Services",
+    "description": "Critical care and emergency medical equipment."
+  },
+  {
+    "icon": "HousePlus",
+    "title": "Home Healthcare",
+    "description": "Products designed for patient care at home."
+  },
+  {
+    "icon": "Stethoscope",
+    "title": "Healthcare Professionals",
+    "description": "Professional medical devices for doctors and healthcare providers."
+  }
+]
+}

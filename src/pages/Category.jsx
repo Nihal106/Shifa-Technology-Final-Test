@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 
 import { useState } from "react";
 import Container from "../components/ui/Container";
@@ -14,6 +14,10 @@ export default function Category() {
     const [searchTerm, setSearchTerm] = useState("");
 
   const { slug } = useParams();
+  const location = useLocation();
+
+const highlightProduct =
+  location.state?.highlightProduct;
 
   const category = categories.find(
     (item) => item.slug === slug
@@ -58,10 +62,14 @@ const filteredProducts = products.filter((product) => {
   categories={categories}
   brands={brands}
   selectedCategory={category}
+  searchTerm={searchTerm}
+  setSearchTerm={setSearchTerm}
 />
-
           <div className="lg:col-span-3">
-            <ProductGrid products={filteredProducts} />
+            <ProductGrid
+  products={filteredProducts}
+  highlightProduct={highlightProduct}
+/>
           </div>
 
         </div>

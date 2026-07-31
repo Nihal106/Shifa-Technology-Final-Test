@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "badge": "Contact Us",
+    "title": "We're Here to Help",
+    "description": "Have questions about our medical equipment or healthcare solutions? Get in touch with our team today."
+  },
+
+  "form": {
+    "title": "Send Us a Message",
+    "description": "Fill out the form below and we'll get back to you as soon as possible."
+  },
+
+  "map": {
+    "badge": "Our Location",
+    "title": "Find Us",
+    "description": "Visit our office or showroom. Our team is ready to assist you with all your medical equipment needs."
+  }
+}

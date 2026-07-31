@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Premium Quality",
+    "description": "Only high-quality medical equipment from trusted manufacturers.",
+    "icon": "ShieldCheck"
+  },
+  {
+    "id": 2,
+    "title": "Fast Delivery",
+    "description": "Reliable and timely delivery across Saudi Arabia.",
+    "icon": "Truck"
+  },
+  {
+    "id": 3,
+    "title": "Warranty Support",
+    "description": "Manufacturer warranty and dependable after-sales support.",
+    "icon": "BadgeCheck"
+  },
+  {
+    "id": 4,
+    "title": "Expert Guidance",
+    "description": "Helping healthcare professionals choose the right equipment.",
+    "icon": "Stethoscope"
+  }
+]
