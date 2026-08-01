@@ -1,39 +1,46 @@
 import { FaWhatsapp } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 import Container from "../ui/Container";
 import SectionHeader from "../common/SectionHeader";
 
 import { company } from "../../config/company";
 import { getFeaturedProducts } from "../../services/productService";
-import { useTranslation } from "react-i18next";
 
 export default function FeaturedProducts() {
   const featuredProducts = getFeaturedProducts();
-  const { t } = useTranslation("home");
+
+  const { t, i18n } = useTranslation("home");
+
+  const lang =
+    i18n.language === "ar" ? "ar" : "en";
 
   const whatsappLink = (product) => {
     const message = `Hello,
 
 I'm interested in the following product.
 
-Product: ${product.name}
-Category: ${product.category.name}
+Product: ${product.name[lang]}
+Category: ${product.category.name[lang]}
 Brand: ${product.brand.name}
 
 Please provide more information.`;
 
-    return `https://wa.me/${company.whatsapp}?text=${encodeURIComponent(message)}`;
+    return `https://wa.me/${company.whatsapp}?text=${encodeURIComponent(
+      message
+    )}`;
   };
 
   return (
     <section className="bg-white py-16 sm:py-20">
       <Container>
-<SectionHeader
-  badge={t("featuredProducts.badge")}
-  title={t("featuredProducts.title")}
-  highlightedText={t("featuredProducts.highlight")}
-  description={t("featuredProducts.description")}
-/>
+
+        <SectionHeader
+          badge={t("featuredProducts.badge")}
+          title={t("featuredProducts.title")}
+          highlightedText={t("featuredProducts.highlight")}
+          description={t("featuredProducts.description")}
+        />
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
           {featuredProducts.map((product) => (
@@ -43,21 +50,22 @@ Please provide more information.`;
             >
               <img
                 src={product.images[0]}
-                alt={product.name}
+                alt={product.name[lang]}
                 className="h-52 w-full object-cover transition duration-300 group-hover:scale-105 sm:h-56 lg:h-60"
               />
 
               <div className="flex flex-1 flex-col p-6">
+
                 <span className="text-sm font-medium text-blue-600">
-                  {product.category.name}
+                  {product.category.name[lang]}
                 </span>
 
                 <h3 className="mt-2 text-lg font-semibold text-slate-900">
-                  {product.name}
+                  {product.name[lang]}
                 </h3>
 
                 <p className="mt-3 flex-1 text-sm leading-6 text-slate-600">
-                  {product.shortDescription}
+                  {product.shortDescription[lang]}
                 </p>
 
                 <a
@@ -67,12 +75,14 @@ Please provide more information.`;
                   className="mt-6 flex items-center justify-center gap-2 rounded-xl bg-green-600 px-5 py-3 font-semibold text-white transition hover:bg-green-700"
                 >
                   <FaWhatsapp />
-                  WhatsApp Inquiry
+                  {t("featuredProducts.whatsapp")}
                 </a>
+
               </div>
             </div>
           ))}
         </div>
+
       </Container>
     </section>
   );

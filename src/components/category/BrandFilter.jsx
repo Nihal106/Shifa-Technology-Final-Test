@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
+
 export default function BrandFilter({ brands }) {
+  const { t } = useTranslation("common");
   return (
     <div>
       <h3 className="mb-3 text-lg font-semibold text-slate-900">
@@ -17,7 +21,7 @@ export default function BrandFilter({ brands }) {
             />
 
             <span className="text-slate-700">
-              {brand.name}
+              {t("category.brands")}
             </span>
           </label>
         ))}

@@ -5,7 +5,10 @@ export default function SearchDropdown({
   results,
   query,
 }) {
-  const { t } = useTranslation("common");
+  const { t, i18n } = useTranslation("common");
+
+  const lang =
+    i18n.language === "ar" ? "ar" : "en";
 
   if (!query.trim()) return null;
 
@@ -27,17 +30,17 @@ export default function SearchDropdown({
           >
             <img
               src={product.images[0]}
-              alt={product.name}
+              alt={product.name[lang]}
               className="h-14 w-14 rounded-lg object-cover"
             />
 
             <div>
               <h4 className="font-medium text-gray-900">
-                {product.name}
+                {product.name[lang]}
               </h4>
 
               <p className="text-sm text-gray-500">
-                {product.category.name}
+                {product.category.name[lang]}
               </p>
             </div>
           </Link>

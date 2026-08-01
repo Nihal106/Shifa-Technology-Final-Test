@@ -31,7 +31,20 @@
   "description": "فريقنا جاهز لمساعدتك في اختيار المنتجات المناسبة لمستشفاك أو عيادتك أو منشأتك الصحية.",
   "contact": "اتصل بنا",
   "whatsapp": "واتساب"
-}
-
+},
+"category": {
+  "products": "عرض {{count}} منتجات",
+  "searchTitle": "البحث عن المنتجات",
+  "searchPlaceholder": "ابحث عن المنتجات...",
+  "categories": "الفئات",
+  "brands": "العلامات التجارية",
+  "whatsappInquiry": "استفسار عبر واتساب",
+  "noProducts": "لم يتم العثور على منتجات.",
+  "categoryNotFound": "الفئة غير موجودة"
+},
+ "product": {
+    "whatsappInquiry": "استفسار عبر واتساب"
+  }
+  
 
 }

@@ -1,1 +1,11 @@
-{}
+{
+  "searchTitle": "Search Products",
+  "searchPlaceholder": "Search products...",
+  "categories": "Categories",
+  "brands": "Brands",
+  "whatsappInquiry": "WhatsApp Inquiry",
+  "noProducts": "No products found.",
+  "productsCount": "Showing {{count}} Products",
+  "categoryNotFound": "Category Not Found",
+  "breadcrumbCategories": "Categories"
+}

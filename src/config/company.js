@@ -4,7 +4,7 @@ export const company = {
 
   phone: "+966 50 123 4567",
   email: "info@shifatechnologies.com",
-  whatsapp: "966501234567",
+  whatsapp: "918281830430",
 
   address: "Riyadh, Saudi Arabia",
 

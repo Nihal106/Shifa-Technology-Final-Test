@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "badge": "Legal",
+    "title": "Terms & Conditions",
+    "description": "These Terms & Conditions govern your use of the Shifa Technologies website and the services we provide.",
+    "lastUpdated": "Last Updated: August 2026"
+  },
+
+  "sections": {
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing or using our website, you agree to comply with these Terms & Conditions. If you do not agree, please do not use this website."
+    },
+
+    "websiteUse": {
+      "title": "Use of Website",
+      "content": "You agree to use this website only for lawful purposes and in a manner that does not infringe upon the rights of others or restrict their use of the website."
+    },
+
+    "products": {
+      "title": "Product Information",
+      "content": "We strive to ensure that all product descriptions and information are accurate. However, specifications and availability may change without prior notice."
+    },
+
+    "pricing": {
+      "title": "Pricing & Availability",
+      "content": "Prices, product availability, and specifications are subject to change at any time without notice."
+    },
+
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "content": "All website content, including text, graphics, logos, and images, is the property of Shifa Technologies unless otherwise stated and may not be copied or reproduced without permission."
+    },
+
+    "limitation": {
+      "title": "Limitation of Liability",
+      "content": "Shifa Technologies shall not be liable for any indirect, incidental, or consequential damages arising from the use of this website."
+    },
+
+    "governingLaw": {
+      "title": "Governing Law",
+      "content": "These Terms & Conditions shall be governed by the laws applicable in the Kingdom of Saudi Arabia."
+    },
+
+    "changes": {
+      "title": "Changes to These Terms",
+      "content": "We reserve the right to update these Terms & Conditions at any time. Changes will become effective immediately upon publication."
+    }
+  },
+
+  "contactCard": {
+    "title": "Questions About These Terms?",
+    "description": "If you have any questions regarding these Terms & Conditions, our team will be happy to assist you.",
+    "button": "Contact Us"
+  }
+}

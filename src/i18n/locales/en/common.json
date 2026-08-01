@@ -31,6 +31,21 @@
   "description": "Our team is ready to help you choose the right products for your hospital, clinic or healthcare facility.",
   "contact": "Contact Us",
   "whatsapp": "WhatsApp"
-}
+},
+"category": {
+  "products": "Showing {{count}} Products",
+  "searchTitle": "Search Products",
+  "searchPlaceholder": "Search products...",
+  "categories": "Categories",
+  "brands": "Brands",
+  "whatsappInquiry": "WhatsApp Inquiry",
+  "noProducts": "No products found.",
+  "categoryNotFound": "Category Not Found"
+},
+
+  "product": {
+    "whatsappInquiry": "WhatsApp Inquiry"
+  }
+
 
 }

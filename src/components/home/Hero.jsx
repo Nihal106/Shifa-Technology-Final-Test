@@ -7,7 +7,9 @@ import { company } from "../../config/company";
 export default function Hero() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { t } = useTranslation("home");
+  const { t, i18n } = useTranslation("home");
+
+  const isRTL = i18n.language === "ar";
 
   const handleBrowseCategories = () => {
     if (location.pathname === "/") {
@@ -24,57 +26,87 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative flex min-h-[600px] items-center md:h-[650px]">
+    <section className="relative overflow-hidden">
 
-      {/* Background Image */}
-      <img
-        src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=1800&auto=format&fit=crop"
-        alt="Medical Equipment"
-        className="absolute inset-0 h-full w-full object-cover"
-      />
+      {/* Background */}
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/55" />
+      <div
+        className="relative min-h-[560px] lg:min-h-[620px] bg-cover bg-center lg:bg-right"
+        style={{
+          backgroundImage: "url('/images/hero.jpg')",
+        }}
+      >
 
-      {/* Content */}
-      <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+        {/* Readability Gradient */}
 
-        <div className="max-w-3xl text-white">
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-white/20 rtl:bg-gradient-to-l"></div>
 
-          <span className="inline-block rounded-full bg-blue-600 px-4 py-2 text-xs font-medium sm:text-sm">
-            {t("hero.badge")}
-          </span>
+        {/* Soft Overlay */}
 
-          <h1 className="mt-6 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
-            {t("hero.title")}
-            <span className="text-blue-400">
-              {" "}
-              {t("hero.highlight")}
+        <div className="absolute inset-0 bg-blue-50/15"></div>
+
+        <div className="relative mx-auto flex min-h-[560px] max-w-7xl items-center px-6 lg:min-h-[700px] lg:px-8">
+
+          <div
+            className={`max-w-xl ${
+              isRTL
+                ? "text-right lg:ml-auto lg:pr-8"
+                : "text-left"
+            }`}
+          >
+
+            {/* Badge */}
+
+            <span className="inline-flex rounded-full bg-blue-100 px-5 py-2 text-sm font-semibold text-blue-700">
+              {t("hero.badge")}
             </span>
-          </h1>
 
-          <p className="mt-6 max-w-2xl text-base leading-7 text-gray-200 sm:text-lg lg:text-xl lg:leading-8">
-            {t("hero.description")}
-          </p>
+            {/* Heading */}
 
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+            <h1 className="mt-6 text-4xl font-extrabold leading-[1.08] text-slate-900 sm:text-5xl lg:text-5xl">
 
-            <button
-              onClick={handleBrowseCategories}
-              className="rounded-lg bg-blue-600 px-8 py-4 font-semibold transition hover:bg-blue-700"
+              {t("hero.title")}
+
+              <span className="block text-blue-600">
+                {t("hero.highlight")}
+              </span>
+
+            </h1>
+
+            {/* Description */}
+
+            <p className="mt-6 max-w-lg text-base leading-8 text-slate-700 sm:text-lg">
+
+              {t("hero.description")}
+
+            </p>
+
+            {/* Buttons */}
+
+            <div
+              className={`mt-10 flex flex-col gap-4 sm:flex-row ${
+                isRTL ? "sm:flex-row-reverse" : ""
+              }`}
             >
-              {t("hero.browse")}
-            </button>
 
-            <a
-              href={`https://wa.me/${company.whatsapp}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 rounded-lg bg-green-600 px-8 py-4 font-semibold transition hover:bg-green-700"
-            >
-              <FaWhatsapp size={22} />
-              {t("hero.whatsapp")}
-            </a>
+              <button
+                onClick={handleBrowseCategories}
+                className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700 hover:shadow-xl"
+              >
+                {t("hero.browse")}
+              </button>
+
+              <a
+                href={`https://wa.me/${company.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-3 rounded-xl border-2 border-green-600 bg-white px-8 py-4 font-semibold text-green-600 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-green-600 hover:text-white hover:shadow-xl"
+              >
+                <FaWhatsapp size={22} />
+                {t("hero.whatsapp")}
+              </a>
+
+            </div>
 
           </div>
 

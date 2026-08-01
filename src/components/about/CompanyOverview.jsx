@@ -12,18 +12,18 @@ export default function CompanyOverview() {
   });
 
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-16 lg:py-20">
       <Container>
         <div className="grid items-center gap-16 lg:grid-cols-2">
 
           {/* Image */}
 
           <div>
-            <img
-              src="/images/about/company-overview.jpg"
-              alt="Company Overview"
-              className="w-full rounded-3xl shadow-xl"
-            />
+<img
+  src="/images/about/company-overview.jpg"
+  alt="Company Overview"
+  className="h-60 w-full rounded-3xl object-cover shadow-xl sm:h-72 lg:h-auto"
+/>
           </div>
 
           {/* Content */}

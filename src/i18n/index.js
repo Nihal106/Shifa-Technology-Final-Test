@@ -9,6 +9,9 @@ import aboutEN from "./locales/en/about.json";
 import contactEN from "./locales/en/contact.json";
 import categoriesEN from "./locales/en/categories.json";
 import productsEN from "./locales/en/products.json";
+import privacyEN from "./locales/en/privacy.json";
+import termsEN from "./locales/en/terms.json";
+import notFoundEN from "./locales/en/notFound.json"
 
 // Arabic
 import commonAR from "./locales/ar/common.json";
@@ -17,6 +20,9 @@ import aboutAR from "./locales/ar/about.json";
 import contactAR from "./locales/ar/contact.json";
 import categoriesAR from "./locales/ar/categories.json";
 import productsAR from "./locales/ar/products.json";
+import privacyAR from "./locales/ar/privacy.json";
+import termsAR from "./locales/ar/terms.json";
+import notFoundAR from "./locales/ar/notFound.json"
 
 i18n
   .use(LanguageDetector)
@@ -38,6 +44,9 @@ i18n
         contact: contactEN,
         categories: categoriesEN,
         products: productsEN,
+        privacy: privacyEN,
+        terms: termsEN,
+        notFound: notFoundEN,
       },
 
       ar: {
@@ -47,6 +56,9 @@ i18n
         contact: contactAR,
         categories: categoriesAR,
         products: productsAR,
+        privacy: privacyAR,
+        terms: termsAR,
+        notFound: notFoundAR,
       },
     },
 
@@ -57,6 +69,9 @@ i18n
       "contact",
       "categories",
       "products",
+      "privacy",
+      "terms",
+      "notFound",
     ],
 
     defaultNS: "common",

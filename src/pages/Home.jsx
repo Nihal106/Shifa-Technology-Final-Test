@@ -9,6 +9,7 @@ import BrandsSection from "../components/home/BrandSection";
 import CTASection from "../components/common/CTASection";
 import { useTranslation } from "react-i18next";
 import { company } from "../config/company";
+import SEO from "../components/seo/SEO";
 
 export default function Home() {
   const location = useLocation();
@@ -31,6 +32,12 @@ const { t } = useTranslation("common");
 
   return (
     <>
+      <SEO
+    title="Medical Equipment Supplier"
+    description="Shifa Technologies supplies premium medical equipment, hospital furniture and healthcare solutions across Saudi Arabia."
+    keywords="medical equipment, hospital furniture, healthcare products, Saudi Arabia, medical supplier"
+    url="/"
+  />
 <Hero />
 
 <Categories />

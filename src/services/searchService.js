@@ -9,8 +9,14 @@ export function searchProducts(query) {
   return products
     .filter((product) => {
       return (
-        product.name.toLowerCase().includes(search) ||
-        product.shortDescription.toLowerCase().includes(search)
+        product.name.en.toLowerCase().includes(search) ||
+        product.name.ar.toLowerCase().includes(search) ||
+        product.shortDescription.en
+          .toLowerCase()
+          .includes(search) ||
+        product.shortDescription.ar
+          .toLowerCase()
+          .includes(search)
       );
     })
     .map((product) => {

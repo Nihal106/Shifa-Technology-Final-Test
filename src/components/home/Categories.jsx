@@ -13,18 +13,20 @@ import categories from "../../data/categories.json";
 import Container from "../ui/Container";
 import SectionHeader from "../common/SectionHeader";
 
-// Map category names to icons
+// Map category slugs to icons
 const categoryIcons = {
-  "Medical Equipment": <FaHeartbeat size={42} />,
-  "Hospital Furniture": <FaHospital size={42} />,
-  "Medical Disposable": <FaSyringe size={42} />,
-  "Healthcare Accessories": <FaStethoscope size={42} />,
-  "Emergency First Aid": <FaBriefcaseMedical size={42} />,
-  "Mobility Aids": <FaWheelchair size={42} />,
+  "medical-equipment": <FaHeartbeat size={42} />,
+  "hospital-furniture": <FaHospital size={42} />,
+  "medical-disposable": <FaSyringe size={42} />,
+  "healthcare-accessories": <FaStethoscope size={42} />,
+  "emergency-first-aid": <FaBriefcaseMedical size={42} />,
+  "mobility-aids": <FaWheelchair size={42} />,
 };
 
 export default function Categories() {
-  const { t } = useTranslation("home");
+  const { t, i18n } = useTranslation("home");
+
+  const lang = i18n.language === "ar" ? "ar" : "en";
 
   return (
     <section
@@ -50,13 +52,13 @@ export default function Categories() {
               <div className="flex h-full flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-blue-200 hover:shadow-xl">
 
                 <div className="mb-5 text-blue-600 transition duration-300 group-hover:scale-110">
-                  {categoryIcons[category.name] || (
+                  {categoryIcons[category.slug] || (
                     <FaHeartbeat size={42} />
                   )}
                 </div>
 
                 <h3 className="text-base font-semibold text-slate-800">
-                  {category.name}
+                  {category.name[lang]}
                 </h3>
 
               </div>

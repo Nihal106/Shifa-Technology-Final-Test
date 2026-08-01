@@ -1,19 +1,16 @@
 import { Search } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function CategorySearch({
   searchTerm,
   setSearchTerm,
 }) {
-    console.log({
-    searchTerm,
-    setSearchTerm,
-    type: typeof setSearchTerm,
-  });
+  const { t } = useTranslation("common");
   return (
     <div>
-      <h3 className="mb-3 text-lg font-semibold text-slate-900">
-        Search Products
-      </h3>
+<h3 className="mb-3 text-lg font-semibold text-slate-900">
+  {t("category.searchTitle")}
+</h3>
 
       <div className="relative">
         <Search
@@ -23,7 +20,7 @@ export default function CategorySearch({
 
 <input
   type="text"
-  placeholder="Search products..."
+  placeholder={t("category.searchPlaceholder")}
   value={searchTerm}
   onChange={(e) => setSearchTerm(e.target.value)}
   className="w-full rounded-lg border border-slate-300 py-2.5 pl-10 pr-4 focus:border-blue-500 focus:outline-none"

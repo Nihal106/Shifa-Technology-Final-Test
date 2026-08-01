@@ -2,13 +2,22 @@
   {
     "id": 1,
     "sku": "ME-001",
-    "name": "Digital Blood Pressure Monitor",
+    "name": {
+      "en": "Digital Blood Pressure Monitor",
+      "ar": "جهاز قياس ضغط الدم الرقمي"
+    },
     "slug": "digital-blood-pressure-monitor",
     "categoryId": 1,
     "brandId": 1,
     "featured": true,
-    "shortDescription": "Digital BP monitor.",
-    "description": "Accurate digital blood pressure monitor for hospitals and home healthcare.",
+    "shortDescription": {
+      "en": "Digital BP monitor.",
+      "ar": "جهاز رقمي لقياس ضغط الدم."
+    },
+    "description": {
+      "en": "Accurate digital blood pressure monitor for hospitals and home healthcare.",
+      "ar": "جهاز رقمي دقيق لقياس ضغط الدم مناسب للمستشفيات والرعاية الصحية المنزلية."
+    },
     "images": [
       "/images/products/bp-monitor.jpg"
     ]
@@ -16,28 +25,45 @@
   {
     "id": 2,
     "sku": "ME-002",
-    "name": "Patient Monitor",
+    "name": {
+      "en": "Patient Monitor",
+      "ar": "جهاز مراقبة المرضى"
+    },
     "slug": "patient-monitor",
     "categoryId": 1,
     "brandId": 2,
     "featured": true,
-    "shortDescription": "Multi-parameter monitor.",
-    "description": "Advanced patient monitoring system for ICUs and hospitals.",
+    "shortDescription": {
+      "en": "Multi-parameter monitor.",
+      "ar": "جهاز مراقبة متعدد الوظائف."
+    },
+    "description": {
+      "en": "Advanced patient monitoring system for ICUs and hospitals.",
+      "ar": "نظام متقدم لمراقبة المرضى في وحدات العناية المركزة والمستشفيات."
+    },
     "images": [
       "/images/products/patient-monitor.jpg"
     ]
   },
-
   {
     "id": 3,
     "sku": "HF-001",
-    "name": "Electric Hospital Bed",
+    "name": {
+      "en": "Electric Hospital Bed",
+      "ar": "سرير مستشفى كهربائي"
+    },
     "slug": "electric-hospital-bed",
     "categoryId": 2,
     "brandId": 1,
     "featured": true,
-    "shortDescription": "Electric hospital bed.",
-    "description": "Adjustable electric hospital bed with safety side rails.",
+    "shortDescription": {
+      "en": "Electric hospital bed.",
+      "ar": "سرير مستشفى كهربائي."
+    },
+    "description": {
+      "en": "Adjustable electric hospital bed with safety side rails.",
+      "ar": "سرير مستشفى كهربائي قابل للتعديل مزود بحواجز جانبية للسلامة."
+    },
     "images": [
       "/images/products/hospital-bed.jpg"
     ]
@@ -45,28 +71,45 @@
   {
     "id": 4,
     "sku": "HF-002",
-    "name": "Bedside Cabinet",
+    "name": {
+      "en": "Bedside Cabinet",
+      "ar": "خزانة جانبية للمريض"
+    },
     "slug": "bedside-cabinet",
     "categoryId": 2,
     "brandId": 2,
     "featured": false,
-    "shortDescription": "Hospital bedside cabinet.",
-    "description": "Durable bedside cabinet with drawers for patient use.",
+    "shortDescription": {
+      "en": "Hospital bedside cabinet.",
+      "ar": "خزانة جانبية للمستشفى."
+    },
+    "description": {
+      "en": "Durable bedside cabinet with drawers for patient use.",
+      "ar": "خزانة جانبية متينة مزودة بأدراج لاستخدام المرضى."
+    },
     "images": [
       "/images/products/bedside-cabinet.jpg"
     ]
   },
-
   {
     "id": 5,
     "sku": "MD-001",
-    "name": "Surgical Gloves",
+    "name": {
+      "en": "Surgical Gloves",
+      "ar": "قفازات جراحية"
+    },
     "slug": "surgical-gloves",
     "categoryId": 3,
     "brandId": 3,
     "featured": true,
-    "shortDescription": "Latex surgical gloves.",
-    "description": "Sterile disposable latex surgical gloves.",
+    "shortDescription": {
+      "en": "Latex surgical gloves.",
+      "ar": "قفازات جراحية من اللاتكس."
+    },
+    "description": {
+      "en": "Sterile disposable latex surgical gloves.",
+      "ar": "قفازات جراحية معقمة للاستعمال مرة واحدة مصنوعة من اللاتكس."
+    },
     "images": [
       "/images/products/surgical-gloves.jpg"
     ]
@@ -74,28 +117,45 @@
   {
     "id": 6,
     "sku": "MD-002",
-    "name": "Disposable Face Mask",
+    "name": {
+      "en": "Disposable Face Mask",
+      "ar": "كمامة طبية للاستعمال مرة واحدة"
+    },
     "slug": "disposable-face-mask",
     "categoryId": 3,
     "brandId": 3,
     "featured": false,
-    "shortDescription": "3-layer face mask.",
-    "description": "Disposable protective face mask for medical environments.",
+    "shortDescription": {
+      "en": "3-layer face mask.",
+      "ar": "كمامة طبية ثلاثية الطبقات."
+    },
+    "description": {
+      "en": "Disposable protective face mask for medical environments.",
+      "ar": "كمامة واقية للاستعمال مرة واحدة مناسبة للبيئات الطبية."
+    },
     "images": [
       "/images/products/face-mask.jpg"
     ]
   },
-
   {
     "id": 7,
     "sku": "HA-001",
-    "name": "Stethoscope",
+    "name": {
+      "en": "Stethoscope",
+      "ar": "سماعة طبيب"
+    },
     "slug": "stethoscope",
     "categoryId": 4,
     "brandId": 2,
     "featured": true,
-    "shortDescription": "Professional stethoscope.",
-    "description": "High acoustic sensitivity stethoscope for healthcare professionals.",
+    "shortDescription": {
+      "en": "Professional stethoscope.",
+      "ar": "سماعة طبية احترافية."
+    },
+    "description": {
+      "en": "High acoustic sensitivity stethoscope for healthcare professionals.",
+      "ar": "سماعة طبية عالية الحساسية الصوتية لمقدمي الرعاية الصحية."
+    },
     "images": [
       "/images/products/stethoscope.jpg"
     ]
@@ -103,28 +163,45 @@
   {
     "id": 8,
     "sku": "HA-002",
-    "name": "Digital Thermometer",
+    "name": {
+      "en": "Digital Thermometer",
+      "ar": "ميزان حرارة رقمي"
+    },
     "slug": "digital-thermometer",
     "categoryId": 4,
     "brandId": 2,
     "featured": false,
-    "shortDescription": "Digital thermometer.",
-    "description": "Fast and accurate body temperature measurement.",
+    "shortDescription": {
+      "en": "Digital thermometer.",
+      "ar": "ميزان حرارة رقمي."
+    },
+    "description": {
+      "en": "Fast and accurate body temperature measurement.",
+      "ar": "قياس سريع ودقيق لدرجة حرارة الجسم."
+    },
     "images": [
       "/images/products/thermometer.jpg"
     ]
   },
-
   {
     "id": 9,
     "sku": "FA-001",
-    "name": "First Aid Kit",
+    "name": {
+      "en": "First Aid Kit",
+      "ar": "حقيبة إسعافات أولية"
+    },
     "slug": "first-aid-kit",
     "categoryId": 5,
     "brandId": 4,
     "featured": true,
-    "shortDescription": "Emergency first aid kit.",
-    "description": "Complete first aid kit for clinics, offices, and homes.",
+    "shortDescription": {
+      "en": "Emergency first aid kit.",
+      "ar": "حقيبة إسعافات أولية للطوارئ."
+    },
+    "description": {
+      "en": "Complete first aid kit for clinics, offices, and homes.",
+      "ar": "حقيبة إسعافات أولية متكاملة للعيادات والمكاتب والمنازل."
+    },
     "images": [
       "/images/products/first-aid-kit.jpg"
     ]
@@ -132,28 +209,45 @@
   {
     "id": 10,
     "sku": "FA-002",
-    "name": "Trauma Bag",
+    "name": {
+      "en": "Trauma Bag",
+      "ar": "حقيبة طوارئ"
+    },
     "slug": "trauma-bag",
     "categoryId": 5,
     "brandId": 4,
     "featured": false,
-    "shortDescription": "Emergency trauma bag.",
-    "description": "Professional emergency trauma response bag.",
+    "shortDescription": {
+      "en": "Emergency trauma bag.",
+      "ar": "حقيبة مخصصة للطوارئ."
+    },
+    "description": {
+      "en": "Professional emergency trauma response bag.",
+      "ar": "حقيبة احترافية للاستجابة السريعة في حالات الطوارئ."
+    },
     "images": [
       "/images/products/trauma-bag.jpg"
     ]
   },
-
   {
     "id": 11,
     "sku": "MA-001",
-    "name": "Manual Wheelchair",
+    "name": {
+      "en": "Manual Wheelchair",
+      "ar": "كرسي متحرك يدوي"
+    },
     "slug": "manual-wheelchair",
     "categoryId": 6,
     "brandId": 5,
     "featured": true,
-    "shortDescription": "Foldable wheelchair.",
-    "description": "Lightweight foldable wheelchair for daily mobility.",
+    "shortDescription": {
+      "en": "Foldable wheelchair.",
+      "ar": "كرسي متحرك قابل للطي."
+    },
+    "description": {
+      "en": "Lightweight foldable wheelchair for daily mobility.",
+      "ar": "كرسي متحرك خفيف الوزن وقابل للطي للاستخدام اليومي."
+    },
     "images": [
       "/images/products/wheelchair.jpg"
     ]
@@ -161,13 +255,22 @@
   {
     "id": 12,
     "sku": "MA-002",
-    "name": "Walking Frame",
+    "name": {
+      "en": "Walking Frame",
+      "ar": "مشاية طبية"
+    },
     "slug": "walking-frame",
     "categoryId": 6,
     "brandId": 5,
     "featured": false,
-    "shortDescription": "Aluminium walking frame.",
-    "description": "Adjustable lightweight walking frame for patient support.",
+    "shortDescription": {
+      "en": "Aluminium walking frame.",
+      "ar": "مشاية من الألمنيوم."
+    },
+    "description": {
+      "en": "Adjustable lightweight walking frame for patient support.",
+      "ar": "مشاية خفيفة الوزن قابلة للتعديل لدعم المرضى أثناء المشي."
+    },
     "images": [
       "/images/products/walking-frame.jpg"
     ]

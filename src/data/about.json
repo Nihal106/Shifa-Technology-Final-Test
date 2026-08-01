@@ -1,85 +1,103 @@
 {
-  "hero": {
-    "badge": "About Us",
-    "title": "Trusted Medical Equipment Supplier",
-    "description": "Delivering high-quality medical equipment and healthcare solutions to hospitals, clinics, laboratories, and healthcare professionals across Saudi Arabia."
-  },
-
-  "overview": {
-    "badge": "Who We Are",
-    "title": "Trusted Healthcare",
-    "highlightedText": "Solutions Partner",
-    "description": "Shifa Technologies is a trusted supplier of medical equipment and healthcare solutions. We work closely with hospitals, clinics, laboratories, and healthcare professionals to deliver reliable products that improve patient care and operational efficiency.",
-    "features": [
-      "Premium Medical Equipment",
-      "Trusted Global Brands",
-      "Reliable Customer Support"
-    ]
-  },
-
-  "mission": {
-    "title": "Our Mission",
-    "description": "To provide reliable, innovative, and affordable medical equipment that helps healthcare providers deliver exceptional patient care."
-  },
-
-  "vision": {
-    "title": "Our Vision",
-    "description": "To become one of the leading healthcare equipment suppliers in the Middle East through quality, trust, and customer satisfaction."
-  },
-
   "values": [
-  {
-    "icon": "ShieldCheck",
-    "title": "Quality",
-    "description": "We supply only high-quality medical equipment from trusted manufacturers."
-  },
-  {
-    "icon": "Handshake",
-    "title": "Integrity",
-    "description": "We build long-term relationships through honesty, transparency, and trust."
-  },
-  {
-    "icon": "Lightbulb",
-    "title": "Innovation",
-    "description": "We continuously introduce modern healthcare technologies and solutions."
-  },
-  {
-    "icon": "HeartHandshake",
-    "title": "Customer Focus",
-    "description": "Our customers are at the heart of everything we do, from consultation to after-sales support."
-  }
-],
+    {
+      "id": 1,
+      "icon": "ShieldCheck",
+      "title": {
+        "en": "Quality",
+        "ar": "الجودة"
+      },
+      "description": {
+        "en": "We supply reliable, high-quality medical products that meet international healthcare standards.",
+        "ar": "نوفر منتجات طبية موثوقة وعالية الجودة تلبي المعايير العالمية للرعاية الصحية."
+      }
+    },
+    {
+      "id": 2,
+      "icon": "Lightbulb",
+      "title": {
+        "en": "Innovation",
+        "ar": "الابتكار"
+      },
+      "description": {
+        "en": "We continuously adopt modern medical technologies to better serve healthcare providers.",
+        "ar": "نعتمد باستمرار أحدث التقنيات الطبية لخدمة مقدمي الرعاية الصحية بشكل أفضل."
+      }
+    },
+    {
+      "id": 3,
+      "icon": "Handshake",
+      "title": {
+        "en": "Integrity",
+        "ar": "النزاهة"
+      },
+      "description": {
+        "en": "We build long-term relationships through honesty, transparency, and professional ethics.",
+        "ar": "نبني علاقات طويلة الأمد من خلال الصدق والشفافية والالتزام بأخلاقيات العمل."
+      }
+    },
+    {
+      "id": 4,
+      "icon": "HeartHandshake",
+      "title": {
+        "en": "Customer Commitment",
+        "ar": "الالتزام بالعملاء"
+      },
+      "description": {
+        "en": "Customer satisfaction is at the heart of everything we do, from consultation to after-sales support.",
+        "ar": "رضا العملاء هو محور كل ما نقوم به، بدءًا من الاستشارة وحتى خدمات ما بعد البيع."
+      }
+    }
+  ],
 
   "industries": [
-  {
-    "icon": "Hospital",
-    "title": "Hospitals",
-    "description": "Comprehensive medical equipment for public and private hospitals."
-  },
-  {
-    "icon": "Building2",
-    "title": "Clinics",
-    "description": "Reliable solutions for specialty and general healthcare clinics."
-  },
-  {
-    "icon": "FlaskConical",
-    "title": "Laboratories",
-    "description": "Modern laboratory instruments and diagnostic equipment."
-  },
-  {
-    "icon": "Ambulance",
-    "title": "Emergency Services",
-    "description": "Critical care and emergency medical equipment."
-  },
-  {
-    "icon": "HousePlus",
-    "title": "Home Healthcare",
-    "description": "Products designed for patient care at home."
-  },
-  {
-    "icon": "Stethoscope",
-    "title": "Healthcare Professionals",
-    "description": "Professional medical devices for doctors and healthcare providers."
-  }
-]
+    {
+      "id": 1,
+      "icon": "Hospital",
+      "title": {
+        "en": "Hospitals",
+        "ar": "المستشفيات"
+      },
+      "description": {
+        "en": "Supplying advanced medical equipment and healthcare solutions for hospitals.",
+        "ar": "نوفر المعدات الطبية المتقدمة وحلول الرعاية الصحية للمستشفيات."
+      }
+    },
+    {
+      "id": 2,
+      "icon": "Stethoscope",
+      "title": {
+        "en": "Clinics",
+        "ar": "العيادات"
+      },
+      "description": {
+        "en": "Supporting clinics with reliable diagnostic and treatment equipment.",
+        "ar": "ندعم العيادات بمعدات تشخيص وعلاج موثوقة."
+      }
+    },
+    {
+      "id": 3,
+      "icon": "FlaskConical",
+      "title": {
+        "en": "Laboratories",
+        "ar": "المختبرات"
+      },
+      "description": {
+        "en": "Providing laboratory equipment and healthcare consumables for accurate testing.",
+        "ar": "نوفر معدات المختبرات والمستلزمات الطبية لإجراء الفحوصات بدقة."
+      }
+    },
+    {
+      "id": 4,
+      "icon": "Ambulance",
+      "title": {
+        "en": "Emergency Services",
+        "ar": "خدمات الطوارئ"
+      },
+      "description": {
+        "en": "Delivering dependable emergency and first-aid solutions for rapid response teams.",
+        "ar": "نوفر حلول الطوارئ والإسعافات الأولية الموثوقة لفرق الاستجابة السريعة."
+      }
+    }
+  ]
 }

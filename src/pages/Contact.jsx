@@ -6,12 +6,18 @@ import ContactMap from "../components/contact/ContactMap";
 import CTASection from "../components/common/CTASection";
 import { useTranslation } from "react-i18next";
 import { company } from "../config/company";
-
+import SEO from "../components/seo/SEO";
 
 export default function Contact() {
   const { t } = useTranslation("common");
   return (
    <>
+   <SEO
+  title="Contact Us"
+  description="Contact Shifa Technologies for medical equipment inquiries, healthcare solutions and product information."
+  keywords="contact medical supplier, healthcare equipment Saudi Arabia"
+  url="/contact"
+/>
   <ContactHero />
 
   <section className="bg-slate-50 py-20">

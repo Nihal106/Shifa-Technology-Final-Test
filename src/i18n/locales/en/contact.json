@@ -41,7 +41,10 @@
     "message": "Message",
     "messagePlaceholder": "Tell us about your requirements...",
 
-    "submit": "Send Message"
+    "submit": "Send Message",
+     "sending": "Sending...",
+  "success": "Your message has been sent successfully.",
+  "error": "Something went wrong. Please try again."
   },
   "map": {
   "badge": "Find Us",

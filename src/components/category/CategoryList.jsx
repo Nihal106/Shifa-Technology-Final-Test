@@ -1,13 +1,18 @@
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function CategoryList({
   categories,
-  selectedCategory,
 }) {
+  const { t, i18n } = useTranslation("common");
+
+  const lang =
+    i18n.language === "ar" ? "ar" : "en";
+
   return (
     <div>
       <h3 className="mb-3 text-lg font-semibold text-slate-900">
-        Categories
+        {t("nav.categories")}
       </h3>
 
       <div className="space-y-2">
@@ -23,7 +28,7 @@ export default function CategoryList({
               }`
             }
           >
-            {category.name}
+            {category.name[lang]}
           </NavLink>
         ))}
       </div>

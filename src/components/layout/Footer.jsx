@@ -21,7 +21,10 @@ import categories from "../../data/categories.json";
 const currentYear = new Date().getFullYear();
 
 export default function Footer() {
-  const { t } = useTranslation("common");
+  const { t, i18n } = useTranslation("common");
+
+  const lang = i18n.language === "ar" ? "ar" : "en";
+
   return (
     <footer className="bg-slate-900 text-slate-300">
       <Container className="py-16">
@@ -31,9 +34,9 @@ export default function Footer() {
           <div>
             <Logo />
 
-<p className="mt-6 leading-7 text-slate-400">
-  {t("footer.description")}
-</p>
+            <p className="mt-6 leading-7 text-slate-400">
+              {t("footer.description")}
+            </p>
           </div>
 
           {/* Quick Links */}
@@ -85,7 +88,7 @@ export default function Footer() {
                     to={`/category/${category.slug}`}
                     className="transition hover:text-white"
                   >
-                    {category.name}
+                    {category.name[lang]}
                   </NavLink>
                 </li>
               ))}
@@ -102,21 +105,35 @@ export default function Footer() {
 
               <a
                 href={`tel:${company.phone}`}
-                className="flex items-center gap-3 transition hover:text-white"
+                className={`flex items-center gap-3 transition hover:text-white ${
+                  lang === "ar"
+                    ? "flex-row-reverse justify-end text-right"
+                    : ""
+                }`}
               >
                 <Phone size={18} />
-                <span>{company.phone}</span>
+                <span dir="ltr">{company.phone}</span>
               </a>
 
               <a
                 href={`mailto:${company.email}`}
-                className="flex items-center gap-3 transition hover:text-white"
+                className={`flex items-center gap-3 transition hover:text-white ${
+                  lang === "ar"
+                    ? "flex-row-reverse justify-end text-right"
+                    : ""
+                }`}
               >
                 <Mail size={18} />
-                <span>{company.email}</span>
+                <span dir="ltr">{company.email}</span>
               </a>
 
-              <div className="flex items-center gap-3">
+              <div
+                className={`flex items-center gap-3 ${
+                  lang === "ar"
+                    ? "flex-row-reverse justify-end text-right"
+                    : ""
+                }`}
+              >
                 <MapPin size={18} />
                 <span>{company.address}</span>
               </div>
@@ -126,7 +143,11 @@ export default function Footer() {
             {(company.social.facebook ||
               company.social.instagram ||
               company.social.linkedin) && (
-              <div className="mt-8 flex gap-4">
+              <div
+                className={`mt-8 flex gap-4 ${
+                  lang === "ar" ? "justify-end" : ""
+                }`}
+              >
 
                 {company.social.facebook && (
                   <a
@@ -172,10 +193,13 @@ export default function Footer() {
       <div className="border-t border-slate-800">
         <Container className="flex flex-col items-center justify-between gap-4 py-6 text-center text-sm text-slate-400 md:flex-row">
 
-          <p>
-            © {currentYear} {company.name}. {t("footer.copyright")}
-          </p>
-
+<p className="flex items-center gap-1">
+  <span>©</span>
+  <span dir="ltr">
+    {currentYear} {company.name}
+  </span>
+  <span>{t("footer.copyright")}</span>
+</p>
           <div className="flex flex-wrap justify-center gap-6">
             <NavLink
               to="/privacy"

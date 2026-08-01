@@ -20,7 +20,10 @@ const icons = {
 };
 
 export default function WhyChooseUs() {
-  const { t } = useTranslation("home");
+  const { t, i18n } = useTranslation("home");
+
+const lang =
+  i18n.language === "ar" ? "ar" : "en";
 
   return (
     <section className="bg-slate-50 py-16 sm:py-20">
@@ -46,11 +49,11 @@ export default function WhyChooseUs() {
                 </div>
 
                 <h3 className="mb-3 text-xl font-semibold text-slate-900">
-                  {feature.title}
+                  {feature.title[lang]} 
                 </h3>
 
                 <p className="leading-7 text-slate-600">
-                  {feature.description}
+                {feature.description[lang]}
                 </p>
               </div>
             );

@@ -1,38 +1,74 @@
 [
   {
     "id": 1,
-    "name": "Medical Equipment",
+    "name": {
+      "en": "Medical Equipment",
+      "ar": "المعدات الطبية"
+    },
     "slug": "medical-equipment",
-    "description": "Medical equipment for hospitals and clinics."
+    "description": {
+      "en": "Medical equipment for hospitals and clinics.",
+      "ar": "معدات طبية للمستشفيات والعيادات."
+    }
   },
   {
     "id": 2,
-    "name": "Hospital Furniture",
+    "name": {
+      "en": "Hospital Furniture",
+      "ar": "أثاث المستشفيات"
+    },
     "slug": "hospital-furniture",
-    "description": "Hospital beds, cabinets and furniture."
+    "description": {
+      "en": "Hospital beds, cabinets and furniture.",
+      "ar": "أسرة المستشفيات والخزائن والأثاث الطبي."
+    }
   },
   {
     "id": 3,
-    "name": "Medical Disposable",
+    "name": {
+      "en": "Medical Disposable",
+      "ar": "المستلزمات الطبية الاستهلاكية"
+    },
     "slug": "medical-disposable",
-    "description": "Disposable medical supplies."
+    "description": {
+      "en": "Disposable medical supplies.",
+      "ar": "مستلزمات طبية تستخدم لمرة واحدة."
+    }
   },
   {
     "id": 4,
-    "name": "Healthcare Accessories",
+    "name": {
+      "en": "Healthcare Accessories",
+      "ar": "ملحقات الرعاية الصحية"
+    },
     "slug": "healthcare-accessories",
-    "description": "Healthcare accessories."
+    "description": {
+      "en": "Healthcare accessories.",
+      "ar": "ملحقات ومستلزمات الرعاية الصحية."
+    }
   },
   {
     "id": 5,
-    "name": "Emergency First Aid",
+    "name": {
+      "en": "Emergency First Aid",
+      "ar": "الإسعافات الأولية والطوارئ"
+    },
     "slug": "emergency-first-aid",
-    "description": "Emergency and first aid products."
+    "description": {
+      "en": "Emergency and first aid products.",
+      "ar": "منتجات الإسعافات الأولية والطوارئ."
+    }
   },
   {
     "id": 6,
-    "name": "Mobility Aids",
+    "name": {
+      "en": "Mobility Aids",
+      "ar": "وسائل المساعدة على الحركة"
+    },
     "slug": "mobility-aids",
-    "description": "Wheelchairs and mobility products."
+    "description": {
+      "en": "Wheelchairs and mobility products.",
+      "ar": "الكراسي المتحركة ومنتجات المساعدة على الحركة."
+    }
   }
 ]

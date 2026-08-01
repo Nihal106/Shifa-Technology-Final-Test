@@ -10,7 +10,7 @@ export default function AboutHero() {
 
   return (
     <section className="bg-slate-50">
-      <Container className="py-20">
+      <Container className="py-16 lg:py-20">
         <div className="grid items-center gap-16 lg:grid-cols-2">
 
           {/* Left Content */}
@@ -54,11 +54,11 @@ export default function AboutHero() {
           {/* Right Image */}
 
           <div>
-            <img
-              src="/images/about/about-hero.jpg"
-              alt="Medical Equipment"
-              className="w-full rounded-3xl object-cover shadow-xl"
-            />
+<img
+  src="/images/about/about-hero.jpg"
+  alt="Medical Equipment"
+  className="h-60 w-full rounded-3xl object-cover shadow-xl sm:h-72 lg:h-auto"
+/>
           </div>
 
         </div>

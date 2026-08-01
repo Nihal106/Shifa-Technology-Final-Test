@@ -1,26 +1,50 @@
 [
   {
     "id": 1,
-    "title": "Premium Quality",
-    "description": "Only high-quality medical equipment from trusted manufacturers.",
-    "icon": "ShieldCheck"
+    "icon": "ShieldCheck",
+    "title": {
+      "en": "Premium Quality",
+      "ar": "جودة عالية"
+    },
+    "description": {
+      "en": "We provide high-quality medical equipment that meets international healthcare standards.",
+      "ar": "نوفر معدات طبية عالية الجودة تلبي المعايير العالمية للرعاية الصحية."
+    }
   },
   {
     "id": 2,
-    "title": "Fast Delivery",
-    "description": "Reliable and timely delivery across Saudi Arabia.",
-    "icon": "Truck"
+    "icon": "Truck",
+    "title": {
+      "en": "Fast Delivery",
+      "ar": "توصيل سريع"
+    },
+    "description": {
+      "en": "Reliable delivery across Saudi Arabia with professional logistics support.",
+      "ar": "توصيل موثوق إلى جميع أنحاء المملكة العربية السعودية مع دعم لوجستي احترافي."
+    }
   },
   {
     "id": 3,
-    "title": "Warranty Support",
-    "description": "Manufacturer warranty and dependable after-sales support.",
-    "icon": "BadgeCheck"
+    "icon": "BadgeCheck",
+    "title": {
+      "en": "Trusted Brands",
+      "ar": "علامات تجارية موثوقة"
+    },
+    "description": {
+      "en": "Partnering with globally recognized medical manufacturers.",
+      "ar": "نتعاون مع أشهر الشركات العالمية المصنعة للمعدات الطبية."
+    }
   },
   {
     "id": 4,
-    "title": "Expert Guidance",
-    "description": "Helping healthcare professionals choose the right equipment.",
-    "icon": "Stethoscope"
+    "icon": "Stethoscope",
+    "title": {
+      "en": "Professional Support",
+      "ar": "دعم احترافي"
+    },
+    "description": {
+      "en": "Dedicated customer support before and after every purchase.",
+      "ar": "دعم عملاء مخصص قبل وبعد كل عملية شراء."
+    }
   }
 ]

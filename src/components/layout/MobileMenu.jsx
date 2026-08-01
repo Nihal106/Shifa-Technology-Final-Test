@@ -85,9 +85,6 @@ export default function MobileMenu() {
           <div>
             <Logo />
 
-            <p className="mt-2 max-w-[220px] text-sm text-slate-500">
-              {company.tagline}
-            </p>
           </div>
 
           <button
