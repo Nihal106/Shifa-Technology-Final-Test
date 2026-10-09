@@ -7,6 +7,8 @@ export default function CategorySidebar({
   brands,
   searchTerm,
   setSearchTerm,
+  selectedBrandIds,
+onBrandChange,
 }) {
   return (
     <aside className="space-y-8 rounded-xl border border-slate-200 bg-white p-6">
@@ -19,9 +21,11 @@ export default function CategorySidebar({
         categories={categories}
       />
 
-      <BrandFilter
-        brands={brands}
-      />
+<BrandFilter
+  brands={brands}
+  selectedBrandIds={selectedBrandIds}
+  onBrandChange={onBrandChange}
+/>
     </aside>
   );
 }

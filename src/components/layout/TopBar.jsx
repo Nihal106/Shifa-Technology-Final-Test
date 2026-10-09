@@ -40,14 +40,7 @@ export default function TopBar() {
               <span dir="ltr">{company.email}</span>
             </div>
 
-            <div
-              className={`flex items-center gap-2 ${
-                isArabic ? "flex-row-reverse" : ""
-              }`}
-            >
-              <MapPin size={14} />
-              <span>{company.address}</span>
-            </div>
+
           </div>
 
           {/* Right Side */}
@@ -56,8 +49,8 @@ export default function TopBar() {
               isArabic ? "flex-row-reverse" : ""
             }`}
           >
-            <Clock size={14} />
-            <span dir="ltr">{company.workingHours.weekdays}</span>
+              <MapPin size={14} />
+              <span>{company.address}</span>
           </div>
         </div>
       </Container>

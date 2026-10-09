@@ -24,7 +24,7 @@ export default function Logo() {
           isArabic ? "text-right" : "text-left"
         }`}
       >
-        <h1 className="text-[1.5rem] font-extrabold tracking-tight sm:text-[2rem]">
+        <h1 className="text-[1.2rem] font-extrabold tracking-tight sm:text-[2rem]">
           {isArabic ? (
             <span className="text-green-700">شركة شفاء للتقنيات</span>
           ) : (

@@ -1,6 +1,7 @@
+
 import { useLocation, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import Container from "../components/ui/Container";
 import CategoryHeader from "../components/category/CategoryHeader";
@@ -14,17 +15,22 @@ import SEO from "../components/seo/SEO";
 
 export default function Category() {
   const [searchTerm, setSearchTerm] = useState("");
+  const [selectedBrandIds, setSelectedBrandIds] = useState([]);
 
   const { t, i18n } = useTranslation("common");
 
-  const lang =
-    i18n.language === "ar" ? "ar" : "en";
+  const lang = i18n.language.startsWith("ar") ? "ar" : "en";
 
   const { slug } = useParams();
   const location = useLocation();
 
-  const highlightProduct =
-    location.state?.highlightProduct;
+  const highlightProduct = location.state?.highlightProduct;
+
+  // Clear the selected brands when navigating to another category.
+  useEffect(() => {
+    setSelectedBrandIds([]);
+    setSearchTerm("");
+  }, [slug]);
 
   const category = categories.find(
     (item) => item.slug === slug
@@ -40,33 +46,34 @@ export default function Category() {
     );
   }
 
-  const filteredProducts = products.filter(
-    (product) => {
-      const matchesCategory =
-        product.categoryId === category.id;
+  const normalizedSearch = searchTerm.trim().toLowerCase();
 
-      const matchesSearch =
-        product.name[lang]
-          .toLowerCase()
-          .includes(searchTerm.toLowerCase()) ||
-        product.shortDescription[lang]
-          .toLowerCase()
-          .includes(searchTerm.toLowerCase());
+  const filteredProducts = products.filter((product) => {
+    const matchesCategory =
+      product.categoryId === category.id;
 
-      return (
-        matchesCategory && matchesSearch
-      );
-    }
-  );
+    const matchesSearch =
+      product.name[lang].toLowerCase().includes(normalizedSearch) ||
+      product.shortDescription[lang]
+        .toLowerCase()
+        .includes(normalizedSearch);
+
+    const matchesBrand =
+      selectedBrandIds.length === 0 ||
+      selectedBrandIds.includes(product.brandId);
+
+    return matchesCategory && matchesSearch && matchesBrand;
+  });
 
   return (
     <>
-    <SEO
-  title={category.name[lang]}
-  description={category.description[lang]}
-  keywords={`${category.name[lang]}, medical equipment, Saudi Arabia`}
-  url={`/category/${category.slug}`}
-/>
+      <SEO
+        title={category.name[lang]}
+        description={category.description[lang]}
+        keywords={`${category.name[lang]}, medical equipment, Saudi Arabia`}
+        url={`/category/${category.slug}`}
+      />
+
       <CategoryHeader
         category={category}
         productCount={filteredProducts.length}
@@ -80,14 +87,14 @@ export default function Category() {
             selectedCategory={category}
             searchTerm={searchTerm}
             setSearchTerm={setSearchTerm}
+            selectedBrandIds={selectedBrandIds}
+            onBrandChange={setSelectedBrandIds}
           />
 
           <div className="min-w-0 lg:col-span-3">
             <ProductGrid
               products={filteredProducts}
-              highlightProduct={
-                highlightProduct
-              }
+              highlightProduct={highlightProduct}
             />
           </div>
         </div>
