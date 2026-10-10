@@ -969,5 +969,423 @@
   "images": [
     "/images/products/medke/eeg-cables.png"
   ]
+},
+{
+  "id": 45,
+  "name": {
+    "en": "Medke EKG Cables & Accessories",
+    "ar": "كابلات وملحقات تخطيط القلب الكهربائي من ميدكي"
+  },
+  "slug": "medke-ekg-cables-accessories",
+  "categoryId": 2,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "EKG cables and accessories for compatible patient monitoring systems.",
+    "ar": "كابلات وملحقات تخطيط القلب الكهربائي لأنظمة مراقبة المرضى المتوافقة."
+  },
+  "description": {
+    "en": "EKG cables and leadwires available in one-piece trunk cable and leadwire configurations. Features include latex-free materials, banana, needle, snap, and pinch connectors, and AHA/IEC color coding. Compatible with most patient monitors and designed for easy cleaning and maintenance.",
+    "ar": "كابلات وأسلاك توصيل تخطيط القلب الكهربائي، متوفرة بتصميمات متكاملة للكابلات الرئيسية وأسلاك التوصيل. تتميز بمواد خالية من اللاتكس وموصلات من أنواع الموز والإبرة والكبس والمشبك، مع ترميز لوني وفق معايير AHA وIEC. متوافقة مع معظم أجهزة مراقبة المرضى وسهلة التنظيف والصيانة."
+  },
+  "images": [
+    "/images/products/medke/ekg-cables.png"
+  ]
+},
+{
+  "id": 46,
+  "name": {
+    "en": "Medke Reusable NIBP Cuffs",
+    "ar": "أساور قياس ضغط الدم القابلة لإعادة الاستخدام من ميدكي"
+  },
+  "slug": "medke-reusable-nibp-cuffs",
+  "categoryId": 5,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "Reusable NIBP cuffs for compatible patient monitoring systems.",
+    "ar": "أساور قياس ضغط الدم القابلة لإعادة الاستخدام لأنظمة مراقبة المرضى المتوافقة."
+  },
+  "description": {
+    "en": "Reusable NIBP cuffs available in multiple sizes for adult, pediatric, infant, neonatal, and thigh applications. Options include cuffs with or without a carrying bag, single- or double-tube configurations, and latex-free materials. Designed for easy cleaning.",
+    "ar": "أساور قياس ضغط الدم القابلة لإعادة الاستخدام، متوفرة بمقاسات متعددة للبالغين والأطفال والرضع وحديثي الولادة والفخذ. تتوفر خيارات مع حقيبة أو بدونها، وبأنبوب واحد أو أنبوبين، وبمواد خالية من اللاتكس، مع تصميم يسهل تنظيفه."
+  },
+  "images": [
+    "/images/products/medke/reuse-cuffs.png"
+  ]
+},
+{
+  "id": 47,
+  "name": {
+    "en": "Medke NIBP Adapter Hoses",
+    "ar": "خراطيم توصيل محولات قياس ضغط الدم من ميدكي"
+  },
+  "slug": "medke-nibp-adapter-hoses",
+  "categoryId": 2,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "NIBP adapter hoses for connecting compatible blood pressure cuffs to patient monitors.",
+    "ar": "خراطيم محول قياس ضغط الدم لتوصيل الأساور بأجهزة مراقبة المرضى المتوافقة."
+  },
+  "description": {
+    "en": "NIBP adapter hoses available for various patient monitor models, including different monitor-side and cuff-side connectors. Options support adult, pediatric, infant, and neonatal applications, with single- and double-tube configurations depending on the model.",
+    "ar": "خراطيم محول قياس ضغط الدم متوافقة مع طرازات مختلفة من أجهزة مراقبة المرضى، مع خيارات متعددة للموصلات من جهة الجهاز ومن جهة السوار. تتوفر خيارات للبالغين والأطفال والرضع وحديثي الولادة، بتكوينات ذات أنبوب واحد أو أنبوبين حسب الطراز."
+  },
+  "images": [
+    "/images/products/medke/nibp-adaptor.png"
+  ]
+},
+{
+  "id": 48,
+  "name": {
+    "en": "Medke IBP Cables",
+    "ar": "كابلات قياس ضغط الدم الغازية من ميدكي"
+  },
+  "slug": "medke-ibp-cables",
+  "categoryId": 2,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "IBP adapter cables for compatible patient monitoring systems.",
+    "ar": "كابلات محول قياس ضغط الدم الغازي لأنظمة مراقبة المرضى المتوافقة."
+  },
+  "description": {
+    "en": "IBP adapter cables compatible with a range of patient monitors, including connectors for B. Braun, BD, Edward, Medex/Abbott, Utah, PVB, Argon, Medex Logical, USB, and Mindray systems. Latex-free options are available. Includes a six-month warranty.",
+    "ar": "كابلات محول قياس ضغط الدم الغازي متوافقة مع مجموعة متنوعة من أجهزة مراقبة المرضى، بما في ذلك أنظمة B. Braun وBD وEdward وMedex/Abbott وUtah وPVB وArgon وMedex Logical وUSB وMindray. تتوفر خيارات خالية من اللاتكس، مع ضمان لمدة ستة أشهر."
+  },
+  "images": [
+    "/images/products/medke/ibp-cables.png"
+  ]
+},
+{
+  "id": 49,
+  "name": {
+    "en": "Medke Temperature Probes",
+    "ar": "مجسات قياس درجة الحرارة من ميدكي"
+  },
+  "slug": "medke-temperature-probes",
+  "categoryId": 2,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "Reusable temperature probes for compatible patient monitoring systems.",
+    "ar": "مجسات قياس درجة الحرارة القابلة لإعادة الاستخدام لأنظمة مراقبة المرضى المتوافقة."
+  },
+  "description": {
+    "en": "Reusable temperature probes compatible with various patient monitors, including Yonker, Infinium DRE, Waltvick, Bionet, Edan, Air Shield, Artema, and GE-Mar​​quette systems. Options include adult skin, adult general-purpose, pediatric skin, and pediatric general-purpose probes. The probes are latex-free, easy to use, and supplied with a one-year warranty.",
+    "ar": "مجسات قياس درجة الحرارة القابلة لإعادة الاستخدام والمتوافقة مع أجهزة مراقبة مرضى متعددة، بما في ذلك أنظمة Yonker وInfinium DRE وWaltvick وBionet وEdan وAir Shield وArtema وGE-Mar​​quette. تتوفر خيارات لقياس حرارة الجلد للبالغين والأطفال، بالإضافة إلى المجسات متعددة الاستخدامات للبالغين والأطفال. المجسات خالية من اللاتكس وسهلة الاستخدام، مع ضمان لمدة عام."
+  },
+  "images": [
+    "/images/products/medke/temperature-probes.png"
+  ]
+},
+{
+  "id": 50,
+  "name": {
+    "en": "Medke Fetal Probes",
+    "ar": "مجسات مراقبة الجنين من ميدكي"
+  },
+  "slug": "medke-fetal-probes",
+  "categoryId": 2,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "Fetal monitoring probes compatible with supported fetal monitors.",
+    "ar": "مجسات لمراقبة الجنين متوافقة مع أجهزة مراقبة الجنين المدعومة."
+  },
+  "description": {
+    "en": "Fetal probes designed for compatibility with popular fetal monitors. They are easy to connect and clean, latex-free, and supplied with a one-year warranty. Package: one piece per bag.",
+    "ar": "مجسات لمراقبة الجنين مصممة للتوافق مع أجهزة مراقبة الجنين الشائعة. تتميز بسهولة التوصيل والتنظيف، وهي خالية من اللاتكس، وتأتي مع ضمان لمدة عام. العبوة: قطعة واحدة لكل كيس."
+  },
+  "images": [
+    "/images/products/medke/fetal-probes.png"
+  ]
+},
+{
+  "id": 51,
+  "name": {
+    "en": "Medke Respiratory Consumables",
+    "ar": "مستلزمات الجهاز التنفسي من ميدكي"
+  },
+  "slug": "medke-respiratory-consumables",
+  "categoryId": 4,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "Mainstream and sidestream EtCO2 sensors for compatible respiratory monitoring systems.",
+    "ar": "مستشعرات ثاني أكسيد الكربون بنظامي القياس المباشر وغير المباشر لأنظمة مراقبة التنفس المتوافقة."
+  },
+  "description": {
+    "en": "Respiratory monitoring consumables, including mainstream and sidestream EtCO2 sensors compatible with various patient monitors. Available options support different monitor brands and connector configurations.",
+    "ar": "مستلزمات لمراقبة الجهاز التنفسي، تشمل مستشعرات ثاني أكسيد الكربون بنظامي القياس المباشر وغير المباشر، والمتوافقة مع أجهزة مراقبة المرضى المختلفة. تتوفر خيارات تدعم علامات تجارية متعددة وتكوينات مختلفة للموصلات."
+  },
+  "images": [
+    "/images/products/medke/respiratory.png"
+  ]
+},
+{
+  "id": 52,
+  "name": {
+    "en": "Philips HeartStart FRx AED",
+    "ar": "جهاز إزالة الرجفان الخارجي الآلي فيليبس HeartStart FRx"
+  },
+  "slug": "philips-heartstart-frx-aed",
+  "categoryId": 6,
+  "brandId": 3,
+  "featured": false,
+  "shortDescription": {
+    "en": "Compact automated external defibrillator designed for emergency cardiac response.",
+    "ar": "جهاز إزالة رجفان خارجي آلي مدمج مصمم للاستجابة لحالات الطوارئ القلبية."
+  },
+  "description": {
+    "en": "The Philips HeartStart FRx AED is designed to guide responders through defibrillation with clear voice instructions and visual indicators. It analyzes the patient's heart rhythm, provides a shock when indicated, and offers CPR guidance. It features SMART Pads II compatibility, automatic self-tests, and a long-life disposable battery. Optional infant/child keys and training pads are available.",
+    "ar": "صُمم جهاز Philips HeartStart FRx لإرشاد المستجيبين خلال عملية إزالة الرجفان باستخدام تعليمات صوتية واضحة ومؤشرات مرئية. يحلل إيقاع قلب المريض ويوفر الصدمة الكهربائية عند الحاجة، مع إرشادات للإنعاش القلبي الرئوي. يدعم الجهاز أقطاب SMART Pads II، ويجري اختبارات ذاتية تلقائية، ويستخدم بطارية طويلة العمر. تتوفر مفاتيح اختيارية للرضع والأطفال وأقطاب تدريب."
+  },
+  "images": [
+    "/images/products/philips/heartstart.png"
+  ]
+},
+{
+  "id": 53,
+  "name": {
+    "en": "Philips Projection Halogen Lamp 24V 250W / Cold Light Source for Endoscopy",
+    "ar": "مصباح هالوجين إسقاطي من فيليبس 24 فولت 250 واط / مصدر ضوء بارد للتنظير الداخلي"
+  },
+  "slug": "philips-projection-halogen-lamp-24v-250w",
+  "categoryId": 2,
+  "brandId": 3,
+  "featured": false,
+  "shortDescription": {
+    "en": "Philips 24V 250W projection halogen lamp for endoscopy cold light sources.",
+    "ar": "مصباح هالوجين إسقاطي من فيليبس بقدرة 250 واط وجهد 24 فولت لمصادر الضوء البارد المستخدمة في التنظير الداخلي."
+  },
+  "description": {
+    "en": "Philips Focusline projection halogen lamp, type 13163, rated at 24V and 250W. Designed as a replacement lamp for compatible cold light sources used in endoscopy equipment. Verify the lamp type and equipment compatibility before ordering.",
+    "ar": "مصباح هالوجين إسقاطي من Philips Focusline، النوع 13163، بجهد 24 فولت وقدرة 250 واط. صُمم كمصباح بديل لمصادر الضوء البارد المتوافقة المستخدمة في أجهزة التنظير الداخلي. يُرجى التحقق من نوع المصباح وتوافقه مع الجهاز قبل الطلب."
+  },
+  "images": [
+    "/images/products/philips/lamp.png"
+  ]
+},
+{
+  "id": 54,
+  "name": {
+    "en": "Bionet BM7 Patient Monitor",
+    "ar": "جهاز مراقبة المرضى Bionet BM7"
+  },
+  "slug": "bionet-bm7-patient-monitor",
+  "categoryId": 1,
+  "brandId": 4,
+  "featured": false,
+  "shortDescription": {
+    "en": "Patient monitor with a 12.1-inch touchscreen and integrated thermal printer.",
+    "ar": "جهاز مراقبة المرضى بشاشة لمس مقاس 12.1 بوصة وطابعة حرارية مدمجة."
+  },
+  "description": {
+    "en": "The Bionet BM7 is a multiparameter patient monitor featuring a 12.1-inch touchscreen, ECG, SpO2, NIBP, respiration, two temperature channels, two IBP channels, and two CO2 channels. The pictured configuration includes a thermal printer and battery.",
+    "ar": "جهاز Bionet BM7 هو جهاز مراقبة متعدد المعايير مزود بشاشة لمس مقاس 12.1 بوصة، ويدعم تخطيط القلب ECG وقياس الأكسجين في الدم SpO2 وضغط الدم غير الغازي NIBP ومعدل التنفس وقناتين لدرجة الحرارة وقناتين لضغط الدم الغازي IBP وقناتين لثاني أكسيد الكربون CO2. يتضمن التكوين الظاهر طابعة حرارية وبطارية."
+  },
+  "images": [
+    "/images/products/bionet/bm7.png"
+  ]
+},
+{
+  "id": 55,
+  "name": {
+    "en": "Bionet BM5 Patient Monitor",
+    "ar": "جهاز مراقبة المرضى Bionet BM5"
+  },
+  "slug": "bionet-bm5-patient-monitor",
+  "categoryId": 1,
+  "brandId": 4,
+  "featured": false,
+  "shortDescription": {
+    "en": "Patient monitor with a 10.4-inch color LCD screen and integrated thermal printer.",
+    "ar": "جهاز مراقبة المرضى بشاشة LCD ملونة مقاس 10.4 بوصة وطابعة حرارية مدمجة."
+  },
+  "description": {
+    "en": "The Bionet BM5 is a multiparameter patient monitor featuring a 10.4-inch color LCD screen. It supports ECG, SpO2, NIBP, respiration, two temperature channels, two IBP channels, and CO2 monitoring. The pictured configuration includes a thermal printer.",
+    "ar": "جهاز Bionet BM5 هو جهاز مراقبة متعدد المعايير مزود بشاشة LCD ملونة مقاس 10.4 بوصة. يدعم تخطيط القلب ECG وقياس الأكسجين في الدم SpO2 وضغط الدم غير الغازي NIBP ومعدل التنفس وقناتين لدرجة الحرارة وقناتين لضغط الدم الغازي IBP ومراقبة ثاني أكسيد الكربون CO2. يتضمن التكوين الظاهر طابعة حرارية."
+  },
+  "images": [
+    "/images/products/bionet/bm5.png"
+  ]
+},
+{
+  "id": 56,
+  "name": {
+    "en": "Bionet ECG Cardio Q70",
+    "ar": "جهاز تخطيط القلب الكهربائي Bionet Cardio Q70"
+  },
+  "slug": "bionet-ecg-cardio-q70",
+  "categoryId": 1,
+  "brandId": 4,
+  "featured": false,
+  "shortDescription": {
+    "en": "Bionet Cardio Q70 electrocardiograph for recording and analyzing ECG signals.",
+    "ar": "جهاز Bionet Cardio Q70 لتسجيل وتحليل إشارات تخطيط القلب الكهربائي."
+  },
+  "description": {
+    "en": "The Bionet Cardio Q70 is an electrocardiograph designed to record and display electrocardiogram (ECG) signals for clinical assessment. Contact the supplier for the exact technical specifications and available configurations.",
+    "ar": "جهاز Bionet Cardio Q70 هو جهاز لتخطيط القلب الكهربائي، مصمم لتسجيل وعرض إشارات تخطيط القلب لدعم التقييم السريري. يُرجى التواصل مع المورد للحصول على المواصفات الفنية الدقيقة والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/bionet/cardio-q70.png"
+  ]
+},
+{
+  "id": 57,
+  "name": {
+    "en": "Bionet ECG Cardio Q50",
+    "ar": "جهاز تخطيط القلب الكهربائي Bionet Cardio Q50"
+  },
+  "slug": "bionet-ecg-cardio-q50",
+  "categoryId": 1,
+  "brandId": 4,
+  "featured": false,
+  "shortDescription": {
+    "en": "Electrocardiograph for recording and analyzing cardiac electrical activity.",
+    "ar": "جهاز تخطيط القلب الكهربائي لتسجيل وتحليل النشاط الكهربائي للقلب."
+  },
+  "description": {
+    "en": "The Bionet Cardio Q50 is an ECG device designed to record and display electrocardiographic signals. Contact us for model-specific technical specifications and configuration details.",
+    "ar": "جهاز Bionet Cardio Q50 مخصص لتسجيل وعرض إشارات تخطيط القلب الكهربائي. يرجى التواصل معنا للحصول على المواصفات الفنية وتفاصيل التكوين الخاصة بالطراز."
+  },
+  "images": [
+    "/images/products/bionet/cardio-q50.png"
+  ]
+},
+{
+  "id": 58,
+  "name": {
+    "en": "CA-MI Suction Machine with Battery",
+    "ar": "جهاز شفط السوائل من CA-MI مع بطارية"
+  },
+  "slug": "cami-suction-machine-with-battery",
+  "categoryId": 1,
+  "brandId": 5,
+  "featured": false,
+  "shortDescription": {
+    "en": "Portable medical suction machine with battery backup for fluid aspiration.",
+    "ar": "جهاز شفط طبي محمول مزود ببطارية احتياطية لشفط السوائل."
+  },
+  "description": {
+    "en": "The CA-MI Suction Machine with Battery is a portable medical suction device designed to aspirate fluids in clinical and healthcare settings. Its battery-powered operation supports use where portability and backup power are needed.",
+    "ar": "جهاز شفط السوائل من CA-MI هو جهاز طبي محمول مصمم لشفط السوائل في البيئات السريرية ومرافق الرعاية الصحية. يتيح التشغيل بالبطارية استخدامه في الأماكن التي تتطلب سهولة النقل والطاقة الاحتياطية."
+  },
+  "images": [
+    "/images/products/cami/suction-machine-battery.png"
+  ]
+},
+{
+  "id": 59,
+  "name": {
+    "en": "CA-MI New Hospivak 350/400",
+    "ar": "جهاز نيو هوسبيفاك 350/400 لشفط السوائل الجراحية من CA-MI"
+  },
+  "slug": "cami-new-hospivak-350-400",
+  "categoryId": 1,
+  "brandId": 5,
+  "featured": false,
+  "shortDescription": {
+    "en": "Professional surgical suction unit for aspirating body fluids, gases, tissues, and bone fragments.",
+    "ar": "جهاز شفط جراحي احترافي لشفط سوائل الجسم والغازات والأنسجة وشظايا العظام."
+  },
+  "description": {
+    "en": "The CA-MI New Hospivak 350/400 is a professional surgical aspiration unit designed for the removal of body fluids, gases, tissues, and bone fragments during or after surgical procedures. It features a mobile design with a wheeled base and collection canisters.",
+    "ar": "جهاز CA-MI New Hospivak 350/400 هو جهاز شفط جراحي احترافي مصمم لإزالة سوائل الجسم والغازات والأنسجة وشظايا العظام أثناء العمليات الجراحية أو بعدها. يتميز بتصميم متحرك وقاعدة مزودة بعجلات وعبوات لجمع السوائل."
+  },
+  "images": [
+    "/images/products/cami/new-hospivak.png"
+  ]
+},
+{
+  "id": 60,
+  "name": {
+    "en": "Progetti Manual/AED Defibrillator with ECG and Printer",
+    "ar": "جهاز إزالة الرجفان اليدوي والآلي من بروجيتي مع تخطيط القلب والطابعة"
+  },
+  "slug": "progetti-manual-aed-defibrillator-ecg-printer",
+  "categoryId": 6,
+  "brandId": 6,
+  "featured": false,
+  "shortDescription": {
+    "en": "Biphasic manual/AED defibrillator with ECG monitoring and an integrated printer.",
+    "ar": "جهاز إزالة رجفان ثنائي الطور يعمل يدويًا وآليًا، مزود بمراقبة تخطيط القلب وطابعة مدمجة."
+  },
+  "description": {
+    "en": "The Progetti Manual/AED Defibrillator combines manual defibrillation and automated external defibrillation modes with ECG monitoring and an integrated printer. The pictured configuration also indicates SpO2, NIBP, and pacemaker capabilities. Confirm the exact specifications and available options for the model before publishing.",
+    "ar": "يجمع جهاز إزالة الرجفان من بروجيتي بين وضع إزالة الرجفان اليدوي ووضع إزالة الرجفان الخارجي الآلي، مع مراقبة تخطيط القلب وطابعة مدمجة. ويشير التكوين الظاهر أيضًا إلى دعم قياس الأكسجين في الدم SpO2 وضغط الدم غير الغازي NIBP ووظائف تنظيم ضربات القلب. يُرجى التحقق من المواصفات الدقيقة والخيارات المتاحة للطراز قبل النشر."
+  },
+  "images": [
+    "/images/products/progetti/manual-aed-defibrillator-ecg-printer.png"
+  ]
+},
+{
+  "id": 61,
+  "name": {
+    "en": "Progetti Rescue SAM AED Defibrillator for Adults and Pediatric Use",
+    "ar": "جهاز بروجيتي Rescue SAM لإزالة الرجفان الخارجي الآلي للبالغين والأطفال"
+  },
+  "slug": "progetti-rescue-sam-aed-defibrillator",
+  "categoryId": 6,
+  "brandId": 6,
+  "featured": false,
+  "shortDescription": {
+    "en": "Portable automated external defibrillator designed for emergency cardiac response in adults and children.",
+    "ar": "جهاز إزالة رجفان خارجي آلي محمول مصمم للاستجابة لحالات الطوارئ القلبية لدى البالغين والأطفال."
+  },
+  "description": {
+    "en": "The Progetti Rescue SAM is a portable automated external defibrillator (AED) designed to assist responders during sudden cardiac arrest emergencies. Its user-friendly interface features visual guidance, clear operating indicators, and a power button to guide the user through the defibrillation process. Suitable for emergency response environments. Confirm adult and pediatric treatment compatibility and the exact model specifications with the manufacturer before publishing.",
+    "ar": "جهاز Progetti Rescue SAM هو جهاز محمول لإزالة الرجفان الخارجي الآلي (AED)، مصمم لمساعدة المستجيبين في حالات التوقف القلبي المفاجئ. يتميز بواجهة سهلة الاستخدام تتضمن إرشادات مرئية ومؤشرات تشغيل واضحة وزرًا للطاقة للمساعدة في اتباع خطوات إزالة الرجفان. مناسب لبيئات الاستجابة للطوارئ. يُرجى التأكد من توافق العلاج للبالغين والأطفال ومن المواصفات الدقيقة للطراز مع الشركة المصنعة قبل النشر."
+  },
+  "images": [
+    "/images/products/progetti/rescue-sam-aed.png"
+  ]
+},
+{
+  "id": 62,
+  "name": {
+    "en": "Osteosys Bone Densitometer",
+    "ar": "جهاز قياس كثافة العظام من أوسيوسيس"
+  },
+  "slug": "osteosys-bone-densitometer",
+  "categoryId": 1,
+  "brandId": 7,
+  "featured": false,
+  "shortDescription": {
+    "en": "Bone densitometry system designed to assess bone mineral density.",
+    "ar": "جهاز لقياس كثافة العظام المعدنية وتقييم صحة العظام."
+  },
+  "description": {
+    "en": "The Osteosys Bone Densitometer is a medical diagnostic system designed to assess bone mineral density and support the evaluation of bone health. It is intended for use in clinical and healthcare settings. Contact us for model-specific technical specifications, measurement methods, and configuration details.",
+    "ar": "جهاز قياس كثافة العظام من أوسيوسيس هو نظام تشخيصي طبي مصمم لتقييم كثافة المعادن في العظام والمساعدة في تقييم صحة العظام. يُستخدم في العيادات ومرافق الرعاية الصحية. يُرجى التواصل معنا للحصول على المواصفات الفنية وطرق القياس وتفاصيل التكوين الخاصة بالطراز."
+  },
+  "images": [
+    "/images/products/osteosys/bone-densitometer.png"
+  ]
+},
+{
+  "id": 63,
+  "name": {
+    "en": "MIR New SpiroLab Desktop Spirometer",
+    "ar": "جهاز قياس كفاءة الرئة المكتبي MIR New SpiroLab"
+  },
+  "slug": "mir-new-spirolab-desktop-spirometer",
+  "categoryId": 1,
+  "brandId": 8,
+  "featured": false,
+  "shortDescription": {
+    "en": "Desktop spirometer with a 7-inch touchscreen, built-in printer, and Bluetooth connectivity.",
+    "ar": "جهاز قياس كفاءة الرئة المكتبي مزود بشاشة لمس مقاس 7 بوصات وطابعة مدمجة واتصال بلوتوث."
+  },
+  "description": {
+    "en": "The MIR New SpiroLab is a desktop spirometer designed to measure and record lung function. It features a 7-inch touchscreen, an integrated printer, Bluetooth connectivity, and memory for up to 10,000 tests. The pictured configuration includes a handheld breathing sensor connected to the main unit. Contact us for detailed specifications and available configurations.",
+    "ar": "جهاز MIR New SpiroLab هو جهاز مكتبي لقياس وتسجيل وظائف الرئة. يتميز بشاشة لمس مقاس 7 بوصات وطابعة مدمجة واتصال بلوتوث وذاكرة لتخزين ما يصل إلى 10,000 اختبار. يتضمن التكوين الظاهر مستشعرًا محمولًا لقياس التنفس متصلًا بالوحدة الرئيسية. يُرجى التواصل معنا للحصول على المواصفات التفصيلية والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/mir/new-spirolab.png"
+  ]
 }
 ]
