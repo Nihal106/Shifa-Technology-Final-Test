@@ -1,278 +1,973 @@
 [
-  {
-    "id": 1,
-    "sku": "ME-001",
-    "name": {
-      "en": "Digital Blood Pressure Monitor",
-      "ar": "جهاز قياس ضغط الدم الرقمي"
-    },
-    "slug": "digital-blood-pressure-monitor",
-    "categoryId": 1,
-    "brandId": 1,
-    "featured": true,
-    "shortDescription": {
-      "en": "Digital BP monitor.",
-      "ar": "جهاز رقمي لقياس ضغط الدم."
-    },
-    "description": {
-      "en": "Accurate digital blood pressure monitor for hospitals and home healthcare.",
-      "ar": "جهاز رقمي دقيق لقياس ضغط الدم مناسب للمستشفيات والرعاية الصحية المنزلية."
-    },
-    "images": [
-      "/images/products/bp-monitor.jpg"
-    ]
+{
+  "id": 1,
+  "name": {
+    "en": "Sumit SSI-7 Series LED Surgical Light",
+    "ar": "مصباح جراحي LED من سلسلة سوميت SSI-7"
   },
-  {
-    "id": 2,
-    "sku": "ME-002",
-    "name": {
-      "en": "Patient Monitor",
-      "ar": "جهاز مراقبة المرضى"
-    },
-    "slug": "patient-monitor",
-    "categoryId": 1,
-    "brandId": 2,
-    "featured": true,
-    "shortDescription": {
-      "en": "Multi-parameter monitor.",
-      "ar": "جهاز مراقبة متعدد الوظائف."
-    },
-    "description": {
-      "en": "Advanced patient monitoring system for ICUs and hospitals.",
-      "ar": "نظام متقدم لمراقبة المرضى في وحدات العناية المركزة والمستشفيات."
-    },
-    "images": [
-      "/images/products/patient-monitor.jpg"
-    ]
+  "slug": "ssi-7-series-led-surgical-light",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": true,
+
+"shortDescription": {
+  "en": "Advanced LED surgical light with high-intensity illumination and easy positioning for operating theatres.",
+  "ar": "مصباح جراحي LED متطور بإضاءة عالية الشدة وسهولة التوجيه لغرف العمليات."
+},
+"description": {
+  "en": "Advanced LED surgical light for clear illumination in operating theatres.",
+  "ar": "مصباح جراحي LED متطور لإضاءة واضحة في غرف العمليات."
+},
+  "images": [
+    "/images/products/sumit/ssi-7.png"
+  ]
+},
+{
+  "id": 2,
+  "name": {
+    "en": "Sumit SSI-5 Series LED Surgical Light",
+    "ar": "مصباح جراحي LED من سلسلة سوميت SSI-5"
   },
-  {
-    "id": 3,
-    "sku": "HF-001",
-    "name": {
-      "en": "Electric Hospital Bed",
-      "ar": "سرير مستشفى كهربائي"
-    },
-    "slug": "electric-hospital-bed",
-    "categoryId": 2,
-    "brandId": 1,
-    "featured": true,
-    "shortDescription": {
-      "en": "Electric hospital bed.",
-      "ar": "سرير مستشفى كهربائي."
-    },
-    "description": {
-      "en": "Adjustable electric hospital bed with safety side rails.",
-      "ar": "سرير مستشفى كهربائي قابل للتعديل مزود بحواجز جانبية للسلامة."
-    },
-    "images": [
-      "/images/products/hospital-bed.jpg"
-    ]
+  "slug": "ssi-5-series-led-surgical-light",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Advanced LED surgical light with high-intensity illumination and easy positioning for operating theatres.",
+    "ar": "مصباح جراحي LED متطور بإضاءة عالية الشدة وسهولة التوجيه لغرف العمليات."
   },
-  {
-    "id": 4,
-    "sku": "HF-002",
-    "name": {
-      "en": "Bedside Cabinet",
-      "ar": "خزانة جانبية للمريض"
-    },
-    "slug": "bedside-cabinet",
-    "categoryId": 2,
-    "brandId": 2,
-    "featured": false,
-    "shortDescription": {
-      "en": "Hospital bedside cabinet.",
-      "ar": "خزانة جانبية للمستشفى."
-    },
-    "description": {
-      "en": "Durable bedside cabinet with drawers for patient use.",
-      "ar": "خزانة جانبية متينة مزودة بأدراج لاستخدام المرضى."
-    },
-    "images": [
-      "/images/products/bedside-cabinet.jpg"
-    ]
+  "description": {
+    "en": "Advanced LED surgical light for clear illumination in operating theatres.",
+    "ar": "مصباح جراحي LED متطور لإضاءة واضحة في غرف العمليات."
   },
-  {
-    "id": 5,
-    "sku": "MD-001",
-    "name": {
-      "en": "Surgical Gloves",
-      "ar": "قفازات جراحية"
-    },
-    "slug": "surgical-gloves",
-    "categoryId": 3,
-    "brandId": 3,
-    "featured": true,
-    "shortDescription": {
-      "en": "Latex surgical gloves.",
-      "ar": "قفازات جراحية من اللاتكس."
-    },
-    "description": {
-      "en": "Sterile disposable latex surgical gloves.",
-      "ar": "قفازات جراحية معقمة للاستعمال مرة واحدة مصنوعة من اللاتكس."
-    },
-    "images": [
-      "/images/products/surgical-gloves.jpg"
-    ]
+  "images": [
+    "/images/products/sumit/ssi-5.png"
+  ]
+},
+{
+  "id": 3,
+  "name": {
+    "en": "Sumit SSI-4 Series LED Surgical Light",
+    "ar": "مصباح جراحي LED من سلسلة سوميت SSI-4"
   },
-  {
-    "id": 6,
-    "sku": "MD-002",
-    "name": {
-      "en": "Disposable Face Mask",
-      "ar": "كمامة طبية للاستعمال مرة واحدة"
-    },
-    "slug": "disposable-face-mask",
-    "categoryId": 3,
-    "brandId": 3,
-    "featured": false,
-    "shortDescription": {
-      "en": "3-layer face mask.",
-      "ar": "كمامة طبية ثلاثية الطبقات."
-    },
-    "description": {
-      "en": "Disposable protective face mask for medical environments.",
-      "ar": "كمامة واقية للاستعمال مرة واحدة مناسبة للبيئات الطبية."
-    },
-    "images": [
-      "/images/products/face-mask.jpg"
-    ]
+  "slug": "ssi-4-series-led-surgical-light",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+
+"shortDescription": {
+  "en": "Advanced LED surgical light with high-intensity illumination and easy positioning for operating theatres.",
+  "ar": "مصباح جراحي LED متطور بإضاءة عالية الشدة وسهولة التوجيه لغرف العمليات."
+},
+"description": {
+  "en": "Advanced LED surgical light for clear illumination in operating theatres.",
+  "ar": "مصباح جراحي LED متطور لإضاءة واضحة في غرف العمليات."
+},
+  "images": [
+    "/images/products/sumit/ssi-4.png"
+  ]
+},
+{
+  "id": 4,
+  "name": {
+    "en": "Sumit SSI-3 Series LED Surgical Light",
+    "ar": "مصباح جراحي LED من سلسلة سوميت SSI-3"
   },
-  {
-    "id": 7,
-    "sku": "HA-001",
-    "name": {
-      "en": "Stethoscope",
-      "ar": "سماعة طبيب"
-    },
-    "slug": "stethoscope",
-    "categoryId": 4,
-    "brandId": 2,
-    "featured": true,
-    "shortDescription": {
-      "en": "Professional stethoscope.",
-      "ar": "سماعة طبية احترافية."
-    },
-    "description": {
-      "en": "High acoustic sensitivity stethoscope for healthcare professionals.",
-      "ar": "سماعة طبية عالية الحساسية الصوتية لمقدمي الرعاية الصحية."
-    },
-    "images": [
-      "/images/products/stethoscope.jpg"
-    ]
+  "slug": "ssi-3-series-led-surgical-light",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+
+"shortDescription": {
+  "en": "Advanced LED surgical light with high-intensity illumination and easy positioning for operating theatres.",
+  "ar": "مصباح جراحي LED متطور بإضاءة عالية الشدة وسهولة التوجيه لغرف العمليات."
+},
+"description": {
+  "en": "Advanced LED surgical light for clear illumination in operating theatres.",
+  "ar": "مصباح جراحي LED متطور لإضاءة واضحة في غرف العمليات."
+},
+  "images": [
+    "/images/products/sumit/ssi-3.png"
+  ]
+},
+{
+  "id": 5,
+  "name": {
+    "en": "Sumit SSI-4H Series LED Surgical Light",
+    "ar": "مصباح جراحي LED من سلسلة سوميت SSI-4H"
   },
-  {
-    "id": 8,
-    "sku": "HA-002",
-    "name": {
-      "en": "Digital Thermometer",
-      "ar": "ميزان حرارة رقمي"
-    },
-    "slug": "digital-thermometer",
-    "categoryId": 4,
-    "brandId": 2,
-    "featured": false,
-    "shortDescription": {
-      "en": "Digital thermometer.",
-      "ar": "ميزان حرارة رقمي."
-    },
-    "description": {
-      "en": "Fast and accurate body temperature measurement.",
-      "ar": "قياس سريع ودقيق لدرجة حرارة الجسم."
-    },
-    "images": [
-      "/images/products/thermometer.jpg"
-    ]
+  "slug": "ssi-4h-series-led-surgical-light",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Slim, lightweight LED surgical light for precise positioning in operating theatres.",
+    "ar": "مصباح جراحي LED نحيف وخفيف الوزن لسهولة التوجيه الدقيق في غرف العمليات."
   },
-  {
-    "id": 9,
-    "sku": "FA-001",
-    "name": {
-      "en": "First Aid Kit",
-      "ar": "حقيبة إسعافات أولية"
-    },
-    "slug": "first-aid-kit",
-    "categoryId": 5,
-    "brandId": 4,
-    "featured": true,
-    "shortDescription": {
-      "en": "Emergency first aid kit.",
-      "ar": "حقيبة إسعافات أولية للطوارئ."
-    },
-    "description": {
-      "en": "Complete first aid kit for clinics, offices, and homes.",
-      "ar": "حقيبة إسعافات أولية متكاملة للعيادات والمكاتب والمنازل."
-    },
-    "images": [
-      "/images/products/first-aid-kit.jpg"
-    ]
+  "description": {
+    "en": "High-intensity LED surgical light compatible with laminar airflow systems.",
+    "ar": "مصباح جراحي LED عالي الإضاءة ومتوافق مع أنظمة تدفق الهواء الصفائحي."
   },
-  {
-    "id": 10,
-    "sku": "FA-002",
-    "name": {
-      "en": "Trauma Bag",
-      "ar": "حقيبة طوارئ"
-    },
-    "slug": "trauma-bag",
-    "categoryId": 5,
-    "brandId": 4,
-    "featured": false,
-    "shortDescription": {
-      "en": "Emergency trauma bag.",
-      "ar": "حقيبة مخصصة للطوارئ."
-    },
-    "description": {
-      "en": "Professional emergency trauma response bag.",
-      "ar": "حقيبة احترافية للاستجابة السريعة في حالات الطوارئ."
-    },
-    "images": [
-      "/images/products/trauma-bag.jpg"
-    ]
+  "images": [
+    "/images/products/sumit/ssi-4h.png"
+  ]
+},
+{
+  "id": 6,
+  "name": {
+    "en": "Sumit SSI-3H Series LED Surgical Light",
+    "ar": "مصباح جراحي LED من سلسلة سوميت SSI-3H"
   },
-  {
-    "id": 11,
-    "sku": "MA-001",
-    "name": {
-      "en": "Manual Wheelchair",
-      "ar": "كرسي متحرك يدوي"
-    },
-    "slug": "manual-wheelchair",
-    "categoryId": 6,
-    "brandId": 5,
-    "featured": true,
-    "shortDescription": {
-      "en": "Foldable wheelchair.",
-      "ar": "كرسي متحرك قابل للطي."
-    },
-    "description": {
-      "en": "Lightweight foldable wheelchair for daily mobility.",
-      "ar": "كرسي متحرك خفيف الوزن وقابل للطي للاستخدام اليومي."
-    },
-    "images": [
-      "/images/products/wheelchair.jpg"
-    ]
+  "slug": "ssi-3h-series-led-surgical-light",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Slim, lightweight LED surgical light for precise positioning in operating theatres.",
+    "ar": "مصباح جراحي LED نحيف وخفيف الوزن لسهولة التوجيه الدقيق في غرف العمليات."
   },
-  {
-    "id": 12,
-    "sku": "MA-002",
-    "name": {
-      "en": "Walking Frame",
-      "ar": "مشاية طبية"
-    },
-    "slug": "walking-frame",
-    "categoryId": 6,
-    "brandId": 5,
-    "featured": false,
-    "shortDescription": {
-      "en": "Aluminium walking frame.",
-      "ar": "مشاية من الألمنيوم."
-    },
-    "description": {
-      "en": "Adjustable lightweight walking frame for patient support.",
-      "ar": "مشاية خفيفة الوزن قابلة للتعديل لدعم المرضى أثناء المشي."
-    },
-    "images": [
-      "/images/products/walking-frame.jpg"
-    ]
-  }
+  "description": {
+    "en": "High-intensity LED surgical light compatible with laminar airflow systems.",
+    "ar": "مصباح جراحي LED عالي الإضاءة ومتوافق مع أنظمة تدفق الهواء الصفائحي."
+  },
+  "images": [
+    "/images/products/sumit/ssi-3h.png"
+  ]
+},
+{
+  "id": 7,
+  "name": {
+    "en": "Sumit SSI-621 Series LED Surgical Light",
+    "ar": "مصباح جراحي LED من سلسلة سوميت SSI-621"
+  },
+  "slug": "ssi-621-series-led-surgical-light",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Advanced LED surgical light designed for modern operating theatres.",
+    "ar": "مصباح جراحي LED متطور مصمم لغرف العمليات الحديثة."
+  },
+  "description": {
+    "en": "High-intensity surgical lighting designed for a wider operating field.",
+    "ar": "إضاءة جراحية عالية الشدة مصممة لتوفير مجال جراحي أوسع."
+  },
+  "images": [
+    "/images/products/sumit/ssi-621.png"
+  ]
+},
+{
+  "id": 8,
+  "name": {
+    "en": "Sumit SSI-5P Series LED Surgical Light",
+    "ar": "مصباح جراحي LED من سلسلة سوميت SSI-5P"
+  },
+  "slug": "ssi-5p-series-led-surgical-light",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Compact LED surgical light designed for visual comfort and efficient airflow.",
+    "ar": "مصباح جراحي LED مدمج مصمم لراحة الرؤية وتدفق الهواء بكفاءة."
+  },
+  "description": {
+    "en": "Advanced LED surgical light designed for comfortable, efficient operating theatre illumination.",
+    "ar": "مصباح جراحي LED متطور مصمم لتوفير إضاءة مريحة وفعالة في غرف العمليات."
+  },
+  "images": [
+    "/images/products/sumit/ssi-5p.png"
+  ]
+},
+{
+  "id": 9,
+  "name": {
+    "en": "Sumit SSI-5R Series LED Surgical Light",
+    "ar": "مصباح جراحي LED من سلسلة سوميت SSI-5R"
+  },
+  "slug": "ssi-5r-series-led-surgical-light",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "High-intensity LED surgical light for demanding surgical procedures.",
+    "ar": "مصباح جراحي LED عالي الإضاءة للإجراءات الجراحية الدقيقة."
+  },
+  "description": {
+    "en": "Reliable LED surgical lighting with impressive illumination for operating theatres.",
+    "ar": "إضاءة جراحية LED موثوقة توفر إنارة قوية لغرف العمليات."
+  },
+  "images": [
+    "/images/products/sumit/ssi-5r.png"
+  ]
+},
+{
+  "id": 10,
+  "name": {
+    "en": "Sumit SSI-109 Series LED Surgical Light",
+    "ar": "مصباح جراحي LED من سلسلة سوميت SSI-109"
+  },
+  "slug": "ssi-109-series-led-surgical-light",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Slim LED surgical light with wireless remote control and smooth focus adjustment.",
+    "ar": "مصباح جراحي LED نحيف مع تحكم لاسلكي وضبط سلس للتركيز."
+  },
+  "description": {
+    "en": "Advanced LED surgical light with shadow compensation and easy positioning.",
+    "ar": "مصباح جراحي LED متطور مع تعويض الظلال وسهولة التوجيه."
+  },
+  "images": [
+    "/images/products/sumit/ssi-109.png"
+  ]
+},
+{
+  "id": 11,
+  "name": {
+    "en": "Sumit SSI-500H Electric Operating Table",
+    "ar": "طاولة العمليات الكهربائية سوميت SSI-500H"
+  },
+  "slug": "ssi-500h-electric-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Hydraulic and mechanical operating table for surgical procedures.",
+    "ar": "طاولة عمليات هيدروليكية وميكانيكية للإجراءات الجراحية."
+  },
+  "description": {
+    "en": "Operating table with adjustable positioning and a 150 kg patient capacity.",
+    "ar": "طاولة عمليات قابلة لتعديل الوضعيات وتتحمل وزن مريض يصل إلى 150 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-500h.png"
+  ]
+},
+{
+  "id": 12,
+  "name": {
+    "en": "Sumit SSI-600H Hydraulic Operating Table",
+    "ar": "طاولة العمليات الهيدروليكية سوميت SSI-600H"
+  },
+  "slug": "ssi-600h-hydraulic-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Hydraulic operating table with adjustable positioning for surgical procedures.",
+    "ar": "طاولة عمليات هيدروليكية قابلة لتعديل الوضعيات للإجراءات الجراحية."
+  },
+  "description": {
+    "en": "Hydraulic operating table with a stainless steel top and 200 kg patient capacity.",
+    "ar": "طاولة عمليات هيدروليكية بسطح من الفولاذ المقاوم للصدأ وتتحمل وزن مريض يصل إلى 200 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-600h.png"
+  ]
+},
+{
+  "id": 13,
+  "name": {
+    "en": "Sumit SSI-600E Electric Operating Table",
+    "ar": "طاولة العمليات الكهربائية سوميت SSI-600E"
+  },
+  "slug": "ssi-600e-electric-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Electric operating table with remote-controlled positioning for surgical procedures.",
+    "ar": "طاولة عمليات كهربائية مع تحكم عن بُعد في الوضعيات للإجراءات الجراحية."
+  },
+  "description": {
+    "en": "Electric operating table with a stainless steel top and 200 kg patient capacity.",
+    "ar": "طاولة عمليات كهربائية بسطح من الفولاذ المقاوم للصدأ وتتحمل وزن مريض يصل إلى 200 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-600e.png"
+  ]
+},
+{
+  "id": 14,
+  "name": {
+    "en": "Sumit SSI-700GH Hydraulic Gynaecology Operating Table",
+    "ar": "طاولة العمليات الهيدروليكية لأمراض النساء سوميت SSI-700GH"
+  },
+  "slug": "ssi-700gh-hydraulic-gynaecology-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Hydraulic gynaecology operating table for versatile surgical positioning.",
+    "ar": "طاولة عمليات هيدروليكية لأمراض النساء توفر وضعيات جراحية متعددة."
+  },
+  "description": {
+    "en": "Hygienic gynaecology operating table with adjustable positioning and a 200 kg patient capacity.",
+    "ar": "طاولة عمليات لأمراض النساء سهلة التنظيف وقابلة لتعديل الوضعيات وتتحمل وزن مريض يصل إلى 200 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-700gh.png"
+  ]
+},
+{
+  "id": 15,
+  "name": {
+    "en": "Sumit SSI-700GE Electric Gynaecology Operating Table",
+    "ar": "طاولة العمليات الكهربائية لأمراض النساء سوميت SSI-700GE"
+  },
+  "slug": "ssi-700ge-electric-gynaecology-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Electric gynaecology operating table for versatile surgical positioning.",
+    "ar": "طاولة عمليات كهربائية لأمراض النساء توفر وضعيات جراحية متعددة."
+  },
+  "description": {
+    "en": "Hygienic electric gynaecology operating table with adjustable positioning and a 200 kg patient capacity.",
+    "ar": "طاولة عمليات كهربائية لأمراض النساء سهلة التنظيف وقابلة لتعديل الوضعيات وتتحمل وزن مريض يصل إلى 200 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-700ge.png"
+  ]
+},
+{
+  "id": 16,
+  "name": {
+    "en": "Sumit SSI-800H Hydraulic Operating Table",
+    "ar": "طاولة العمليات الهيدروليكية سوميت SSI-800H"
+  },
+  "slug": "ssi-800h-hydraulic-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Hydraulic operating table with smooth positioning for surgical procedures.",
+    "ar": "طاولة عمليات هيدروليكية توفر حركة سلسة لتحديد الوضعيات الجراحية."
+  },
+  "description": {
+    "en": "Hydraulic operating table with C-arm compatibility and a 200 kg patient capacity.",
+    "ar": "طاولة عمليات هيدروليكية متوافقة مع جهاز C-arm وتتحمل وزن مريض يصل إلى 200 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-800h.png"
+  ]
+},
+{
+  "id": 17,
+  "name": {
+    "en": "Sumit SSI-800E Electric Operating Table",
+    "ar": "طاولة العمليات الكهربائية سوميت SSI-800E"
+  },
+  "slug": "ssi-800e-electric-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Electric operating table with remote control for surgical positioning.",
+    "ar": "طاولة عمليات كهربائية مع تحكم عن بُعد لتحديد الوضعيات الجراحية."
+  },
+  "description": {
+    "en": "Electric operating table with C-arm compatibility and a 200 kg patient capacity.",
+    "ar": "طاولة عمليات كهربائية متوافقة مع جهاز C-arm وتتحمل وزن مريض يصل إلى 200 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-800e.png"
+  ]
+},
+{
+  "id": 18,
+  "name": {
+    "en": "Sumit SSI-1000E Electric Operating Table",
+    "ar": "طاولة العمليات الكهربائية سوميت SSI-1000E"
+  },
+  "slug": "ssi-1000e-electric-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Fully electric operating table with remote-controlled positioning.",
+    "ar": "طاولة عمليات كهربائية بالكامل مع تحكم عن بُعد في الوضعيات."
+  },
+  "description": {
+    "en": "Electric operating table with C-arm compatibility and a 200 kg patient capacity.",
+    "ar": "طاولة عمليات كهربائية متوافقة مع جهاز C-arm وتتحمل وزن مريض يصل إلى 200 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-1000e.png"
+  ]
+},
+{
+  "id": 19,
+  "name": {
+    "en": "Sumit SSI-1500E Advanced Electric Operating Table",
+    "ar": "طاولة العمليات الكهربائية المتطورة سوميت SSI-1500E"
+  },
+  "slug": "ssi-1500e-advanced-electric-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Advanced electric operating table with remote control and memory functions.",
+    "ar": "طاولة عمليات كهربائية متطورة مع تحكم عن بُعد ووظائف الذاكرة."
+  },
+  "description": {
+    "en": "Fully electric operating table with C-arm compatibility and battery backup.",
+    "ar": "طاولة عمليات كهربائية بالكامل متوافقة مع جهاز C-arm وبطارية احتياطية."
+  },
+  "images": [
+    "/images/products/sumit/ssi-1500e.png"
+  ]
+},
+{
+  "id": 20,
+  "name": {
+    "en": "Sumit SSI-1800H Ophthalmic Operating Table",
+    "ar": "طاولة العمليات العينية سوميت SSI-1800H"
+  },
+  "slug": "ssi-1800h-ophthalmic-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Ophthalmic operating table designed for comfortable positioning during eye surgery.",
+    "ar": "طاولة عمليات عينية مصممة لتوفير وضعية مريحة أثناء جراحات العيون."
+  },
+  "description": {
+    "en": "Ergonomic ophthalmic operating table with adjustable height and cushioned head support.",
+    "ar": "طاولة عمليات عينية مريحة بتصميم مريح وارتفاع قابل للتعديل ودعم مبطن للرأس."
+  },
+  "images": [
+    "/images/products/sumit/ssi-1800h.png"
+  ]
+},
+{
+  "id": 21,
+  "name": {
+    "en": "Sumit SSI-1800E Ophthalmic Operating Table",
+    "ar": "طاولة العمليات العينية الكهربائية سوميت SSI-1800E"
+  },
+  "slug": "ssi-1800e-ophthalmic-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Ophthalmic operating table with adjustable height and optional foot switch.",
+    "ar": "طاولة عمليات عينية بارتفاع قابل للتعديل ودواسة قدم اختيارية."
+  },
+  "description": {
+    "en": "Ergonomic ophthalmic operating table with cushioned head support and a 200 kg patient capacity.",
+    "ar": "طاولة عمليات عينية بتصميم مريح ودعم مبطن للرأس وتتحمل وزن مريض يصل إلى 200 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-1800e.png"
+  ]
+},
+{
+  "id": 22,
+  "name": {
+    "en": "Sumit SSI-1900H Head Side Control Operating Table",
+    "ar": "طاولة العمليات سوميت SSI-1900H بتحكم جانبي من جهة الرأس"
+  },
+  "slug": "ssi-1900h-head-side-control-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Head-side controlled operating table with adjustable surgical positioning.",
+    "ar": "طاولة عمليات بتحكم من جهة الرأس مع إمكانية تعديل الوضعيات الجراحية."
+  },
+  "description": {
+    "en": "Operating table with head-side controls, adjustable headrest, and a 250 kg patient capacity.",
+    "ar": "طاولة عمليات مزودة بأدوات تحكم من جهة الرأس ومسند رأس قابل للتعديل وتتحمل وزن مريض يصل إلى 250 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-1900h.png"
+  ]
+},
+{
+  "id": 23,
+  "name": {
+    "en": "Sumit SSI-2100HE Electro-Hydraulic Operating Table",
+    "ar": "طاولة العمليات الكهروهيدروليكية سوميت SSI-2100HE"
+  },
+  "slug": "ssi-2100he-electro-hydraulic-operating-table",
+  "categoryId": 3,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Electro-hydraulic operating table for versatile surgical positioning.",
+    "ar": "طاولة عمليات كهروهيدروليكية توفر وضعيات جراحية متعددة."
+  },
+  "description": {
+    "en": "Electro-hydraulic operating table with a radiolucent top and 350 kg patient capacity.",
+    "ar": "طاولة عمليات كهروهيدروليكية بسطح نافذ للأشعة وتتحمل وزن مريض يصل إلى 350 كجم."
+  },
+  "images": [
+    "/images/products/sumit/ssi-2100he.png"
+  ]
+},
+{
+  "id": 24,
+  "name": {
+    "en": "Sumit Neuro Attachment for Operating Table",
+    "ar": "ملحق جراحة الأعصاب لطاولة العمليات من سوميت"
+  },
+  "slug": "sumit-neuro-attachment-operating-table",
+  "categoryId": 2,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Specialized operating table attachment designed for neurosurgery.",
+    "ar": "ملحق متخصص لطاولة العمليات مصمم لجراحات الأعصاب."
+  },
+  "description": {
+    "en": "Neuro attachment system with positioning accessories for various neurosurgical procedures.",
+    "ar": "نظام ملحقات لجراحة الأعصاب مزود بملحقات لتحديد الوضعيات لمختلف الإجراءات الجراحية العصبية."
+  },
+  "images": [
+    "/images/products/sumit/neuro.png"
+  ]
+},
+{
+  "id": 25,
+  "name": {
+    "en": "Sumit Operating Table Accessories",
+    "ar": "ملحقات طاولة العمليات من سوميت"
+  },
+  "slug": "sumit-operating-table-accessories",
+  "categoryId": 2,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Essential accessories for flexible operating table positioning.",
+    "ar": "ملحقات أساسية لتوفير وضعيات متعددة لطاولة العمليات."
+  },
+  "description": {
+    "en": "Operating table accessories including arm rests, body supports, shoulder supports, lithotomy crutches, and clamps.",
+    "ar": "ملحقات لطاولة العمليات تشمل مساند الذراعين والجسم والكتفين ودعامات وضعية استئصال حصوات الكلى والمشابك."
+  },
+  "images": [
+    "/images/products/sumit/operating.png"
+  ]
+},
+{
+  "id": 26,
+  "name": {
+    "en": "Sumit SSI-14PH Neonatal Phototherapy",
+    "ar": "جهاز العلاج الضوئي لحديثي الولادة سوميت SSI-14PH"
+  },
+  "slug": "ssi-14ph-neonatal-phototherapy",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "LED phototherapy system designed to treat neonatal jaundice.",
+    "ar": "نظام علاج ضوئي بتقنية LED لعلاج اليرقان لدى حديثي الولادة."
+  },
+  "description": {
+    "en": "Portable, energy-efficient LED phototherapy with blue light and a mobile stand.",
+    "ar": "جهاز علاج ضوئي محمول وموفر للطاقة بتقنية LED والضوء الأزرق مع حامل متحرك."
+  },
+  "images": [
+    "/images/products/sumit/ssi-14ph.png"
+  ]
+},
+{
+  "id": 27,
+  "name": {
+    "en": "Sumit SSI-P20 Motorised O.T. Pendant",
+    "ar": "وحدة الخدمات الطبية المعلقة بمحركات سوميت SSI-P20"
+  },
+  "slug": "ssi-p20-motorised-ot-pendant",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Motorised operating theatre pendant for medical gas and electrical services.",
+    "ar": "وحدة معلقة بمحركات لغرف العمليات لتوفير الغازات الطبية والخدمات الكهربائية."
+  },
+  "description": {
+    "en": "Motorised O.T. pendant with adjustable arms, medical gas outlets, electrical sockets, and equipment shelves.",
+    "ar": "وحدة خدمات معلقة بمحركات لغرف العمليات بأذرع قابلة للتعديل ومخارج للغازات الطبية ومقابس كهربائية ورفوف للأجهزة."
+  },
+  "images": [
+    "/images/products/sumit/ssi-p20.png"
+  ]
+},
+{
+  "id": 28,
+  "name": {
+    "en": "Sumit SSI-P21 Non-Motorised O.T. Pendant",
+    "ar": "وحدة الخدمات الطبية المعلقة غير المزودة بمحركات سوميت SSI-P21"
+  },
+  "slug": "ssi-p21-non-motorised-ot-pendant",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Non-motorised operating theatre pendant for medical gas and electrical services.",
+    "ar": "وحدة معلقة غير مزودة بمحركات لغرف العمليات لتوفير الغازات الطبية والخدمات الكهربائية."
+  },
+  "description": {
+    "en": "Non-motorised O.T. pendant with adjustable arms, medical gas outlets, electrical sockets, and equipment shelves.",
+    "ar": "وحدة خدمات معلقة غير مزودة بمحركات لغرف العمليات بأذرع قابلة للتعديل ومخارج للغازات الطبية ومقابس كهربائية ورفوف للأجهزة."
+  },
+  "images": [
+    "/images/products/sumit/ssi-p21.png"
+  ]
+},
+{
+  "id": 29,
+  "name": {
+    "en": "Sumit SSI-P22 Endoscopy/Laparoscopy O.T. Pendant",
+    "ar": "وحدة الخدمات الطبية المعلقة للتنظير الداخلي والمناظير الجراحية سوميت SSI-P22"
+  },
+  "slug": "ssi-p22-endoscopy-laparoscopy-ot-pendant",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Operating theatre pendant designed for endoscopy and laparoscopy equipment.",
+    "ar": "وحدة معلقة لغرف العمليات مصممة لأجهزة التنظير الداخلي والمناظير الجراحية."
+  },
+  "description": {
+    "en": "Ceiling-mounted medical pendant with adjustable shelves, gas outlets, and electrical connections.",
+    "ar": "وحدة طبية معلقة بالسقف مزودة برفوف قابلة للتعديل ومخارج للغازات وتوصيلات كهربائية."
+  },
+  "images": [
+    "/images/products/sumit/ssi-p22.png"
+  ]
+},
+{
+  "id": 30,
+  "name": {
+    "en": "Sumit SSI-E21 Floor Model O.T. Pendant",
+    "ar": "وحدة الخدمات الطبية الأرضية لغرف العمليات سوميت SSI-E21"
+  },
+  "slug": "ssi-e21-floor-model-ot-pendant",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Floor-standing medical pendant for operating theatre equipment and services.",
+    "ar": "وحدة طبية أرضية لمعدات وخدمات غرف العمليات."
+  },
+  "description": {
+    "en": "Mobile floor model with adjustable shelves, medical gas outlets, and electrical connections.",
+    "ar": "وحدة أرضية متحركة مزودة برفوف قابلة للتعديل ومخارج للغازات الطبية وتوصيلات كهربائية."
+  },
+  "images": [
+    "/images/products/sumit/ssi-e21.png"
+  ]
+},
+{
+  "id": 31,
+  "name": {
+    "en": "Sumit Medical Air Compressor",
+    "ar": "ضاغط الهواء الطبي من سوميت"
+  },
+  "slug": "sumit-medical-air-compressor",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Medical-grade air compressor for ventilators, CPAP, and BiPAP systems.",
+    "ar": "ضاغط هواء طبي لأجهزة التنفس الصناعي وأنظمة CPAP وBiPAP."
+  },
+  "description": {
+    "en": "Oil-free medical air compressor with multi-level filtration and an optional electronic air dryer.",
+    "ar": "ضاغط هواء طبي خالٍ من الزيت مزود بترشيح متعدد المراحل ومجفف هواء إلكتروني اختياري."
+  },
+  "images": [
+    "/images/products/sumit/air-compressor.png"
+  ]
+},
+{
+  "id": 32,
+  "name": {
+    "en": "Sumit Electric Suction Apparatus 7A / 25D",
+    "ar": "جهاز الشفط الكهربائي سوميت 7A / 25D"
+  },
+  "slug": "sumit-electric-suction-apparatus-7a-25d",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Electric suction apparatus for fluid removal in medical settings.",
+    "ar": "جهاز شفط كهربائي لإزالة السوائل في البيئات الطبية."
+  },
+  "description": {
+    "en": "Oil-free electric suction apparatus with adjustable negative pressure and collection jars.",
+    "ar": "جهاز شفط كهربائي خالٍ من الزيت مع ضغط سلبي قابل للتعديل وعبوات لجمع السوائل."
+  },
+  "images": [
+    "/images/products/sumit/7a25d.png"
+  ]
+},
+{
+  "id": 33,
+  "name": {
+    "en": "Sumit Electric Suction Apparatus 7A / 35D",
+    "ar": "جهاز الشفط الكهربائي سوميت 7A / 35D"
+  },
+  "slug": "sumit-electric-suction-apparatus-7a-35d",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Electric suction apparatus for fluid removal in medical settings.",
+    "ar": "جهاز شفط كهربائي لإزالة السوائل في البيئات الطبية."
+  },
+  "description": {
+    "en": "Oil-free electric suction apparatus with adjustable negative pressure and collection jars.",
+    "ar": "جهاز شفط كهربائي خالٍ من الزيت مع ضغط سلبي قابل للتعديل وعبوات لجمع السوائل."
+  },
+  "images": [
+    "/images/products/sumit/7a35d.png"
+  ]
+},
+{
+  "id": 34,
+  "name": {
+    "en": "Sumit Electric Suction Apparatus 7A / 10D",
+    "ar": "جهاز الشفط الكهربائي سوميت 7A / 10D"
+  },
+  "slug": "sumit-electric-suction-apparatus-7a-10d",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Compact electric suction apparatus for medical fluid removal.",
+    "ar": "جهاز شفط كهربائي مدمج لإزالة السوائل في الاستخدامات الطبية."
+  },
+  "description": {
+    "en": "Compact oil-free suction apparatus with a piston pump and a 1000 ml collection jar.",
+    "ar": "جهاز شفط مدمج خالٍ من الزيت مزود بمضخة مكبس وعبوة لجمع السوائل بسعة 1000 مل."
+  },
+  "images": [
+    "/images/products/sumit/7a10d.png"
+  ]
+},
+{
+  "id": 35,
+  "name": {
+    "en": "Sumit Electric Suction Apparatus 7A / 75D",
+    "ar": "جهاز الشفط الكهربائي سوميت 7A / 75D"
+  },
+  "slug": "sumit-electric-suction-apparatus-7a-75d",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "Electric suction apparatus for medical fluid removal.",
+    "ar": "جهاز شفط كهربائي لإزالة السوائل في الاستخدامات الطبية."
+  },
+  "description": {
+    "en": "Oil-free suction apparatus with a piston pump and two 2500 ml collection jars.",
+    "ar": "جهاز شفط خالٍ من الزيت مزود بمضخة مكبس وعبوتين لجمع السوائل بسعة 2500 مل لكل منهما."
+  },
+  "images": [
+    "/images/products/sumit/7a75d.png"
+  ]
+},
+{
+  "id": 36,
+  "name": {
+    "en": "Sumit Electric Suction Apparatus 7A / 120D",
+    "ar": "جهاز الشفط الكهربائي سوميت 7A / 120D"
+  },
+  "slug": "sumit-electric-suction-apparatus-7a-120d",
+  "categoryId": 1,
+  "brandId": 1,
+  "featured": false,
+  "shortDescription": {
+    "en": "High-capacity electric suction apparatus for medical fluid removal.",
+    "ar": "جهاز شفط كهربائي عالي السعة لإزالة السوائل في الاستخدامات الطبية."
+  },
+  "description": {
+    "en": "Oil-free suction apparatus with a piston pump, two 2500 ml collection jars, and a pumping rate of 120 L/min.",
+    "ar": "جهاز شفط خالٍ من الزيت مزود بمضخة مكبس وعبوتين لجمع السوائل بسعة 2500 مل لكل منهما ومعدل ضخ 120 لترًا في الدقيقة."
+  },
+  "images": [
+    "/images/products/sumit/7a75d.png"
+  ]
+},
+{
+  "id": 37,
+  "name": {
+    "en": "Medke ESU Accessories",
+    "ar": "ملحقات وحدات الجراحة الكهربائية من ميدكي"
+  },
+  "slug": "medke-esu-accessories",
+  "categoryId": 2,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "Disposable and reusable accessories for electrosurgical units.",
+    "ar": "ملحقات أحادية الاستخدام وقابلة لإعادة الاستخدام لوحدات الجراحة الكهربائية."
+  },
+  "description": {
+    "en": "ESU accessories including bipolar and monopolar cables, with autoclavable silicone cable options and a 12-month warranty.",
+    "ar": "ملحقات وحدات الجراحة الكهربائية تشمل كابلات ثنائية وأحادية القطب، مع خيارات كابلات سيليكون قابلة للتعقيم بالبخار وضمان لمدة 12 شهرًا."
+  },
+  "images": [
+    "/images/products/medke/esu.png"
+  ]
+},
+{
+  "id": 38,
+  "name": {
+    "en": "Medke Disposable Defibrillation Electrode Pads",
+    "ar": "لصقات أقطاب إزالة الرجفان أحادية الاستخدام من ميدكي"
+  },
+  "slug": "medke-disposable-defibrillation-electrode-pads",
+  "categoryId": 4,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "Disposable electrode pads for defibrillation, monitoring, and pacing.",
+    "ar": "لصقات أقطاب أحادية الاستخدام لإزالة الرجفان والمراقبة والتنظيم القلبي."
+  },
+  "description": {
+    "en": "Defibrillation electrode pads designed for efficient treatment, with conductive gel to help reduce burns. OEM/ODM customization is supported.",
+    "ar": "لصقات أقطاب لإزالة الرجفان مصممة لتوفير علاج فعال، مع جل موصل للمساعدة في تقليل الحروق. تتوفر خيارات التخصيص OEM/ODM."
+  },
+  "images": [
+    "/images/products/medke/defirbillation.png"
+  ]
+},
+{
+  "id": 39,
+  "name": {
+    "en": "Medke Disposable SpO2 Sensors",
+    "ar": "مستشعرات قياس الأكسجين في الدم أحادية الاستخدام من ميدكي"
+  },
+  "slug": "medke-disposable-spo2-sensors",
+  "categoryId": 4,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "Single-use SpO2 sensors for adult, pediatric, infant, and neonatal patients.",
+    "ar": "مستشعرات أكسجين أحادية الاستخدام للبالغين والأطفال والرضع وحديثي الولادة."
+  },
+  "description": {
+    "en": "Disposable SpO2 sensors available in adhesive tape and foam designs. Latex-free options support single-patient use to help reduce cross-contamination.",
+    "ar": "مستشعرات أكسجين أحادية الاستخدام بتصميمات لاصقة ورغوية، مع خيارات خالية من اللاتكس للاستخدام مع مريض واحد للمساعدة في تقليل انتقال العدوى."
+  },
+  "images": [
+    "/images/products/medke/dis-spo2.png"
+  ]
+},
+{
+  "id": 40,
+  "name": {
+    "en": "Medke Reusable SpO2 Sensors",
+    "ar": "مستشعرات قياس الأكسجين في الدم القابلة لإعادة الاستخدام من ميدكي"
+  },
+  "slug": "medke-reusable-spo2-sensors",
+  "categoryId": 5,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "Reusable SpO2 sensors for adult, pediatric, infant, and neonatal patients.",
+    "ar": "مستشعرات أكسجين قابلة لإعادة الاستخدام للبالغين والأطفال والرضع وحديثي الولادة."
+  },
+  "description": {
+    "en": "Reusable SpO2 sensors available in finger, ear-clip, wrap, and soft-tip designs, compatible with various patient monitors.",
+    "ar": "مستشعرات أكسجين قابلة لإعادة الاستخدام بتصميمات للإصبع ومشبك الأذن واللف والطرف الناعم، ومتوافقة مع مجموعة متنوعة من أجهزة مراقبة المرضى."
+  },
+  "images": [
+    "/images/products/medke/reuse-spo2.png"
+  ]
+},
+{
+  "id": 41,
+  "name": {
+    "en": "Medke SpO2 Adapter Cables",
+    "ar": "كابلات محول قياس الأكسجين في الدم من ميدكي"
+  },
+  "slug": "medke-spo2-adapter-cables",
+  "categoryId": 2,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "Adapter cables connecting SpO2 sensors to compatible patient monitors.",
+    "ar": "كابلات محول لتوصيل مستشعرات الأكسجين بأجهزة مراقبة المرضى المتوافقة."
+  },
+  "description": {
+    "en": "SpO2 adapter cables available for different monitor and sensor connectors, with a 2.2 m cable length and a one-year warranty.",
+    "ar": "كابلات محول للأكسجين متوافقة مع أنواع مختلفة من موصلات الشاشات والمستشعرات، بطول 2.2 متر وضمان لمدة عام."
+  },
+  "images": [
+    "/images/products/medke/spo2adaptor.png"
+  ]
+},
+{
+  "id": 42,
+  "name": {
+    "en": "Medke ECG Cables and Leadwires",
+    "ar": "كابلات تخطيط القلب وأسلاك التوصيل من ميدكي"
+  },
+  "slug": "medke-ecg-cables-leadwires",
+  "categoryId": 2,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "ECG cables and leadwires for compatible patient monitoring systems.",
+    "ar": "كابلات وأسلاك تخطيط القلب لأنظمة مراقبة المرضى المتوافقة."
+  },
+  "description": {
+    "en": "ECG trunk cables and leadwires available in 3-lead and 5-lead configurations, with snap and pinch connectors. Latex-free options are compatible with various patient monitors.",
+    "ar": "كابلات رئيسية وأسلاك تخطيط القلب بتكوينات من 3 و5 أقطاب، مع موصلات كبس ومشبك. تتوفر خيارات خالية من اللاتكس ومتوافقة مع أجهزة مراقبة المرضى المختلفة."
+  },
+  "images": [
+    "/images/products/medke/ecg-cable.png"
+  ]
+},
+{
+  "id": 43,
+  "name": {
+    "en": "Medke ECG Trunk Cable and Leadwires",
+    "ar": "الكابل الرئيسي وأسلاك توصيل تخطيط القلب من ميدكي"
+  },
+  "slug": "medke-ecg-trunk-cable-leadwires",
+  "categoryId": 2,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "ECG trunk cables and leadwires for compatible patient monitors.",
+    "ar": "كابلات رئيسية وأسلاك توصيل تخطيط القلب لأجهزة مراقبة المرضى المتوافقة."
+  },
+  "description": {
+    "en": "One-piece ECG trunk cables and leadwires available in 3-lead and 5-lead configurations, with snap and pinch connectors. Latex-free options are compatible with various patient monitors.",
+    "ar": "كابلات رئيسية متكاملة وأسلاك توصيل لتخطيط القلب بتكوينات من 3 و5 أقطاب، مع موصلات كبس ومشبك. تتوفر خيارات خالية من اللاتكس ومتوافقة مع أجهزة مراقبة المرضى المختلفة."
+  },
+  "images": [
+    "/images/products/medke/ecg-trunk.png"
+  ]
+},
+{
+  "id": 44,
+  "name": {
+    "en": "Medke EEG Cables",
+    "ar": "كابلات تخطيط كهربائية الدماغ من ميدكي"
+  },
+  "slug": "medke-eeg-cables",
+  "categoryId": 2,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "EEG cables and leadwires for compatible neurological monitoring systems.",
+    "ar": "كابلات وأسلاك توصيل تخطيط كهربائية الدماغ لأنظمة المراقبة العصبية المتوافقة."
+  },
+  "description": {
+    "en": "EEG cables featuring 1.5 mm DIN connectors in multiple colors, flexible and tear-resistant TPU leadwires, and common cable lengths from 100 cm to 200 cm. OEM/EGG electrode cable options can be customized to specific requirements.",
+    "ar": "كابلات تخطيط كهربائية الدماغ مزودة بموصلات DIN مقاس 1.5 مم بألوان متعددة، وأسلاك مرنة ومقاومة للتمزق مصنوعة من مادة TPU، وبأطوال شائعة من 100 إلى 200 سم. تتوفر خيارات للتخصيص وفقًا للاحتياجات."
+  },
+  "images": [
+    "/images/products/medke/eeg-cables.png"
+  ]
+}
 ]

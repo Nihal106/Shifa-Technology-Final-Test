@@ -1,27 +1,42 @@
 [
   {
     "id": 1,
+    "name": "Sumit",
+    "logo": "/images/brands/sumit.png"
+  },
+  {
+    "id": 2,
+    "name": "Medke",
+    "logo": "/images/brands/medke.png"
+  },
+  {
+    "id": 3,
     "name": "Philips",
     "logo": "/images/brands/philips.png"
   },
   {
-    "id": 2,
-    "name": "Omron",
-    "logo": "/images/brands/omron.png"
-  },
-  {
-    "id": 3,
-    "name": "3M",
-    "logo": "/images/brands/3m.png"
-  },
-  {
     "id": 4,
-    "name": "Medline",
-    "logo": "/images/brands/medline.png"
+    "name": "Bionet",
+    "logo": "/images/brands/bionet.png"
   },
   {
     "id": 5,
-    "name": "Drive Medical",
-    "logo": "/images/brands/drive-medical.png"
+    "name": "CAMI",
+    "logo": "/images/brands/cami.png"
+  },
+  {
+    "id": 6,
+    "name": "Progetti",
+    "logo": "/images/brands/progetti.png"
+  },
+  {
+    "id": 7,
+    "name": "Osteosys",
+    "logo": "/images/brands/osteosys.png"
+  },
+  {
+    "id": 8,
+    "name": "MIR",
+    "logo": "/images/brands/mir.svg"
   }
 ]

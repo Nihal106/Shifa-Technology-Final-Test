@@ -35,7 +35,7 @@ export default function ProductCard({
     return () => clearTimeout(timer);
   }, [highlight]);
 
-  const phone = "966500000000";
+  const phone = "966533845516";
 
   const message = `Hello,
 

@@ -14,6 +14,18 @@
   {
     "id": 2,
     "name": {
+      "en": "BioMedical Spare Parts",
+      "ar": "قطع غيار الأجهزة الطبية"
+    },
+    "slug": "biomedical-spare-parts",
+    "description": {
+      "en": "Spare parts and replacement components for biomedical equipment.",
+      "ar": "قطع غيار ومكونات بديلة للأجهزة الطبية الحيوية."
+    }
+  },
+  {
+    "id": 3,
+    "name": {
       "en": "Hospital Furniture",
       "ar": "أثاث المستشفيات"
     },
@@ -24,7 +36,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 4,
     "name": {
       "en": "Medical Disposable",
       "ar": "المستلزمات الطبية الاستهلاكية"
@@ -36,7 +48,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 5,
     "name": {
       "en": "Healthcare Accessories",
       "ar": "ملحقات الرعاية الصحية"
@@ -48,7 +60,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 6,
     "name": {
       "en": "Emergency First Aid",
       "ar": "الإسعافات الأولية والطوارئ"
@@ -60,7 +72,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 7,
     "name": {
       "en": "Mobility Aids",
       "ar": "وسائل المساعدة على الحركة"
@@ -69,6 +81,18 @@
     "description": {
       "en": "Wheelchairs and mobility products.",
       "ar": "الكراسي المتحركة ومنتجات المساعدة على الحركة."
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "en": "PPM Service",
+      "ar": "خدمات الصيانة الوقائية الدورية"
+    },
+    "slug": "ppm-service",
+    "description": {
+      "en": "Planned preventive maintenance services for medical equipment and healthcare facilities.",
+      "ar": "خدمات الصيانة الوقائية المخططة للأجهزة الطبية ومرافق الرعاية الصحية."
     }
   }
 ]
