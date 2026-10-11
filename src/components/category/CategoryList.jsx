@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 export default function CategoryList({
   categories,
+  showHeading = true,
 }) {
   const { t, i18n } = useTranslation("common");
 
@@ -11,9 +12,11 @@ export default function CategoryList({
 
   return (
     <div>
-      <h3 className="mb-3 text-lg font-semibold text-slate-900">
-        {t("nav.categories")}
-      </h3>
+      {showHeading && (
+  <h3 className="mb-3 text-lg font-semibold text-slate-900">
+    {t("nav.categories")}
+  </h3>
+)}
 
       <div className="space-y-2">
         {categories.map((category) => (

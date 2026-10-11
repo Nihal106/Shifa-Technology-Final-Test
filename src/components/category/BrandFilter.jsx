@@ -5,6 +5,7 @@ export default function BrandFilter({
   brands = [],
   selectedBrandIds = [],
   onBrandChange,
+  showHeading = true,
 }) {
   const { t } = useTranslation("common");
 
@@ -20,9 +21,11 @@ export default function BrandFilter({
 
   return (
     <div>
-      <h3 className="mb-4 text-lg font-semibold text-slate-900">
-        {t("category.brands")}
-      </h3>
+{showHeading && (
+  <h3 className="mb-4 text-lg font-semibold text-slate-900">
+    {t("category.brands")}
+  </h3>
+)}
 
       <div className="space-y-3">
         {brands.map((brand) => (

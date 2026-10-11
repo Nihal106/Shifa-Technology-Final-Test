@@ -1,42 +1,51 @@
+
 [
   {
     "id": 1,
     "name": "Sumit",
+    "slug": "sumit",
     "logo": "/images/brands/sumit.png"
   },
   {
     "id": 2,
     "name": "Medke",
+    "slug": "medke",
     "logo": "/images/brands/medke.png"
   },
   {
     "id": 3,
     "name": "Philips",
+    "slug": "philips",
     "logo": "/images/brands/philips.png"
   },
   {
     "id": 4,
     "name": "Bionet",
+    "slug": "bionet",
     "logo": "/images/brands/bionet.png"
   },
   {
     "id": 5,
     "name": "CAMI",
+    "slug": "cami",
     "logo": "/images/brands/cami.png"
   },
   {
     "id": 6,
     "name": "Progetti",
+    "slug": "progetti",
     "logo": "/images/brands/progetti.png"
   },
   {
     "id": 7,
     "name": "Osteosys",
+    "slug": "osteosys",
     "logo": "/images/brands/osteosys.png"
   },
   {
     "id": 8,
     "name": "MIR",
+    "slug": "mir",
     "logo": "/images/brands/mir.svg"
   }
 ]

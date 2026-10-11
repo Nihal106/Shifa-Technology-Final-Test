@@ -1,3 +1,4 @@
+
 import {
   NavLink,
   useNavigate,
@@ -16,50 +17,51 @@ const navLinkClass = ({ isActive }) =>
     : "text-slate-700 hover:text-blue-600 transition-colors";
 
 export default function Navbar() {
-
-const navigate = useNavigate();
-const location = useLocation();
+  const navigate = useNavigate();
+  const location = useLocation();
   const { t } = useTranslation("common");
 
   const handleCategoriesClick = () => {
-  if (location.pathname === "/") {
-    document
-      .getElementById("categories")
-      ?.scrollIntoView({
-        behavior: "smooth",
+    if (location.pathname === "/") {
+      document
+        .getElementById("categories")
+        ?.scrollIntoView({
+          behavior: "smooth",
+        });
+    } else {
+      navigate("/", {
+        state: {
+          scrollToCategories: true,
+        },
       });
-  } else {
-    navigate("/", {
-      state: {
-        scrollToCategories: true,
-      },
-    });
-  }
-};
+    }
+  };
 
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-sm">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      {/* Main header */}
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:py-4">
         <Logo />
 
+        {/* Desktop navigation */}
         <div className="hidden items-center gap-8 font-medium lg:flex">
           <NavLink
-  to="/"
-  end
-  onClick={() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }}
-  className={navLinkClass}
->
+            to="/"
+            end
+            onClick={() => {
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              });
+            }}
+            className={navLinkClass}
+          >
             {t("nav.home")}
           </NavLink>
 
           <button
-                onClick={handleCategoriesClick}
-                className="text-slate-700 transition-colors hover:text-blue-600"
+            onClick={handleCategoriesClick}
+            className="text-slate-700 transition-colors hover:text-blue-600"
           >
             {t("nav.categories")}
           </button>
@@ -73,16 +75,23 @@ const location = useLocation();
           </NavLink>
         </div>
 
-<div className="flex items-center gap-4">
-  {/* Desktop */}
-  <div className="hidden items-center gap-4 lg:flex">
-    <SearchBar />
-    <LanguageSwitcher />
-  </div>
+        {/* Desktop search and language */}
+        <div className="hidden items-center gap-4 lg:flex">
+          <SearchBar />
+          <LanguageSwitcher />
+        </div>
 
-  {/* Mobile */}
-  <MobileMenu />
-</div>
+        {/* Mobile hamburger */}
+        <div className="lg:hidden">
+          <MobileMenu />
+        </div>
+      </div>
+
+      {/* Mobile global search */}
+      <div className="border-t border-slate-100 px-4 py-3 lg:hidden sm:px-6">
+        <div className="mx-auto max-w-7xl">
+          <SearchBar />
+        </div>
       </div>
     </nav>
   );

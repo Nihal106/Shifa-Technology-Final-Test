@@ -1387,5 +1387,731 @@
   "images": [
     "/images/products/mir/new-spirolab.png"
   ]
+},
+{
+  "id": 64,
+  "name": {
+    "en": "Open-System Infusion Pump with 4.3-Inch Touchscreen",
+    "ar": "مضخة محاليل بنظام مفتوح مع شاشة لمس مقاس 4.3 بوصة"
+  },
+  "slug": "open-system-infusion-pump",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Open-system infusion pump featuring a high-brightness 4.3-inch touchscreen display.",
+    "ar": "مضخة محاليل بنظام مفتوح مزودة بشاشة لمس عالية السطوع مقاس 4.3 بوصة."
+  },
+  "description": {
+    "en": "This open-system infusion pump is designed to deliver controlled intravenous fluids and medications in clinical settings. It features a high-brightness 4.3-inch touchscreen LCD and an intuitive control panel. Confirm the exact model, supported infusion sets, flow-rate range, and safety features with the manufacturer before publishing.",
+    "ar": "صُممت مضخة المحاليل بنظام مفتوح لتوصيل السوائل والأدوية عن طريق الوريد بمعدل يمكن التحكم فيه داخل المرافق الطبية. تتميز بشاشة LCD تعمل باللمس عالية السطوع مقاس 4.3 بوصة ولوحة تحكم سهلة الاستخدام. يُرجى التأكد من الطراز الدقيق ومجموعات التسريب المتوافقة ونطاق معدل التدفق وميزات السلامة مع الشركة المصنعة قبل النشر."
+  },
+  "images": [
+    "/images/products/generic/infusion-pump.png"
+  ]
+},
+{
+  "id": 65,
+  "name": {
+    "en": "Syringe Pump",
+    "ar": "مضخة حقن"
+  },
+  "slug": "syringe-pump",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Open-system syringe pump with a 4.3-inch high-brightness LCD TFT touchscreen.",
+    "ar": "مضخة حقن بنظام مفتوح مزودة بشاشة لمس LCD TFT عالية السطوع مقاس 4.3 بوصة."
+  },
+  "description": {
+    "en": "The syringe pump is designed for controlled delivery of fluids through a syringe. It features an open-system design and a 4.3-inch high-brightness LCD TFT touchscreen. Contact us for detailed technical specifications and available configurations.",
+    "ar": "صُممت مضخة الحقن لتوصيل السوائل بدقة باستخدام المحقنة. تتميز بتصميم ذي نظام مفتوح وشاشة لمس LCD TFT عالية السطوع مقاس 4.3 بوصة. يُرجى التواصل معنا للحصول على المواصفات الفنية التفصيلية والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/syringe-pump.png"
+  ]
+},
+{
+  "id": 66,
+  "name": {
+    "en": "Class B Autoclave 23 Liter",
+    "ar": "جهاز تعقيم بالبخار من الفئة B بسعة 23 لترًا"
+  },
+  "slug": "class-b-autoclave-23-liter",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Class B steam autoclave with a 23-liter chamber for medical instrument sterilization.",
+    "ar": "جهاز تعقيم بالبخار من الفئة B بحجرة سعة 23 لترًا لتعقيم الأدوات الطبية."
+  },
+  "description": {
+    "en": "The Class B Autoclave 23 Liter is designed for steam sterilization of compatible medical instruments and equipment. Its 23-liter chamber is suitable for clinics, dental practices, and other healthcare settings. Contact us for detailed technical specifications and available configurations.",
+    "ar": "صُمم جهاز التعقيم بالبخار من الفئة B بسعة 23 لترًا لتعقيم الأدوات والمعدات الطبية المتوافقة. تناسب حجرته مرافق العيادات وعيادات الأسنان وغيرها من مرافق الرعاية الصحية. يُرجى التواصل معنا للحصول على المواصفات الفنية التفصيلية والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/class-b-autoclave-23-liter.png"
+  ]
+},
+{
+  "id": 67,
+  "name": {
+    "en": "Patient Monitor Central Monitoring System",
+    "ar": "نظام المراقبة المركزي لأجهزة مراقبة المرضى"
+  },
+  "slug": "patient-monitor-central-monitoring-system",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Centralized patient monitoring system for real-time vital sign monitoring and data collection through wired or wireless connections.",
+    "ar": "نظام مركزي لمراقبة العلامات الحيوية للمرضى وجمع البيانات في الوقت الفعلي عبر الاتصالات السلكية أو اللاسلكية."
+  },
+  "description": {
+    "en": "The Patient Monitor Central Monitoring System enables healthcare professionals to monitor multiple patients' vital signs from a centralized workstation. It supports real-time monitoring and data collection through wired or wireless connections, helping clinical staff review patient information and monitor vital sign trends across connected bedside monitors. Contact us for details about compatible patient monitors, network requirements, software features, and available configurations.",
+    "ar": "يتيح نظام المراقبة المركزي لأجهزة مراقبة المرضى لمتخصصي الرعاية الصحية متابعة العلامات الحيوية لعدة مرضى من محطة عمل مركزية. يدعم المراقبة في الوقت الفعلي وجمع البيانات عبر الاتصالات السلكية أو اللاسلكية، مما يساعد الطاقم الطبي على مراجعة معلومات المرضى ومتابعة اتجاهات العلامات الحيوية عبر أجهزة المراقبة المتصلة بجانب الأسرة. يُرجى التواصل معنا لمعرفة الأجهزة المتوافقة ومتطلبات الشبكة وميزات البرنامج والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/central-monitoring-system.png"
+  ]
+},
+{
+  "id": 68,
+  "name": {
+    "en": "Oxy9Wave Pulse Oximeter",
+    "ar": "جهاز Oxy9Wave لقياس تشبع الأكسجين في الدم"
+  },
+  "slug": "oxy9wave-pulse-oximeter",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Portable pulse oximeter with a 3-inch LCD screen for displaying SpO2 and pulse rate.",
+    "ar": "جهاز محمول لقياس تشبع الأكسجين في الدم مزود بشاشة LCD مقاس 3 بوصات لعرض نسبة الأكسجين ومعدل النبض."
+  },
+  "description": {
+    "en": "The Oxy9Wave Pulse Oximeter is a portable medical monitoring device designed to display blood oxygen saturation (SpO2) and pulse rate (BPM). It features a 3-inch LCD screen for viewing measurements and a rechargeable battery that provides up to 20 hours of operation, according to the supplied product information. Contact us for detailed technical specifications and available configurations.",
+    "ar": "جهاز Oxy9Wave لقياس تشبع الأكسجين في الدم هو جهاز طبي محمول مصمم لعرض نسبة تشبع الأكسجين في الدم (SpO2) ومعدل النبض (BPM). يتميز بشاشة LCD مقاس 3 بوصات لعرض القياسات وبطارية قابلة لإعادة الشحن توفر مدة تشغيل تصل إلى 20 ساعة، وفقًا لمعلومات المنتج المقدمة. يُرجى التواصل معنا للحصول على المواصفات الفنية التفصيلية والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/oxy9wave-pulse-oximeter.png"
+  ]
+},
+{
+  "id": 69,
+  "name": {
+    "en": "Electrosurgical Consumables",
+    "ar": "مستهلكات أجهزة الجراحة الكهربائية"
+  },
+  "slug": "electrosurgical-consumables",
+  "categoryId": 4,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Electrosurgical accessories and consumables for use in compatible electrosurgical procedures.",
+    "ar": "ملحقات ومستهلكات الجراحة الكهربائية للاستخدام في الإجراءات الجراحية المتوافقة."
+  },
+  "description": {
+    "en": "Electrosurgical consumables include accessories such as electrosurgical electrodes, forceps, connecting cables, and foot pedals. These components are designed for use with compatible electrosurgical equipment in clinical and surgical settings. Product availability and compatibility depend on the specific device and accessory type. Contact us for technical specifications and compatible models.",
+    "ar": "تشمل مستهلكات الجراحة الكهربائية ملحقات مثل أقطاب الجراحة الكهربائية والملاقط وكابلات التوصيل ودواسات القدم. صُممت هذه المكونات للاستخدام مع أجهزة الجراحة الكهربائية المتوافقة في البيئات السريرية والجراحية. يعتمد التوفر والتوافق على نوع الجهاز والملحق المحدد. يُرجى التواصل معنا للحصول على المواصفات الفنية والطرازات المتوافقة."
+  },
+  "images": [
+    "/images/products/generic/electrosurgical-consumables.png"
+  ]
+},
+{
+  "id": 70,
+  "name": {
+    "en": "Electrosurgical Unit for Universal Purpose",
+    "ar": "جهاز الجراحة الكهربائية متعدد الاستخدامات"
+  },
+  "slug": "electrosurgical-unit-universal-purpose",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Versatile electrosurgical generator designed for cutting and coagulation in surgical procedures.",
+    "ar": "مولد جراحة كهربائية متعدد الاستخدامات مصمم للقطع والتخثير أثناء العمليات الجراحية."
+  },
+  "description": {
+    "en": "The Electrosurgical Unit for Universal Purpose is designed to support cutting and coagulation during surgical procedures. The pictured unit features a digital control panel with separate settings for cutting, coagulation, and bipolar operation. The supplied product image indicates power options ranging from 50 W to 400 W. Please confirm the exact output ratings, operating modes, accessories, and compatibility with the manufacturer before ordering.",
+    "ar": "صُمم جهاز الجراحة الكهربائية متعدد الاستخدامات لدعم عمليات القطع والتخثير أثناء الإجراءات الجراحية. تتميز الوحدة الظاهرة بلوحة تحكم رقمية مع إعدادات منفصلة للقطع والتخثير والتشغيل ثنائي القطب. تشير صورة المنتج المقدمة إلى خيارات طاقة تتراوح من 50 إلى 400 واط. يُرجى التأكد من قدرات الخرج الدقيقة وأنماط التشغيل والملحقات والتوافق مع الشركة المصنعة قبل الطلب."
+  },
+  "images": [
+    "/images/products/generic/electrosurgical-unit.png"
+  ]
+},
+{
+  "id": 71,
+  "name": {
+    "en": "2D/4D Ultrasound for Primary Care with Pure Crystal",
+    "ar": "جهاز الموجات فوق الصوتية ثنائي ورباعي الأبعاد بتقنية Pure Crystal للرعاية الأولية"
+  },
+  "slug": "2d-4d-ultrasound-primary-care-pure-crystal",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Versatile 2D/4D ultrasound system designed for diagnostic imaging in primary care settings.",
+    "ar": "نظام موجات فوق صوتية متعدد الاستخدامات بتقنيتي 2D و4D للتصوير التشخيصي في مرافق الرعاية الأولية."
+  },
+  "description": {
+    "en": "The 2D/4D Ultrasound for Primary Care with Pure Crystal is an ultrasound imaging system designed to support diagnostic examinations in clinical settings. The pictured system features a monitor, touchscreen control panel, probe holders, and a mobile cart with wheels. It is intended to support 2D and 4D ultrasound imaging. Contact us for detailed technical specifications, available probes, imaging modes, and configuration options.",
+    "ar": "جهاز الموجات فوق الصوتية ثنائي ورباعي الأبعاد بتقنية Pure Crystal هو نظام تصوير بالموجات فوق الصوتية مصمم لدعم الفحوصات التشخيصية في البيئات السريرية. يتميز الجهاز الظاهر بشاشة عرض ولوحة تحكم تعمل باللمس وحوامل للمجسات وعربة متحركة مزودة بعجلات. صُمم لدعم التصوير بالموجات فوق الصوتية بتقنيتي 2D و4D. يُرجى التواصل معنا للحصول على المواصفات الفنية التفصيلية والمجسات المتاحة وأنماط التصوير وخيارات التكوين."
+  },
+  "images": [
+    "/images/products/generic/ultrasound-primary-care.png"
+  ]
+},
+{
+  "id": 72,
+  "name": {
+    "en": "Easy Mobility 3T Transducer",
+    "ar": "مسبار Easy Mobility 3T بتقنية البلورة المفردة"
+  },
+  "slug": "easy-mobility-3t-transducer",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Portable ultrasound system featuring single-crystal transducer technology for advanced diagnostic imaging.",
+    "ar": "نظام موجات فوق صوتية محمول مزود بتقنية المسبار ذي البلورة المفردة للتصوير التشخيصي المتقدم."
+  },
+  "description": {
+    "en": "The Easy Mobility 3T Transducer system is designed to support diagnostic ultrasound imaging in clinical environments. Its portable laptop-style design features an integrated display, a dedicated control panel, and imaging capabilities intended for a range of diagnostic applications. The supplied product image highlights single-crystal transducer technology. Contact us for confirmed technical specifications, compatible probes, imaging modes, and available configurations.",
+    "ar": "صُمم نظام Easy Mobility 3T Transducer لدعم التصوير التشخيصي بالموجات فوق الصوتية في البيئات السريرية. يتميز بتصميم محمول يشبه الحاسوب المحمول، مع شاشة مدمجة ولوحة تحكم مخصصة وإمكانات تصوير لمجموعة متنوعة من التطبيقات التشخيصية. تشير صورة المنتج المقدمة إلى استخدام تقنية المسبار ذي البلورة المفردة. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة والمجسات المتوافقة وأنماط التصوير والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/easy-mobility-3t-transducer.png"
+  ]
+},
+{
+  "id": 73,
+  "name": {
+    "en": "Ultrasound System for Radiology",
+    "ar": "نظام الموجات فوق الصوتية المتطور لقسم الأشعة"
+  },
+  "slug": "ultrasound-system-radiology",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Advanced ultrasound imaging system designed for diagnostic examinations in radiology departments.",
+    "ar": "نظام تصوير متطور بالموجات فوق الصوتية مصمم للفحوصات التشخيصية في أقسام الأشعة."
+  },
+  "description": {
+    "en": "The Ultrasound System for Radiology is designed to support diagnostic imaging in hospitals, radiology departments, and clinical facilities. The pictured system features a large display, a touchscreen control panel, multiple probe holders, and a mobile cart for convenient positioning. It is intended for a range of ultrasound examinations. Contact us for confirmed technical specifications, compatible probes, imaging modes, and available configurations.",
+    "ar": "صُمم نظام الموجات فوق الصوتية لقسم الأشعة لدعم التصوير التشخيصي في المستشفيات وأقسام الأشعة والمرافق السريرية. يتميز الجهاز الظاهر بشاشة كبيرة ولوحة تحكم تعمل باللمس وحوامل متعددة للمجسات وعربة متحركة لتسهيل تحديد موضع الجهاز. وهو مخصص لمجموعة متنوعة من فحوصات الموجات فوق الصوتية. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة والمجسات المتوافقة وأنماط التصوير والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/ultrasound-system-radiology.png"
+  ]
+},
+{
+  "id": 74,
+  "name": {
+    "en": "Digital X-Ray Imaging System with DR and CR",
+    "ar": "نظام تصوير الأشعة السينية الرقمي بتقنيتي DR وCR"
+  },
+  "slug": "digital-x-ray-imaging-system-dr-cr",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Digital X-ray imaging system supporting Digital Radiography (DR) and Computed Radiography (CR) workflows.",
+    "ar": "نظام تصوير بالأشعة السينية يدعم تقنيتي التصوير الشعاعي الرقمي المباشر (DR) والتصوير الشعاعي المحوسب (CR)."
+  },
+  "description": {
+    "en": "The Digital X-Ray Imaging System with DR and CR is designed to support diagnostic imaging in hospitals, radiology departments, and medical facilities. The pictured configuration includes a digital X-ray detector, image acquisition and viewing software, and a compact imaging component. Digital Radiography (DR) and Computed Radiography (CR) provide different workflows for capturing and processing X-ray images. Contact us for details about detector specifications, software compatibility, system configuration, and installation requirements.",
+    "ar": "صُمم نظام تصوير الأشعة السينية الرقمي بتقنيتي DR وCR لدعم التصوير التشخيصي في المستشفيات وأقسام الأشعة والمرافق الطبية. يتضمن التكوين الظاهر كاشفًا رقميًا للأشعة وبرنامجًا لالتقاط الصور وعرضها ومكونًا مدمجًا للتصوير. توفر تقنيتا التصوير الشعاعي الرقمي المباشر (DR) والتصوير الشعاعي المحوسب (CR) طريقتين مختلفتين لالتقاط صور الأشعة ومعالجتها. يُرجى التواصل معنا لمعرفة مواصفات الكاشف وتوافق البرامج وتكوين النظام ومتطلبات التركيب."
+  },
+  "images": [
+    "/images/products/generic/digital-xray-dr-cr.png"
+  ]
+},
+{
+  "id": 75,
+  "name": {
+    "en": "X-Ray Diagnostic System",
+    "ar": "جهاز تشخيص بالأشعة السينية"
+  },
+  "slug": "x-ray-diagnostic-system",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Medical X-ray diagnostic system designed for radiographic imaging in hospitals and healthcare facilities.",
+    "ar": "نظام تشخيص طبي بالأشعة السينية مصمم للتصوير الشعاعي في المستشفيات ومرافق الرعاية الصحية."
+  },
+  "description": {
+    "en": "The X-Ray Diagnostic System is designed to support radiographic examinations in hospitals, radiology departments, and medical clinics. The pictured configuration features a patient table, a vertically mounted detector stand, and an X-ray tube assembly on an adjustable column. The system is intended to support diagnostic X-ray imaging. Contact us for confirmed technical specifications, detector options, generator power ratings, installation requirements, and available configurations.",
+    "ar": "صُمم نظام التشخيص بالأشعة السينية لدعم الفحوصات الشعاعية في المستشفيات وأقسام الأشعة والعيادات الطبية. يتضمن التكوين الظاهر طاولة للمريض وحاملًا رأسيًا للكاشف ومجموعة أنبوب الأشعة السينية مثبتة على عمود قابل للتعديل. صُمم النظام لدعم التصوير التشخيصي بالأشعة السينية. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة وخيارات الكاشف وقدرة مولد الأشعة ومتطلبات التركيب والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/x-ray-diagnostic-system.png"
+  ]
+},
+{
+  "id": 76,
+  "name": {
+    "en": "Variety of Probes with Innovative Designs",
+    "ar": "مجموعة متنوعة من المجسات بتصميمات مبتكرة"
+  },
+  "slug": "variety-of-probes-innovative-designs",
+  "categoryId": 2,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "A range of innovative ultrasound probes designed for different diagnostic imaging applications.",
+    "ar": "مجموعة من مجسات الموجات فوق الصوتية المبتكرة المصممة لتطبيقات التصوير التشخيصي المختلفة."
+  },
+  "description": {
+    "en": "The Variety of Probes with Innovative Designs collection includes ultrasound probes designed to support different diagnostic imaging applications. The pictured products feature multiple probe shapes and configurations for use with compatible ultrasound systems. Probe selection depends on the intended examination, connector type, and system compatibility. Contact us for available probe models, technical specifications, and compatibility information.",
+    "ar": "تتضمن مجموعة المجسات ذات التصميمات المبتكرة مجسات موجات فوق صوتية مصممة لدعم تطبيقات التصوير التشخيصي المختلفة. تعرض الصورة مجسات بأشكال وتكوينات متعددة للاستخدام مع أنظمة الموجات فوق الصوتية المتوافقة. يعتمد اختيار المجس على نوع الفحص المطلوب ونوع الموصل ومدى التوافق مع الجهاز. يُرجى التواصل معنا لمعرفة الطرازات المتاحة والمواصفات الفنية ومعلومات التوافق."
+  },
+  "images": [
+    "/images/products/generic/variety-of-probes.png"
+  ]
+},
+{
+  "id": 77,
+  "name": {
+    "en": "Reusable/Disposable PCA Pump",
+    "ar": "مضخة تسكين الألم التي يتحكم بها المريض (PCA) قابلة لإعادة الاستخدام أو للاستعمال مرة واحدة"
+  },
+  "slug": "reusable-disposable-pca-pump",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "PCA infusion pump designed for controlled pain medication delivery, with high flow-rate accuracy and audiovisual alarms.",
+    "ar": "مضخة تسريب PCA مصممة للتحكم في توصيل أدوية تسكين الألم، مع دقة عالية في معدل التدفق وإنذارات صوتية ومرئية."
+  },
+  "description": {
+    "en": "The Reusable/Disposable PCA Pump is designed to support controlled delivery of prescribed pain medication in clinical settings. The pictured device features a digital display, an easy-to-use control panel, and start and stop buttons. According to the supplied product information, it is designed for high flow-rate accuracy and includes audiovisual alarms. Confirm the available configurations, compatible administration sets, operating modes, and technical specifications with the supplier before ordering.",
+    "ar": "صُممت مضخة تسكين الألم التي يتحكم بها المريض (PCA) لتوفير توصيل مضبوط لأدوية تسكين الألم الموصوفة في البيئات السريرية. يتميز الجهاز الظاهر بشاشة رقمية ولوحة تحكم سهلة الاستخدام وأزرار للتشغيل والإيقاف. ووفقًا لمعلومات المنتج المقدمة، فهي مصممة لتحقيق دقة عالية في معدل التدفق وتتضمن إنذارات صوتية ومرئية. يُرجى التأكد من التكوينات المتاحة ومجموعات التسريب المتوافقة وأنماط التشغيل والمواصفات الفنية مع المورد قبل الطلب."
+  },
+  "images": [
+    "/images/products/generic/pca-pump.png"
+  ]
+},
+{
+  "id": 78,
+  "name": {
+    "en": "EEG and EMG Machine",
+    "ar": "جهاز تخطيط كهربائية الدماغ والعضلات"
+  },
+  "slug": "eeg-emg-machine",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "EEG and EMG diagnostic system for recording and analyzing brain and muscle electrical activity.",
+    "ar": "نظام تشخيصي لتخطيط كهربائية الدماغ والعضلات لتسجيل وتحليل النشاط الكهربائي للدماغ والعضلات."
+  },
+  "description": {
+    "en": "The EbNeuro EEG and EMG Machine is a computerized diagnostic system designed to record and analyze electrical activity in the brain and muscles. The pictured configuration includes a monitor, computer workstation, recording equipment, electrode connection unit, and mobile cart. It is intended for neurological assessment and electrodiagnostic examinations in clinical settings. Contact us for confirmed model specifications, supported examination types, software features, and available configurations.",
+    "ar": "جهاز EbNeuro لتخطيط كهربائية الدماغ والعضلات هو نظام تشخيصي محوسب مصمم لتسجيل وتحليل النشاط الكهربائي في الدماغ والعضلات. يتضمن التكوين الظاهر شاشة ومحطة عمل حاسوبية ومعدات تسجيل ووحدة توصيل الأقطاب وعربة متحركة. يُستخدم لدعم التقييم العصبي والفحوصات الكهربائية التشخيصية في البيئات السريرية. يُرجى التواصل معنا للحصول على المواصفات المؤكدة للطراز وأنواع الفحوصات المدعومة وميزات البرنامج والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/eeg-emg-machine.png"
+  ]
+},
+{
+  "id": 79,
+  "name": {
+    "en": "Cryotherapy System",
+    "ar": "جهاز العلاج بالتبريد"
+  },
+  "slug": "cryotherapy-system",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Medical cryotherapy system designed to deliver controlled cooling for clinical treatment applications.",
+    "ar": "نظام طبي للعلاج بالتبريد مصمم لتوفير تبريد مضبوط للاستخدامات العلاجية السريرية."
+  },
+  "description": {
+    "en": "The Cryotherapy System is a medical device designed to deliver controlled cooling for suitable clinical treatment applications. The pictured configuration includes a handheld applicator with an extended treatment probe, flexible tubing, and a pressure regulator with a gauge. The exact cooling method, compatible accessories, and intended applications depend on the model. Contact us for technical specifications, operating requirements, and available configurations.",
+    "ar": "جهاز العلاج بالتبريد هو جهاز طبي مصمم لتوفير تبريد مضبوط للاستخدامات العلاجية السريرية المناسبة. يتضمن التكوين الظاهر أداة تطبيق يدوية مزودة بمسبار علاجي ممتد وأنبوب مرن ومنظم ضغط مزود بمقياس. تعتمد طريقة التبريد والملحقات المتوافقة والاستخدامات المقصودة على الطراز. يُرجى التواصل معنا للحصول على المواصفات الفنية ومتطلبات التشغيل والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/cryotherapy-system.png"
+  ]
+},
+{
+  "id": 80,
+  "name": {
+    "en": "Class B Autoclave 41 Liter",
+    "ar": "جهاز تعقيم بالبخار من الفئة B بسعة 41 لترًا"
+  },
+  "slug": "class-b-autoclave-41-liter",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Class B steam sterilizer with a 41-liter chamber, LCD display, built-in printer, and four trays.",
+    "ar": "جهاز تعقيم بالبخار من الفئة B بحجرة سعة 41 لترًا وشاشة LCD وطابعة مدمجة وأربعة صوانٍ."
+  },
+  "description": {
+    "en": "The Class B Autoclave 41 Liter is designed for steam sterilization of compatible medical and surgical instruments. The pictured unit features a square sterilization chamber, four instrument trays, an LCD control panel, and a built-in printer. Its chamber capacity is 41 liters. Suitable applications and supported sterilization cycles depend on the device configuration. Contact us for detailed technical specifications, installation requirements, and available options.",
+    "ar": "صُمم جهاز التعقيم بالبخار من الفئة B بسعة 41 لترًا لتعقيم الأدوات الطبية والجراحية المتوافقة. يتميز الجهاز الظاهر بحجرة تعقيم مربعة وأربعة صوانٍ للأدوات ولوحة تحكم بشاشة LCD وطابعة مدمجة. تبلغ سعة الحجرة 41 لترًا. تعتمد الاستخدامات المناسبة ودورات التعقيم المدعومة على تكوين الجهاز. يُرجى التواصل معنا للحصول على المواصفات الفنية التفصيلية ومتطلبات التركيب والخيارات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/class-b-autoclave-41-liter.png"
+  ]
+},
+{
+  "id": 81,
+  "name": {
+    "en": "Anti-Bacterial Sticky Mat",
+    "ar": "حصيرة لاصقة مضادة للبكتيريا"
+  },
+  "slug": "anti-bacterial-sticky-mat",
+  "categoryId": 4,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Adhesive contamination-control mat designed to help capture dust and particles from footwear before entering controlled areas.",
+    "ar": "حصيرة لاصقة للتحكم في التلوث، مصممة للمساعدة في التقاط الغبار والجسيمات من الأحذية قبل دخول المناطق الخاضعة للرقابة."
+  },
+  "description": {
+    "en": "The Anti-Bacterial Sticky Mat is designed to help reduce the transfer of dust and particles on footwear in hospitals, laboratories, cleanrooms, and other controlled environments. Its adhesive surface helps capture contaminants as people walk across it. The mat is suitable for placement at entrances to clinical and operational areas. Available sizes, number of adhesive layers, and antimicrobial properties should be confirmed with the supplier.",
+    "ar": "صُممت الحصيرة اللاصقة المضادة للبكتيريا للمساعدة في تقليل انتقال الغبار والجسيمات العالقة بالأحذية في المستشفيات والمختبرات والغرف النظيفة وغيرها من البيئات الخاضعة للرقابة. يساعد سطحها اللاصق على التقاط الملوثات أثناء مرور الأشخاص عليها. يمكن وضعها عند مداخل المناطق السريرية والتشغيلية. يُرجى التأكد من المقاسات المتاحة وعدد الطبقات اللاصقة والخصائص المضادة للميكروبات مع المورد."
+  },
+  "images": [
+    "/images/products/generic/anti-bacterial-sticky-mat.png"
+  ]
+},
+{
+  "id": 82,
+  "name": {
+    "en": "Body Composition Analyzer",
+    "ar": "جهاز تحليل مكونات الجسم"
+  },
+  "slug": "body-composition-analyzer",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Body composition analyzer with a digital display, handheld electrodes, and a weighing platform for body composition assessment.",
+    "ar": "جهاز تحليل مكونات الجسم مزود بشاشة رقمية وأقطاب يدوية ومنصة للوزن لتقييم مكونات الجسم."
+  },
+  "description": {
+    "en": "The Body Composition Analyzer is designed to support body composition assessment in healthcare, wellness, and clinical settings. The pictured unit features a digital display, handheld electrode grips, and a weighing platform with integrated foot electrodes. Depending on the model, body composition analysis may include measurements such as body fat percentage, muscle mass, and body weight. Contact us for confirmed technical specifications, measurement parameters, accuracy details, and available configurations.",
+    "ar": "صُمم جهاز تحليل مكونات الجسم لدعم تقييم مكونات الجسم في مرافق الرعاية الصحية والعيادات ومراكز العافية. يتميز الجهاز الظاهر بشاشة رقمية ومقابض يدوية مزودة بأقطاب ومنصة وزن تتضمن أقطابًا مدمجة للقدمين. وفقًا للطراز، قد يشمل تحليل مكونات الجسم قياسات مثل نسبة الدهون وكتلة العضلات ووزن الجسم. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة ومعايير القياس وتفاصيل الدقة والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/body-composition-analyzer.png"
+  ]
+},
+{
+  "id": 83,
+  "name": {
+    "en": "Vein Finder with Battery and Mobile Stand",
+    "ar": "كاشف الأوردة ببطارية وحامل متحرك"
+  },
+  "slug": "vein-finder-battery-mobile-stand",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Portable vein finder designed to help visualize veins for vascular access procedures.",
+    "ar": "جهاز محمول لكشف الأوردة مصمم للمساعدة في إظهار الأوردة أثناء إجراءات الوصول الوعائي."
+  },
+  "description": {
+    "en": "The Vein Finder with Battery and Mobile Stand is designed to assist healthcare professionals in locating and visualizing superficial veins during vascular access procedures. The pictured handheld device features an integrated display and control buttons, with battery-powered operation for portability. A compatible mobile stand can support convenient positioning in clinical environments. Contact us for confirmed technical specifications, vein visualization technology, battery runtime, and stand compatibility.",
+    "ar": "صُمم جهاز كشف الأوردة المزود ببطارية وحامل متحرك لمساعدة متخصصي الرعاية الصحية على تحديد الأوردة السطحية وإظهارها أثناء إجراءات الوصول الوعائي. يتميز الجهاز المحمول الظاهر بشاشة مدمجة وأزرار للتحكم، مع إمكانية التشغيل بالبطارية لسهولة النقل. ويمكن استخدام حامل متحرك متوافق لتسهيل وضع الجهاز في البيئات السريرية. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة وتقنية إظهار الأوردة ومدة تشغيل البطارية ومدى توافق الحامل."
+  },
+  "images": [
+    "/images/products/generic/vein-finder-battery-mobile-stand.png"
+  ]
+},
+{
+  "id": 84,
+  "name": {
+    "en": "BodyStik",
+    "ar": "جهاز بودي ستيك لقياس وظائف الرئة"
+  },
+  "slug": "bodystik",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Pulmonary function testing system designed for reliable and reproducible respiratory test results.",
+    "ar": "نظام لاختبارات وظائف الرئة مصمم لتوفير نتائج تنفسية موثوقة وقابلة للتكرار."
+  },
+  "description": {
+    "en": "BodyStik is a pulmonary function testing (PFT) system designed to support respiratory assessment in clinical and diagnostic settings. The pictured configuration includes an enclosed testing booth with a patient chair and a separate workstation with a monitor and testing equipment. Its features include patient comfort, reproducible test results, and flexible reporting capabilities. The supplied product information references ATS and ERS guidelines. Contact us for detailed technical specifications, supported tests, software features, and available configurations.",
+    "ar": "جهاز BodyStik هو نظام لاختبارات وظائف الرئة (PFT)، مصمم لدعم تقييم وظائف الجهاز التنفسي في البيئات السريرية والتشخيصية. يتضمن التكوين الظاهر كابينة اختبار مغلقة مزودة بكرسي للمريض ومحطة عمل منفصلة تضم شاشة ومعدات الاختبار. تشمل الميزات راحة المريض وإمكانية الحصول على نتائج قابلة للتكرار وخيارات مرنة لإعداد التقارير. تشير معلومات المنتج المقدمة إلى إرشادات ATS وERS. يُرجى التواصل معنا للحصول على المواصفات الفنية التفصيلية والاختبارات المدعومة وميزات البرنامج والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/bodystik.png"
+  ]
+},
+{
+  "id": 85,
+  "name": {
+    "en": "Diffustik",
+    "ar": "جهاز ديفيوستيك لقياس انتشار الغازات في الرئة"
+  },
+  "slug": "diffustik",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Pulmonary gas diffusion testing system designed for accurate and reliable carbon monoxide (CO) diffusion measurements.",
+    "ar": "نظام لاختبار انتشار الغازات في الرئة مصمم لقياس انتشار أول أكسيد الكربون (CO) بدقة وموثوقية."
+  },
+  "description": {
+    "en": "Diffustik is a pulmonary function testing system designed to measure gas diffusion in the lungs, including carbon monoxide (CO) diffusion measurements. The pictured configuration includes a workstation with a monitor, gas analysis equipment, a breathing interface, and a mobile equipment cart. According to the supplied product information, the system supports automated sample and discard volume detection, flexible reporting, and testing workflows aligned with ATS and ERS guidelines. Contact us for detailed technical specifications, supported test protocols, software features, and available configurations.",
+    "ar": "جهاز Diffustik هو نظام لاختبارات وظائف الرئة مصمم لقياس انتشار الغازات في الرئتين، بما في ذلك قياسات انتشار أول أكسيد الكربون (CO). يتضمن التكوين الظاهر محطة عمل مزودة بشاشة ومعدات لتحليل الغازات وواجهة للتنفس وعربة متحركة للمعدات. ووفقًا لمعلومات المنتج المقدمة، يدعم النظام الكشف التلقائي عن حجم العينة وحجم الهواء المستبعد وخيارات إعداد التقارير المرنة وسير عمل الاختبارات المتوافق مع إرشادات ATS وERS. يُرجى التواصل معنا للحصول على المواصفات الفنية التفصيلية وبروتوكولات الاختبار المدعومة وميزات البرنامج والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/diffustik.png"
+  ]
+},
+{
+  "id": 86,
+  "name": {
+    "en": "CPET",
+    "ar": "جهاز اختبار الجهد القلبي الرئوي"
+  },
+  "slug": "cpet",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Cardiopulmonary exercise testing system for assessing exercise performance and cardiorespiratory function.",
+    "ar": "نظام لاختبار الجهد القلبي الرئوي لتقييم الأداء أثناء التمرين ووظائف القلب والجهاز التنفسي."
+  },
+  "description": {
+    "en": "The CPET system is designed to assess cardiopulmonary performance during exercise in clinical, sports medicine, and respiratory diagnostic settings. The pictured configuration includes a workstation with dual monitors, a mobile equipment cart, and respiratory testing accessories. Cardiopulmonary exercise testing can help clinicians evaluate exercise capacity and investigate causes of exercise intolerance. Contact us for confirmed technical specifications, supported test protocols, compatible accessories, and available configurations.",
+    "ar": "صُمم نظام اختبار الجهد القلبي الرئوي لتقييم أداء القلب والرئتين أثناء التمرين في البيئات السريرية وطب الرياضة وتشخيص أمراض الجهاز التنفسي. يتضمن التكوين الظاهر محطة عمل بشاشتين وعربة معدات متحركة وملحقات لاختبارات التنفس. يمكن أن يساعد اختبار الجهد القلبي الرئوي الأطباء على تقييم القدرة على ممارسة التمارين والتحقق من أسباب عدم تحمل الجهد. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة وبروتوكولات الاختبار المدعومة والملحقات المتوافقة والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/cpet.png"
+  ]
+},
+{
+  "id": 87,
+  "name": {
+    "en": "Rescue SAM 4 AED",
+    "ar": "جهاز إزالة الرجفان الخارجي الآلي Rescue SAM 4"
+  },
+  "slug": "rescue-sam-4-aed",
+  "categoryId": 6,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Automated external defibrillator with a 7-inch display, designed to support emergency cardiac response.",
+    "ar": "جهاز إزالة رجفان خارجي آلي مزود بشاشة مقاس 7 بوصات، مصمم لدعم الاستجابة لحالات الطوارئ القلبية."
+  },
+  "description": {
+    "en": "The Rescue SAM 4 AED is an automated external defibrillator designed to assist responders during sudden cardiac arrest emergencies. The pictured unit features a 7-inch display, ECG waveform visualization, and a user-friendly control panel. It is designed to guide users through the defibrillation process. Contact us for confirmed technical specifications, electrode compatibility, battery details, operating modes, and available configurations.",
+    "ar": "جهاز Rescue SAM 4 AED هو جهاز إزالة رجفان خارجي آلي مصمم لمساعدة المستجيبين في حالات التوقف القلبي المفاجئ. يتميز الجهاز الظاهر بشاشة مقاس 7 بوصات لعرض موجات تخطيط القلب ولوحة تحكم سهلة الاستخدام. صُمم الجهاز لإرشاد المستخدم خلال عملية إزالة الرجفان. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة وتوافق الأقطاب وتفاصيل البطارية وأنماط التشغيل والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/rescue-sam-4-aed.png"
+  ]
+},
+{
+  "id": 88,
+  "name": {
+    "en": "Docking Station",
+    "ar": "وحدة إرساء للأجهزة الطبية"
+  },
+  "slug": "docking-station",
+  "categoryId": 2,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Modular medical equipment docking station designed to organize and support compatible infusion and syringe pump modules.",
+    "ar": "وحدة إرساء معيارية للمعدات الطبية مصممة لترتيب ودعم وحدات مضخات التسريب والحقن المتوافقة."
+  },
+  "description": {
+    "en": "The Docking Station is designed to accommodate compatible medical pump modules in a compact, organized configuration. The pictured unit features multiple stacked modules with individual displays, control panels, and mounting interfaces. A docking station can help consolidate compatible equipment and simplify setup in clinical environments. Compatibility, supported pump models, power requirements, and available configurations depend on the specific system. Contact us for confirmed technical specifications and compatibility details.",
+    "ar": "صُممت وحدة الإرساء لاستيعاب وحدات المضخات الطبية المتوافقة ضمن تكوين مدمج ومنظم. تتميز الوحدة الظاهرة بعدة وحدات مكدسة، لكل منها شاشة ولوحة تحكم وواجهات تثبيت. يمكن أن تساعد وحدة الإرساء على تجميع المعدات المتوافقة وتسهيل إعدادها في البيئات السريرية. يعتمد التوافق وطرازات المضخات المدعومة ومتطلبات الطاقة والتكوينات المتاحة على النظام المحدد. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة وتفاصيل التوافق."
+  },
+  "images": [
+    "/images/products/generic/docking-station.png"
+  ]
+},
+{
+  "id": 89,
+  "name": {
+    "en": "ENT Unit",
+    "ar": "وحدة الأنف والأذن والحنجرة"
+  },
+  "slug": "ent-unit",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Integrated ear, nose, and throat examination unit designed for clinical diagnostic procedures.",
+    "ar": "وحدة متكاملة لفحص الأنف والأذن والحنجرة، مصممة للإجراءات التشخيصية السريرية."
+  },
+  "description": {
+    "en": "The ENT Unit is designed to support ear, nose, and throat examinations in hospitals, clinics, and specialist medical practices. The pictured unit features an integrated workstation, display, instrument controls, and holders for examination instruments. Its configuration is intended to help organize ENT examination equipment in a clinical setting. Available instruments, functions, technical specifications, and accessories depend on the model. Contact us for further details and available configurations.",
+    "ar": "صُممت وحدة الأنف والأذن والحنجرة لدعم الفحوصات المتخصصة في المستشفيات والعيادات والمراكز الطبية. تتميز الوحدة الظاهرة بمحطة عمل متكاملة وشاشة وأدوات تحكم وحوامل لأدوات الفحص. يساعد تصميمها على تنظيم معدات فحص الأنف والأذن والحنجرة في البيئة السريرية. تختلف الأدوات والوظائف والمواصفات الفنية والملحقات المتاحة حسب الطراز. يُرجى التواصل معنا للحصول على مزيد من التفاصيل والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/ent-unit.png"
+  ]
+},
+{
+  "id": 90,
+  "name": {
+    "en": "Visual System with Rigid and Flexible Endoscope",
+    "ar": "نظام تنظير بصري بمناظير صلبة ومرنة"
+  },
+  "slug": "visual-system-rigid-flexible-endoscope",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Endoscopic visualization system with a camera, display, and rigid and flexible endoscopes for clinical examinations.",
+    "ar": "نظام تصوير بالمنظار مزود بكاميرا وشاشة ومناظير صلبة ومرنة للفحوصات السريرية."
+  },
+  "description": {
+    "en": "The Visual System with Rigid and Flexible Endoscope is designed to support endoscopic examinations in hospitals, clinics, and specialist medical facilities. The pictured configuration includes a monitor, camera system, control units, and a selection of rigid endoscopes and flexible endoscopic equipment. It is intended to provide visual access for diagnostic examinations and compatible clinical procedures. Available scope types, imaging capabilities, accessories, and system compatibility depend on the model. Contact us for detailed technical specifications and configuration options.",
+    "ar": "صُمم نظام التصوير بالمنظار المزود بمناظير صلبة ومرنة لدعم الفحوصات التنظيرية في المستشفيات والعيادات والمرافق الطبية المتخصصة. يتضمن التكوين الظاهر شاشة عرض ونظام كاميرا ووحدات تحكم ومجموعة من المناظير الصلبة ومعدات التنظير المرنة. يهدف النظام إلى توفير رؤية داخلية لدعم الفحوصات التشخيصية والإجراءات السريرية المتوافقة. تختلف أنواع المناظير وإمكانات التصوير والملحقات وتوافق النظام حسب الطراز. يُرجى التواصل معنا للحصول على المواصفات الفنية التفصيلية وخيارات التكوين."
+  },
+  "images": [
+    "/images/products/generic/visual-system-rigid-flexible-endoscope.png"
+  ]
+},
+{
+  "id": 91,
+  "name": {
+    "en": "Audiometer / Tympanometry",
+    "ar": "جهاز تخطيط السمع وقياس ضغط الأذن الوسطى"
+  },
+  "slug": "audiometer-tympanometry",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Audiology diagnostic system designed for hearing assessment and middle-ear function testing.",
+    "ar": "نظام تشخيصي للسمع مصمم لتقييم السمع وفحص وظائف الأذن الوسطى."
+  },
+  "description": {
+    "en": "The Audiometer / Tympanometry system is designed to support hearing assessments and middle-ear evaluations in hospitals, audiology clinics, and specialist healthcare facilities. The pictured unit features a digital display, multiple test controls, and dedicated operating buttons. Audiometry can be used to assess hearing sensitivity, while tympanometry evaluates middle-ear function by measuring eardrum mobility and pressure responses. Available tests and capabilities depend on the model. Contact us for detailed technical specifications, supported test types, accessories, and configuration options.",
+    "ar": "صُمم نظام تخطيط السمع وقياس ضغط الأذن الوسطى لدعم تقييم السمع وفحص الأذن الوسطى في المستشفيات وعيادات السمع ومرافق الرعاية الصحية المتخصصة. يتميز الجهاز الظاهر بشاشة رقمية وعناصر تحكم متعددة وأزرار تشغيل مخصصة. يُستخدم تخطيط السمع لتقييم حساسية السمع، بينما يساعد قياس ضغط الأذن الوسطى على تقييم وظائفها من خلال قياس حركة طبلة الأذن واستجابتها للضغط. تعتمد الفحوصات والإمكانات المتاحة على الطراز. يُرجى التواصل معنا للحصول على المواصفات الفنية التفصيلية وأنواع الفحوصات المدعومة والملحقات وخيارات التكوين."
+  },
+  "images": [
+    "/images/products/generic/audiometer-tympanometry.png"
+  ]
+},
+{
+  "id": 92,
+  "name": {
+    "en": "Oscar 2 Ambulatory Blood Pressure Monitor",
+    "ar": "جهاز أوسكار 2 لقياس ضغط الدم المتنقل"
+  },
+  "slug": "oscar-2-ambulatory-blood-pressure-monitor",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Portable ambulatory blood pressure monitor designed for blood pressure measurement during daily activities.",
+    "ar": "جهاز محمول لمراقبة ضغط الدم المتنقل وقياسه أثناء الأنشطة اليومية."
+  },
+  "description": {
+    "en": "The Oscar 2 Ambulatory Blood Pressure Monitor is designed to record blood pressure measurements over an extended period while patients continue their normal daily activities. The pictured device features a compact handheld monitor, digital display, and simple operating buttons. Ambulatory monitoring can help healthcare professionals assess blood pressure patterns throughout the day and night. Contact us for confirmed technical specifications, compatible cuffs, monitoring duration, software compatibility, and available configurations.",
+    "ar": "صُمم جهاز أوسكار 2 لقياس ضغط الدم المتنقل لتسجيل قياسات ضغط الدم على مدى فترة ممتدة أثناء ممارسة المرضى أنشطتهم اليومية المعتادة. يتميز الجهاز الظاهر بتصميم مدمج وشاشة رقمية وأزرار تشغيل سهلة الاستخدام. تساعد المراقبة المتنقلة متخصصي الرعاية الصحية على تقييم أنماط ضغط الدم خلال النهار والليل. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة وأساور القياس المتوافقة ومدة المراقبة وتوافق البرامج والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/oscar-2-ambulatory-bp-monitor.png"
+  ]
+},
+{
+  "id": 93,
+  "name": {
+    "en": "Tango M2 Stress-Test Blood Pressure Monitor",
+    "ar": "جهاز تانغو M2 لقياس ضغط الدم أثناء اختبار الجهد"
+  },
+  "slug": "tango-m2-stress-test-blood-pressure-monitor",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Blood pressure monitor designed for measuring blood pressure during cardiac stress testing and exercise assessments.",
+    "ar": "جهاز لقياس ضغط الدم أثناء اختبارات إجهاد القلب وتقييمات التمارين."
+  },
+  "description": {
+    "en": "The Tango M2 Stress-Test Blood Pressure Monitor is designed to measure blood pressure during cardiac stress testing and exercise assessments. The pictured unit features a color display showing systolic and diastolic blood pressure, heart rate, and additional monitoring values, along with dedicated control buttons. It is intended for use in compatible clinical stress-testing setups. Contact us for confirmed technical specifications, compatibility with exercise testing systems, supported monitoring parameters, and available configurations.",
+    "ar": "صُمم جهاز Tango M2 لقياس ضغط الدم أثناء اختبارات إجهاد القلب وتقييمات التمارين. يتميز الجهاز الظاهر بشاشة ملونة تعرض ضغط الدم الانقباضي والانبساطي ومعدل ضربات القلب وبيانات مراقبة إضافية، إلى جانب أزرار تحكم مخصصة. يُستخدم الجهاز ضمن أنظمة اختبار الجهد السريري المتوافقة. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة ومدى التوافق مع أنظمة اختبار الجهد ومعايير المراقبة المدعومة والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/tango-m2-stress-test-bp-monitor.png"
+  ]
+},
+{
+  "id": 94,
+  "name": {
+    "en": "Stress ECG System",
+    "ar": "جهاز تخطيط القلب الكهربائي أثناء اختبار الجهد"
+  },
+  "slug": "stress-ecg-system",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Cardiac stress testing system designed to record and monitor ECG activity during exercise.",
+    "ar": "نظام لاختبار إجهاد القلب مصمم لتسجيل ومراقبة نشاط تخطيط القلب أثناء التمرين."
+  },
+  "description": {
+    "en": "The Stress ECG System is designed to record and monitor the heart's electrical activity during exercise-based cardiac stress tests. The pictured configuration includes an ECG recording unit with a display and printer, along with a treadmill for supervised exercise testing. It supports the assessment of cardiac responses to physical exertion in suitable clinical settings. Contact us for confirmed technical specifications, treadmill compatibility, ECG analysis features, accessories, and available configurations.",
+    "ar": "صُمم نظام تخطيط القلب أثناء اختبار الجهد لتسجيل ومراقبة النشاط الكهربائي للقلب خلال اختبارات إجهاد القلب القائمة على التمرين. يتضمن التكوين الظاهر وحدة لتسجيل تخطيط القلب مزودة بشاشة وطابعة، بالإضافة إلى جهاز مشي لاختبارات الجهد تحت الإشراف الطبي. يدعم النظام تقييم استجابة القلب للمجهود البدني في البيئات السريرية المناسبة. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة وتوافق جهاز المشي وميزات تحليل تخطيط القلب والملحقات والتكوينات المتاحة."
+  },
+  "images": [
+    "/images/products/generic/stress-ecg-system.png"
+  ]
+},
+{
+  "id": 95,
+  "name": {
+    "en": "Welch Oral Temperature Probe",
+    "ar": "مسبار درجة الحرارة الفموي من ويلش"
+  },
+  "slug": "welch-oral-temperature-probe",
+  "categoryId": 2,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Oral temperature probe designed to measure patient temperature with compatible medical monitoring equipment.",
+    "ar": "مسبار لقياس درجة حرارة المريض عن طريق الفم، مصمم للاستخدام مع أجهزة المراقبة الطبية المتوافقة."
+  },
+  "description": {
+    "en": "The Welch Oral Temperature Probe is designed to measure patient temperature through oral temperature monitoring when used with compatible medical equipment. It is intended for clinical environments such as hospitals, clinics, and patient care facilities. Probe compatibility, temperature measurement range, connection type, and reusable or disposable status depend on the specific model. Contact us for confirmed technical specifications and compatible devices.",
+    "ar": "صُمم مسبار درجة الحرارة الفموي من ويلش لقياس درجة حرارة المريض عن طريق الفم عند استخدامه مع الأجهزة الطبية المتوافقة. وهو مخصص للاستخدام في البيئات السريرية مثل المستشفيات والعيادات ومرافق رعاية المرضى. يعتمد توافق المسبار ونطاق قياس الحرارة ونوع التوصيل وإمكانية إعادة الاستخدام أو الاستخدام لمرة واحدة على الطراز المحدد. يُرجى التواصل معنا للحصول على المواصفات الفنية المؤكدة والأجهزة المتوافقة."
+  },
+  "images": [
+    "/images/products/generic/welch-oral-temperature-probe.png"
+  ]
+},
+{
+  "id": 96,
+  "name": {
+    "en": "Ceramax 300W Xenon Lamp PE300BFA",
+    "ar": "مصباح زينون Ceramax بقدرة 300 واط PE300BFA"
+  },
+  "slug": "ceramax-300w-xenon-lamp-pe300bfa",
+  "categoryId": 2,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "300W xenon lamp designed for compatible medical illumination and endoscopy light-source systems.",
+    "ar": "مصباح زينون بقدرة 300 واط مصمم لأنظمة الإضاءة الطبية ومصادر ضوء المناظير المتوافقة."
+  },
+  "description": {
+    "en": "The Ceramax 300W Xenon Lamp PE300BFA is a replacement xenon light source intended for compatible medical illumination equipment. Xenon lamps are used in certain endoscopy and optical illumination systems to provide bright light for visualization. Compatibility depends on the equipment model, lamp specifications, connector type, and electrical requirements. Please confirm the exact part number and compatibility with the equipment manufacturer or supplier before ordering.",
+    "ar": "مصباح Ceramax PE300BFA زينون بقدرة 300 واط هو مصدر ضوء بديل مخصص لمعدات الإضاءة الطبية المتوافقة. تُستخدم مصابيح الزينون في بعض أنظمة المناظير والإضاءة البصرية لتوفير إضاءة قوية للرؤية. يعتمد التوافق على طراز الجهاز ومواصفات المصباح ونوع الموصل والمتطلبات الكهربائية. يُرجى التأكد من رقم القطعة الدقيق ومدى توافقها مع الشركة المصنعة للجهاز أو المورد قبل الطلب."
+  },
+  "images": [
+    "/images/products/generic/ceramax-300w-xenon-lamp-pe300bfa.png"
+  ]
 }
 ]

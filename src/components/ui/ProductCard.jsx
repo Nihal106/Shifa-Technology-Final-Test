@@ -1,3 +1,4 @@
+
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { FaWhatsapp } from "react-icons/fa";
@@ -50,14 +51,14 @@ Product: ${product.name[lang]}`;
   return (
     <div
       ref={cardRef}
-      className={`group overflow-hidden rounded-xl bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${
+      className={`group flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${
         isHighlighted
           ? "border-2 border-blue-600 ring-4 ring-blue-200"
           : "border border-slate-200"
       }`}
     >
       {/* Product Image */}
-      <div className="overflow-hidden">
+      <div className="shrink-0 overflow-hidden">
         <img
           src={product.images?.[0]}
           alt={product.name[lang]}
@@ -65,21 +66,26 @@ Product: ${product.name[lang]}`;
         />
       </div>
 
-      {/* Content */}
-      <div className="p-5">
-        <h3 className="text-lg font-semibold text-slate-900">
+      {/* Product Content */}
+      <div className="flex flex-1 flex-col p-5">
+        {/* Product Name */}
+        <h3 className="line-clamp-2 min-h-[3.5rem] text-lg font-semibold leading-7 text-slate-900">
           {product.name[lang]}
         </h3>
 
-        <p className="mt-3 line-clamp-3 text-sm text-slate-600">
-          {product.description[lang]}
+        {/* Product Description */}
+        <p className="mt-3 line-clamp-3 text-sm leading-6 text-slate-600">
+          {product.shortDescription[lang]}
         </p>
 
-        <div className="mt-6">
+        {/* WhatsApp Inquiry Button */}
+        <div className="mt-auto pt-6">
           <a
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
+            className="block"
+            aria-label={`${t("product.whatsappInquiry")}: ${product.name[lang]}`}
           >
             <Button
               variant="success"

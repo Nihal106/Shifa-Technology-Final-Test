@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import MobileLanguageSwitcher from "../common/MobileLanguageSwitcher";
 import {
@@ -17,8 +18,6 @@ import { FaWhatsapp } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 import Logo from "../common/Logo";
-import SearchBar from "../common/SearchBar";
-import LanguageSwitcher from "../common/LanguageSwitcher";
 import { company } from "../../config/company";
 
 const navLinkClass = ({ isActive }) =>
@@ -56,52 +55,65 @@ export default function MobileMenu() {
 
   return (
     <>
-      {/* Hamburger Button */}
+      {/* Hamburger button */}
       <button
+        type="button"
         onClick={() => setOpen(true)}
-        className="rounded-lg p-2 transition hover:bg-slate-100 lg:hidden"
+        aria-label={t("nav.openMenu", {
+          defaultValue: "Open navigation menu",
+        })}
+        aria-expanded={open}
+        className="rounded-lg p-2 transition hover:bg-slate-100"
       >
         <Menu size={26} />
       </button>
 
       {/* Overlay */}
       {open && (
-        <div
+        <button
+          type="button"
+          aria-label={t("nav.closeMenu", {
+            defaultValue: "Close navigation menu",
+          })}
           onClick={() => setOpen(false)}
           className="fixed inset-0 z-40 bg-black/40"
         />
       )}
 
       {/* Drawer */}
-<aside
-  className={`fixed top-0 z-50 flex h-full w-80 flex-col bg-white shadow-2xl transition-transform duration-300 ${
-    i18n.language === "ar"
-      ? `left-0 ${open ? "translate-x-0" : "-translate-x-full"}`
-      : `right-0 ${open ? "translate-x-0" : "translate-x-full"}`
-  }`}
->
-        {/* Header */}
-        <div className="flex items-start justify-between border-b p-5">
-          <div>
-            <Logo />
-
-          </div>
+      <aside
+        aria-label={t("nav.mobileNavigation", {
+          defaultValue: "Mobile navigation",
+        })}
+        className={`fixed top-0 z-50 flex h-dvh w-[min(320px,88vw)] flex-col bg-white shadow-2xl transition-transform duration-300 ${
+          i18n.language.startsWith("ar")
+            ? `left-0 ${
+                open ? "translate-x-0" : "-translate-x-full"
+              }`
+            : `right-0 ${
+                open ? "translate-x-0" : "translate-x-full"
+              }`
+        }`}
+        aria-hidden={!open}
+      >
+        {/* Drawer header */}
+        <div className="flex shrink-0 items-start justify-between border-b p-5">
+          <Logo />
 
           <button
+            type="button"
             onClick={() => setOpen(false)}
+            aria-label={t("nav.closeMenu", {
+              defaultValue: "Close navigation menu",
+            })}
             className="rounded-lg p-2 transition hover:bg-slate-100"
           >
             <X size={24} />
           </button>
         </div>
 
-        {/* Search */}
-        <div className="p-5">
-          <SearchBar />
-        </div>
-
-        {/* Navigation */}
-        <nav className="space-y-2 px-5">
+        {/* Navigation links */}
+        <nav className="space-y-2 overflow-y-auto px-5 py-4">
           <NavLink
             to="/"
             end
@@ -113,6 +125,7 @@ export default function MobileMenu() {
           </NavLink>
 
           <button
+            type="button"
             onClick={handleCategoriesClick}
             className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left text-slate-700 transition hover:bg-slate-100"
           >
@@ -140,7 +153,7 @@ export default function MobileMenu() {
         </nav>
 
         {/* Footer */}
-        <div className="mt-auto border-t p-5">
+        <div className="mt-auto shrink-0 border-t p-5">
           <div className="space-y-2 text-sm text-slate-600">
             <p>📞 {company.phone}</p>
             <p>✉ {company.email}</p>
@@ -164,9 +177,9 @@ export default function MobileMenu() {
             Contact Us
           </NavLink>
 
- <div className="mt-5 border-t pt-5">
-  <MobileLanguageSwitcher />
-</div>
+          <div className="mt-5 border-t pt-5">
+            <MobileLanguageSwitcher />
+          </div>
         </div>
       </aside>
     </>
