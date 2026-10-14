@@ -18,20 +18,24 @@ export default function SEO({
   const siteName =
     lang === "ar"
       ? "شركة شفاء للتقنيات"
-      : "Shifa Technologies Medicals Co.";
+      : "Shifa Technologies";
 
-  const siteUrl = "https://www.shifatechnologies.com";
+  const siteUrl =
+    import.meta.env.VITE_SITE_URL ||
+    (typeof window !== "undefined" && window.location.origin.includes("vercel.app")
+      ? window.location.origin
+      : "https://shifa-technology-final-test.vercel.app");
 
   const defaultDescription =
     lang === "ar"
-      ? "شركة شفاء للتقنيات - مورد رائد للمعدات والأجهزة الطبية وقطع الغيار وأثاث المستشفيات في المملكة العربية السعودية."
-      : "Shifa Technologies Medicals Co. - Leading supplier of premium medical equipment, biomedical spare parts, and hospital furniture across Saudi Arabia.";
+      ? "شركة شفاء للتقنيات - مورد رائد للمعدات الطبية وأثاث المستشفيات في السعودية."
+      : "Premium medical equipment, hospital furniture, biomedical parts and healthcare solutions in Jeddah and Saudi Arabia from Shifa Technologies.";
 
   const metaDescription = description || defaultDescription;
 
   const fullTitle = title
     ? `${title} | ${siteName}`
-    : `${siteName} | Medical Equipment & Healthcare Solutions`;
+    : `${siteName} | Medical Equipment Saudi Arabia`;
 
   const fullUrl = `${siteUrl}${url.startsWith("/") ? url : `/${url}`}`;
   const fullImageUrl = image.startsWith("http") ? image : `${siteUrl}${image}`;

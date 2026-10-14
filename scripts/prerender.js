@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-const SITE_URL = 'https://www.shifatechnologies.com';
+const SITE_URL =
+  process.env.VITE_SITE_URL || 'https://shifa-technology-final-test.vercel.app';
 
 const categories = JSON.parse(
   fs.readFileSync('./src/data/categories.json', 'utf8')

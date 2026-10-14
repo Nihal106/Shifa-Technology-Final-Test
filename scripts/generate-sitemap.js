@@ -1,6 +1,7 @@
 import fs from 'fs';
 
-const SITE_URL = 'https://www.shifatechnologies.com';
+const SITE_URL =
+  process.env.VITE_SITE_URL || 'https://shifa-technology-final-test.vercel.app';
 const today = new Date().toISOString().split('T')[0];
 
 const categories = JSON.parse(

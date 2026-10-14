@@ -1,8 +1,6 @@
 # Robots.txt for Shifa Technologies
-# https://www.shifatechnologies.com
-
 User-agent: *
 Allow: /
 
-# Sitemaps
-Sitemap: https://www.shifatechnologies.com/sitemap.xml
+# Sitemap
+Sitemap: https://shifa-technology-final-test.vercel.app/sitemap.xml

@@ -33,11 +33,11 @@ const { t } = useTranslation("common");
   return (
     <>
       <SEO
-    title="Medical Equipment Supplier"
-    description="Shifa Technologies supplies premium medical equipment, hospital furniture and healthcare solutions across Saudi Arabia."
-    keywords="medical equipment, hospital furniture, healthcare products, Saudi Arabia, medical supplier"
-    url="/"
-  />
+        title="Medical Equipment Saudi Arabia"
+        description="Premium medical equipment, hospital furniture, biomedical parts and healthcare solutions in Jeddah and Saudi Arabia from Shifa Technologies."
+        keywords="medical equipment, hospital furniture, healthcare products, Saudi Arabia, medical supplier, Jeddah"
+        url="/"
+      />
 <Hero />
 
 <Categories />
