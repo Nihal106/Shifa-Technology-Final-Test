@@ -1,56 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
->
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://your-domain.com/</loc>
+    <loc>https://www.shifatechnologies.com/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/" />
   </url>
-
   <url>
-    <loc>https://your-domain.com/about</loc>
+    <loc>https://www.shifatechnologies.com/about</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/about" />
+  </url>
+  <url>
+    <loc>https://www.shifatechnologies.com/contact</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/contact" />
+  </url>
+  <url>
+    <loc>https://www.shifatechnologies.com/privacy</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/privacy" />
+  </url>
+  <url>
+    <loc>https://www.shifatechnologies.com/terms</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/terms" />
+  </url>
+  <url>
+    <loc>https://www.shifatechnologies.com/category/medical-equipment</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/category/medical-equipment" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/category/medical-equipment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/category/medical-equipment" />
   </url>
-
   <url>
-    <loc>https://your-domain.com/contact</loc>
+    <loc>https://www.shifatechnologies.com/category/biomedical-spare-parts</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/category/biomedical-spare-parts" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/category/biomedical-spare-parts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/category/biomedical-spare-parts" />
   </url>
-
   <url>
-    <loc>https://your-domain.com/privacy</loc>
-    <priority>0.5</priority>
+    <loc>https://www.shifatechnologies.com/category/hospital-furniture</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/category/hospital-furniture" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/category/hospital-furniture" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/category/hospital-furniture" />
   </url>
-
   <url>
-    <loc>https://your-domain.com/terms</loc>
-    <priority>0.5</priority>
+    <loc>https://www.shifatechnologies.com/category/medical-disposable</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/category/medical-disposable" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/category/medical-disposable" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/category/medical-disposable" />
   </url>
-
   <url>
-    <loc>https://your-domain.com/category/medical-equipment</loc>
+    <loc>https://www.shifatechnologies.com/category/healthcare-accessories</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/category/healthcare-accessories" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/category/healthcare-accessories" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/category/healthcare-accessories" />
   </url>
-
   <url>
-    <loc>https://your-domain.com/category/hospital-furniture</loc>
+    <loc>https://www.shifatechnologies.com/category/emergency-first-aid</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/category/emergency-first-aid" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/category/emergency-first-aid" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/category/emergency-first-aid" />
   </url>
-
   <url>
-    <loc>https://your-domain.com/category/medical-disposable</loc>
+    <loc>https://www.shifatechnologies.com/category/mobility-aids</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/category/mobility-aids" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/category/mobility-aids" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/category/mobility-aids" />
   </url>
-
   <url>
-    <loc>https://your-domain.com/category/healthcare-accessories</loc>
+    <loc>https://www.shifatechnologies.com/category/ppm-service</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/category/ppm-service" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/category/ppm-service" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/category/ppm-service" />
   </url>
-
   <url>
-    <loc>https://your-domain.com/category/emergency-first-aid</loc>
+    <loc>https://www.shifatechnologies.com/brands/sumit</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/brands/sumit" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/brands/sumit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/brands/sumit" />
   </url>
-
   <url>
-    <loc>https://your-domain.com/category/mobility-aids</loc>
+    <loc>https://www.shifatechnologies.com/brands/medke</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/brands/medke" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/brands/medke" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/brands/medke" />
   </url>
-
+  <url>
+    <loc>https://www.shifatechnologies.com/brands/philips</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/brands/philips" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/brands/philips" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/brands/philips" />
+  </url>
+  <url>
+    <loc>https://www.shifatechnologies.com/brands/bionet</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/brands/bionet" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/brands/bionet" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/brands/bionet" />
+  </url>
+  <url>
+    <loc>https://www.shifatechnologies.com/brands/cami</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/brands/cami" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/brands/cami" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/brands/cami" />
+  </url>
+  <url>
+    <loc>https://www.shifatechnologies.com/brands/progetti</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/brands/progetti" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/brands/progetti" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/brands/progetti" />
+  </url>
+  <url>
+    <loc>https://www.shifatechnologies.com/brands/osteosys</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/brands/osteosys" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/brands/osteosys" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/brands/osteosys" />
+  </url>
+  <url>
+    <loc>https://www.shifatechnologies.com/brands/mir</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.shifatechnologies.com/brands/mir" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.shifatechnologies.com/brands/mir" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.shifatechnologies.com/brands/mir" />
+  </url>
 </urlset>

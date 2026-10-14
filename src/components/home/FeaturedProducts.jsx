@@ -51,6 +51,8 @@ Please provide more information.`;
               <img
                 src={product.images[0]}
                 alt={product.name[lang]}
+                loading="lazy"
+                decoding="async"
                 className="h-52 w-full object-cover transition duration-300 group-hover:scale-105 sm:h-56 lg:h-60"
               />
 

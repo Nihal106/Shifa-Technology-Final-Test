@@ -4,6 +4,7 @@ export default function SectionHeader({
   highlightedText,
   description,
   center = true,
+  as: HeadingTag = "h2",
 }) {
   return (
     <div className={center ? "mx-auto mb-12 max-w-3xl text-center" : "mb-12"}>
@@ -13,14 +14,14 @@ export default function SectionHeader({
         </span>
       )}
 
-      <h2 className="mt-4 text-4xl font-bold text-slate-900">
+      <HeadingTag className="mt-4 text-4xl font-bold text-slate-900">
         {title}{" "}
         {highlightedText && (
           <span className="text-blue-600">
             {highlightedText}
           </span>
         )}
-      </h2>
+      </HeadingTag>
 
       {description && (
         <p className="mt-4 text-lg leading-8 text-slate-600">

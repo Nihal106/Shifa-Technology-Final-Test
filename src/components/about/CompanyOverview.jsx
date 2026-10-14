@@ -5,7 +5,7 @@ import Container from "../ui/Container";
 import SectionHeader from "../common/SectionHeader";
 
 export default function CompanyOverview() {
-  const { t, i18n } = useTranslation("about");
+  const { t } = useTranslation("about");
 
   const features = t("overview.features", {
     returnObjects: true,

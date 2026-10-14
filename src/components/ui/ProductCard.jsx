@@ -27,13 +27,18 @@ export default function ProductCard({
       block: "center",
     });
 
-    setIsHighlighted(true);
+    const highlightTimer = setTimeout(() => {
+      setIsHighlighted(true);
+    }, 50);
 
-    const timer = setTimeout(() => {
+    const resetTimer = setTimeout(() => {
       setIsHighlighted(false);
     }, 3000);
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(highlightTimer);
+      clearTimeout(resetTimer);
+    };
   }, [highlight]);
 
   const phone = "966533845516";
@@ -58,10 +63,12 @@ Product: ${product.name[lang]}`;
       }`}
     >
       {/* Product Image */}
-      <div className="shrink-0 overflow-hidden">
+      <div className="shrink-0 overflow-hidden bg-slate-100">
         <img
           src={product.images?.[0]}
           alt={product.name[lang]}
+          loading="lazy"
+          decoding="async"
           className="h-60 w-full object-cover transition duration-500 group-hover:scale-105"
         />
       </div>

@@ -10,11 +10,15 @@ export default function Logo() {
     <Link
       to="/"
       className="flex items-center gap-1 transition-opacity duration-200 hover:opacity-90"
+      aria-label="Shifa Technologies Home"
     >
       {/* Logo */}
       <img
         src="/images/logo.png"
         alt="Shifa Technologies Logo"
+        width="80"
+        height="80"
+        decoding="async"
         className="h-20 w-16 shrink-0 object-contain sm:h-20 sm:w-20"
       />
 
@@ -24,7 +28,7 @@ export default function Logo() {
           isArabic ? "text-right" : "text-left"
         }`}
       >
-        <h1 className="text-[1.2rem] font-extrabold tracking-tight sm:text-[2rem]">
+        <span className="block text-[1.2rem] font-extrabold tracking-tight sm:text-[2rem]">
           {isArabic ? (
             <span className="text-green-700">شركة شفاء للتقنيات</span>
           ) : (
@@ -33,7 +37,7 @@ export default function Logo() {
               <span className="text-green-700">Technologies Co.</span>
             </>
           )}
-        </h1>
+        </span>
 
         <p className="mt-1 text-xs font-medium text-slate-500 sm:text-sm">
           {isArabic

@@ -11,14 +11,20 @@ import SEO from "../components/seo/SEO";
 
 export default function About() {
   const { t } = useTranslation("common");
+  const breadcrumbs = [
+    { name: t("nav.home"), item: "/" },
+    { name: t("nav.about"), item: "/about" },
+  ];
+
   return (
     <>
-    <SEO
-  title="About Us"
-  description="Learn more about Shifa Technologies, our mission, vision and commitment to delivering quality medical equipment across Saudi Arabia."
-  keywords="about shifa technologies, medical supplier, healthcare equipment"
-  url="/about"
-/>
+      <SEO
+        title="About Us"
+        description="Learn more about Shifa Technologies, our mission, vision and commitment to delivering quality medical equipment across Saudi Arabia."
+        keywords="about shifa technologies, medical supplier, healthcare equipment, Saudi Arabia, Jeddah"
+        url="/about"
+        breadcrumbs={breadcrumbs}
+      />
       <AboutHero />
       <CompanyOverview />
       <MissionVision />

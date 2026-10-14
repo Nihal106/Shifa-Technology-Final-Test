@@ -10,6 +10,7 @@ export default function ContactHero() {
     <section className="bg-slate-50 py-16 sm:py-20">
       <Container>
         <SectionHeader
+          as="h1"
           badge={t("hero.badge")}
           title={t("hero.title")}
           description={t("hero.description")}

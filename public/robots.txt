@@ -1,5 +1,8 @@
-User-agent: *
+# Robots.txt for Shifa Technologies
+# https://www.shifatechnologies.com
 
+User-agent: *
 Allow: /
 
-Sitemap: https://your-domain.com/sitemap.xml
+# Sitemaps
+Sitemap: https://www.shifatechnologies.com/sitemap.xml

@@ -1,7 +1,7 @@
 
 import { useLocation, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import Container from "../components/ui/Container";
 import CategoryHeader from "../components/category/CategoryHeader";
@@ -27,10 +27,12 @@ export default function Category() {
   const highlightProduct = location.state?.highlightProduct;
 
   // Clear the selected brands when navigating to another category.
-  useEffect(() => {
+  const [prevSlug, setPrevSlug] = useState(slug);
+  if (prevSlug !== slug) {
+    setPrevSlug(slug);
     setSelectedBrandIds([]);
     setSearchTerm("");
-  }, [slug]);
+  }
 
   const category = categories.find(
     (item) => item.slug === slug
@@ -65,13 +67,55 @@ export default function Category() {
     return matchesCategory && matchesSearch && matchesBrand;
   });
 
+  const categorySchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": `${category.name[lang]} - Shifa Technologies`,
+    "description": category.description[lang],
+    "url": `https://www.shifatechnologies.com/category/${category.slug}`,
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": filteredProducts.length,
+      "itemListElement": filteredProducts.slice(0, 15).map((product, idx) => ({
+        "@type": "ListItem",
+        "position": idx + 1,
+        "item": {
+          "@type": "Product",
+          "name": product.name[lang],
+          "description": product.shortDescription[lang],
+          "image": product.images?.[0]
+            ? `https://www.shifatechnologies.com${product.images[0]}`
+            : undefined,
+          "category": category.name[lang],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "SAR",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "Organization",
+              "name": "Shifa Technologies Medicals Co.",
+            },
+          },
+        },
+      })),
+    },
+  };
+
+  const breadcrumbs = [
+    { name: t("nav.home"), item: "/" },
+    { name: t("nav.categories"), item: "/" },
+    { name: category.name[lang], item: `/category/${category.slug}` },
+  ];
+
   return (
     <>
       <SEO
         title={category.name[lang]}
         description={category.description[lang]}
-        keywords={`${category.name[lang]}, medical equipment, Saudi Arabia`}
+        keywords={`${category.name[lang]}, medical equipment, hospital supplies, Saudi Arabia, Jeddah`}
         url={`/category/${category.slug}`}
+        breadcrumbs={breadcrumbs}
+        schema={categorySchema}
       />
 
       <CategoryHeader

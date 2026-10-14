@@ -59,14 +59,64 @@ export default function BrandProducts() {
     );
   }
 
+  const brandSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": `${brand.name} Medical Products - Shifa Technologies`,
+    "description": `Explore authorized ${brand.name} medical equipment and healthcare products available through Shifa Technologies in Saudi Arabia.`,
+    "url": `https://www.shifatechnologies.com/brands/${brand.slug}`,
+    "brand": {
+      "@type": "Brand",
+      "name": brand.name,
+      "logo": `https://www.shifatechnologies.com${brand.logo}`,
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": brandProducts.length,
+      "itemListElement": brandProducts.slice(0, 15).map((product, idx) => ({
+        "@type": "ListItem",
+        "position": idx + 1,
+        "item": {
+          "@type": "Product",
+          "name": product.name[lang],
+          "description": product.shortDescription[lang],
+          "image": product.images?.[0]
+            ? `https://www.shifatechnologies.com${product.images[0]}`
+            : undefined,
+          "brand": {
+            "@type": "Brand",
+            "name": brand.name,
+          },
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "SAR",
+            "availability": "https://schema.org/InStock",
+            "seller": {
+              "@type": "Organization",
+              "name": "Shifa Technologies Medicals Co.",
+            },
+          },
+        },
+      })),
+    },
+  };
+
+  const breadcrumbs = [
+    { name: t("nav.home", { defaultValue: "Home" }), item: "/" },
+    { name: t("brand.title", { defaultValue: "Brands" }), item: "/#brands" },
+    { name: brand.name, item: `/brands/${brand.slug}` },
+  ];
+
   return (
     <>
       <SEO
-        title={brand.name}
-        description={`Explore ${brand.name} medical equipment and healthcare products from Shifa Technologies.`}
-        keywords={`${brand.name}, medical equipment, healthcare products, Saudi Arabia`}
+        title={`${brand.name} Medical Equipment`}
+        description={`Explore authorized ${brand.name} medical equipment, spare parts and healthcare products from Shifa Technologies Saudi Arabia.`}
+        keywords={`${brand.name}, ${brand.name} Saudi Arabia, medical equipment, healthcare products`}
         url={`/brands/${brand.slug}`}
         image={brand.logo}
+        breadcrumbs={breadcrumbs}
+        schema={brandSchema}
       />
 
       <section className="bg-slate-50 py-10 sm:py-14">
