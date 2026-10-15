@@ -3,10 +3,10 @@ export const company = {
   tagline: "Medical Equipment & Healthcare Solutions",
 
   phone: "+966 53 384 5516",
-  email: "shifatech279@gmail.com",
+  email: "shifatechnologies@gmail.com",
   whatsapp: "966533845516",
 
-  address: "Al Hamra- 7438 Ibn A Rumi Jeddah - 23324 - Saudi Arabia",
+  address: "JESA2440, Ibn Habbun Street, As Salamah District, Jeddah, Saudi Arabia 23436",
 
   mapEmbedUrl:
     "https://maps.google.com/maps?q=Jeddah%2C%20Saudi%20Arabia&output=embed",

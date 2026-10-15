@@ -47,5 +47,11 @@
     "name": "MIR",
     "slug": "mir",
     "logo": "/images/brands/mir.svg"
+  },
+    {
+    "id": 9,
+    "name": "ZOLL",
+    "slug": "zoll",
+    "logo": "/images/brands/zoll.png"
   }
 ]

@@ -819,7 +819,7 @@
 {
   "id": 38,
   "name": {
-    "en": "Medke Disposable Defibrillation Electrode Pads",
+    "en": "Medke Disposable Defibrillation Electrode AED Pads",
     "ar": "لصقات أقطاب إزالة الرجفان أحادية الاستخدام من ميدكي"
   },
   "slug": "medke-disposable-defibrillation-electrode-pads",
@@ -1125,6 +1125,28 @@
   ]
 },
 {
+  "id": 97,
+  "name": {
+    "en": "Medke Disposable IBP Transducer",
+    "ar": "محوّل ضغط الدم الغازي أحادي الاستخدام من ميدكي"
+  },
+  "slug": "disposable-ibp-transducer",
+  "categoryId": 4,
+  "brandId": 2,
+  "featured": false,
+  "shortDescription": {
+    "en": "Single-patient-use invasive blood pressure transducer kits designed for monitoring blood pressure with compatible patient monitoring systems.",
+    "ar": "مجموعات محولات ضغط الدم الغازي المخصصة لمريض واحد، والمصممة لمراقبة ضغط الدم باستخدام أنظمة مراقبة المرضى المتوافقة."
+  },
+  "description": {
+    "en": "Disposable IBP Transducer kits are designed for invasive blood pressure monitoring with compatible patient monitoring systems. Available configurations include Abbott/Medex, Edwards, Philips/B. Braun, B.D., and Utah types, depending on the required model. These kits are intended for single-patient use and are designed to connect with compatible interface cables. Please confirm the required type, connector compatibility, and exact part number before ordering.",
+    "ar": "صُممت مجموعات محولات ضغط الدم الغازي أحادية الاستخدام لمراقبة ضغط الدم باستخدام أنظمة مراقبة المرضى المتوافقة. تتوفر تكوينات مختلفة، بما في ذلك أنواع Abbott/Medex وEdwards وPhilips/B. Braun وB.D. وUtah، وفقًا للطراز المطلوب. هذه المجموعات مخصصة للاستخدام مع مريض واحد، ومصممة للاتصال بكابلات الواجهة المتوافقة. يُرجى التأكد من النوع المطلوب وتوافق الموصل ورقم القطعة الدقيق قبل الطلب."
+  },
+  "images": [
+    "/images/products/medke/disposable-ibp-transducer.png"
+  ]
+},
+{
   "id": 52,
   "name": {
     "en": "Philips HeartStart FRx AED",
@@ -1166,6 +1188,28 @@
   },
   "images": [
     "/images/products/philips/lamp.png"
+  ]
+},
+{
+  "id": 98,
+  "name": {
+    "en": "Philips HeartStart HS1 AED Trainer",
+    "ar": "جهاز التدريب على مزيل الرجفان الخارجي الآلي Philips HeartStart HS1"
+  },
+  "slug": "philips-heartstart-hs1-aed-trainer",
+  "categoryId": 6,
+  "brandId": 3,
+  "featured": false,
+  "shortDescription": {
+    "en": "Training device designed to simulate the operation of the Philips HeartStart HS1 automated external defibrillator for training purposes.",
+    "ar": "جهاز تدريبي مصمم لمحاكاة تشغيل مزيل الرجفان الخارجي الآلي Philips HeartStart HS1 لأغراض التدريب."
+  },
+  "description": {
+    "en": "The Philips HeartStart HS1 AED Trainer is designed to help instructors demonstrate AED operation and guide trainees through simulated emergency response scenarios. It is intended for training and practice, not for delivering therapeutic defibrillation. Confirm the trainer model and included accessories before ordering.",
+    "ar": "صُمم جهاز التدريب Philips HeartStart HS1 لمساعدة المدربين على شرح تشغيل مزيل الرجفان الخارجي الآلي وتدريب المتعلمين على سيناريوهات الاستجابة لحالات الطوارئ المحاكاة. هذا الجهاز مخصص للتدريب والممارسة ولا يُستخدم لتقديم صدمات كهربائية علاجية. يُرجى التأكد من طراز جهاز التدريب والملحقات المرفقة قبل الطلب."
+  },
+  "images": [
+    "/images/products/philips/heartstart-hs1-aed-trainer.png"
   ]
 },
 {
@@ -1496,28 +1540,6 @@
   },
   "images": [
     "/images/products/generic/oxy9wave-pulse-oximeter.png"
-  ]
-},
-{
-  "id": 69,
-  "name": {
-    "en": "Electrosurgical Consumables",
-    "ar": "مستهلكات أجهزة الجراحة الكهربائية"
-  },
-  "slug": "electrosurgical-consumables",
-  "categoryId": 4,
-  "brandId": null,
-  "featured": false,
-  "shortDescription": {
-    "en": "Electrosurgical accessories and consumables for use in compatible electrosurgical procedures.",
-    "ar": "ملحقات ومستهلكات الجراحة الكهربائية للاستخدام في الإجراءات الجراحية المتوافقة."
-  },
-  "description": {
-    "en": "Electrosurgical consumables include accessories such as electrosurgical electrodes, forceps, connecting cables, and foot pedals. These components are designed for use with compatible electrosurgical equipment in clinical and surgical settings. Product availability and compatibility depend on the specific device and accessory type. Contact us for technical specifications and compatible models.",
-    "ar": "تشمل مستهلكات الجراحة الكهربائية ملحقات مثل أقطاب الجراحة الكهربائية والملاقط وكابلات التوصيل ودواسات القدم. صُممت هذه المكونات للاستخدام مع أجهزة الجراحة الكهربائية المتوافقة في البيئات السريرية والجراحية. يعتمد التوفر والتوافق على نوع الجهاز والملحق المحدد. يُرجى التواصل معنا للحصول على المواصفات الفنية والطرازات المتوافقة."
-  },
-  "images": [
-    "/images/products/generic/electrosurgical-consumables.png"
   ]
 },
 {
@@ -2113,5 +2135,235 @@
   "images": [
     "/images/products/generic/ceramax-300w-xenon-lamp-pe300bfa.png"
   ]
+},
+
+{
+  "id": 69,
+  "name": {
+    "en": "Electrosurgical Consumables",
+    "ar": "مستهلكات أجهزة الجراحة الكهربائية"
+  },
+  "slug": "electrosurgical-consumables",
+  "categoryId": 4,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Electrosurgical accessories and consumables for use in compatible electrosurgical procedures.",
+    "ar": "ملحقات ومستهلكات الجراحة الكهربائية للاستخدام في الإجراءات الجراحية المتوافقة."
+  },
+  "description": {
+    "en": "Electrosurgical consumables include accessories such as electrosurgical electrodes, forceps, connecting cables, and foot pedals. These components are designed for use with compatible electrosurgical equipment in clinical and surgical settings. Product availability and compatibility depend on the specific device and accessory type. Contact us for technical specifications and compatible models.",
+    "ar": "تشمل مستهلكات الجراحة الكهربائية ملحقات مثل أقطاب الجراحة الكهربائية والملاقط وكابلات التوصيل ودواسات القدم. صُممت هذه المكونات للاستخدام مع أجهزة الجراحة الكهربائية المتوافقة في البيئات السريرية والجراحية. يعتمد التوفر والتوافق على نوع الجهاز والملحق المحدد. يُرجى التواصل معنا للحصول على المواصفات الفنية والطرازات المتوافقة."
+  },
+  "images": [
+    "/images/products/generic/electrosurgical-consumables.png"
+  ]
+},
+{
+  "id": 99,
+  "name": {
+    "en": "ZOLL AED Plus",
+    "ar": "جهاز زول لإزالة الرجفان الخارجي الآلي"
+  },
+  "slug": "zoll-aed-plus",
+  "categoryId": 6,
+  "brandId": 9,
+  "featured": false,
+  "shortDescription": {
+    "en": "Automated external defibrillator designed to support emergency response to sudden cardiac arrest.",
+    "ar": "جهاز مزيل رجفان خارجي آلي مصمم لدعم الاستجابة لحالات التوقف القلبي المفاجئ."
+  },
+  "description": {
+    "en": "The ZOLL AED Plus is an automated external defibrillator designed to assist rescuers during sudden cardiac arrest emergencies. It provides visual and voice prompts to guide users through the defibrillation process, and its Real CPR Help technology can provide feedback on chest compression rate and depth when used with compatible CPR-D-padz electrodes. Please confirm the device configuration, electrode type, accessories, and applicable requirements before ordering.",
+    "ar": "جهاز زول لإزالة الرجفان الخارجي الآلي مصمم لمساعدة المسعفين والمستجيبين في حالات التوقف القلبي المفاجئ. يوفر الجهاز إرشادات صوتية ومرئية لتوجيه المستخدم أثناء عملية إزالة الرجفان. كما توفر تقنية المساعدة في الإنعاش القلبي الرئوي ملاحظات حول معدل وعمق ضغطات الصدر عند استخدام الأقطاب الكهربائية المتوافقة. يُرجى التأكد من طراز الجهاز ونوع الأقطاب الكهربائية والملحقات المرفقة قبل الطلب."
+  },
+  "images": [
+    "/images/products/zoll/zoll-aed-plus.png"
+  ]
+},
+{
+  "id": 100,
+  "name": {
+    "en": "ZOLL CPR-D-padz AED Pads",
+    "ar": "أقطاب الإنعاش القلبي الرئوي لجهاز زول"
+  },
+  "slug": "zoll-cpr-d-padz-aed-pads",
+  "categoryId": 6,
+  "brandId": 9,
+  "featured": false,
+  "shortDescription": {
+    "en": "Replacement CPR-D-padz electrodes for compatible ZOLL AED Plus defibrillators, providing real-time feedback during CPR.",
+    "ar": "أقطاب كهربائية بديلة متوافقة مع أجهزة زول لإزالة الرجفان، توفر ملاحظات فورية أثناء الإنعاش القلبي الرئوي."
+  },
+  "description": {
+    "en": "ZOLL CPR-D-padz are replacement electrode pads designed for use with compatible ZOLL AED Plus defibrillators. They provide real-time feedback on chest compression rate and depth during cardiopulmonary resuscitation when used with a compatible device. These pads are intended for emergency response and should be used according to the manufacturer's instructions. Please confirm device compatibility, pad configuration, and expiration date before ordering.",
+    "ar": "أقطاب زول CPR-D-padz هي أقطاب كهربائية بديلة مصممة للاستخدام مع أجهزة زول المتوافقة لإزالة الرجفان الخارجي الآلي. توفر ملاحظات فورية حول معدل ضغطات الصدر وعمقها أثناء الإنعاش القلبي الرئوي عند استخدامها مع جهاز متوافق. هذه الأقطاب مخصصة للاستجابة لحالات الطوارئ، ويجب استخدامها وفقًا لتعليمات الشركة المصنعة. يُرجى التأكد من توافق الجهاز ومواصفات الأقطاب وتاريخ انتهاء الصلاحية قبل الطلب."
+  },
+  "images": [
+    "/images/products/zoll/zoll-cpr-d-padz.png"
+  ]
+},
+{
+  "id": 101,
+  "name": {
+    "en": "ZOLL Pedi-Padz II Pediatric AED Pads",
+    "ar": "أقطاب إزالة الرجفان للأطفال من زول"
+  },
+  "slug": "zoll-pedi-padz-ii-pediatric-aed-pads",
+  "categoryId": 6,
+  "brandId": 9,
+  "featured": false,
+  "shortDescription": {
+    "en": "Pediatric electrode pads designed for compatible ZOLL AED Plus and AED Pro devices for use on infants and children.",
+    "ar": "أقطاب كهربائية مخصصة للأطفال، مصممة للاستخدام مع أجهزة زول المتوافقة لإزالة الرجفان لدى الرضع والأطفال."
+  },
+  "description": {
+    "en": "ZOLL Pedi-Padz II are pediatric electrode pads designed for use with compatible ZOLL AED Plus and AED Pro defibrillators. They are intended for children under 8 years of age or weighing less than 55 pounds (approximately 25 kg). The packaging includes diagrams to help guide correct pad placement. Use the pads according to the device manufacturer's instructions and confirm compatibility, package contents, and expiration date before ordering.",
+    "ar": "أقطاب زول Pedi-Padz II هي أقطاب كهربائية مخصصة للأطفال، ومصممة للاستخدام مع أجهزة زول المتوافقة لإزالة الرجفان، بما في ذلك طرازا AED Plus وAED Pro. وهي مخصصة للأطفال دون سن الثامنة أو الذين يقل وزنهم عن نحو 25 كيلوغرامًا. تتضمن العبوة رسومات إرشادية للمساعدة في وضع الأقطاب بالشكل الصحيح. يُرجى استخدام الأقطاب وفقًا لتعليمات الشركة المصنعة للجهاز، والتأكد من التوافق ومحتويات العبوة وتاريخ انتهاء الصلاحية قبل الطلب."
+  },
+  "images": [
+    "/images/products/zoll/zoll-pedi-padz-ii.png"
+  ]
+},
+
+{
+  "id": 102,
+  "name": {
+    "en": "ZOLL Stat-padz II Adult Electrodes",
+    "ar": "أقطاب زول متعددة الوظائف للبالغين"
+  },
+  "slug": "zoll-stat-padz",
+  "categoryId": 6,
+  "brandId": 9,
+  "featured": false,
+  "shortDescription": {
+    "en": "Adult multifunction electrode pads designed for defibrillation and compatible cardiac monitoring and pacing applications.",
+    "ar": "أقطاب كهربائية متعددة الوظائف للبالغين، مصممة لإزالة الرجفان واستخدامات مراقبة القلب والتنظيم الكهربائي المتوافقة."
+  },
+  "description": {
+    "en": "ZOLL Stat-padz II are adult multifunction electrode pads designed for use with compatible ZOLL defibrillators and monitoring systems. Depending on the compatible device and application, they support defibrillation, cardioversion, non-invasive pacing, and ECG monitoring. They are intended for adult patients and should be used by trained personnel according to the manufacturer's instructions. Please confirm device compatibility, connector type, package configuration, and expiration date before ordering.",
+    "ar": "أقطاب زول متعددة الوظائف للبالغين، مصممة للاستخدام مع أجهزة إزالة الرجفان وأنظمة مراقبة القلب المتوافقة. وبحسب الجهاز والتطبيق المتوافقين، تدعم هذه الأقطاب إزالة الرجفان وتقويم نظم القلب والتنظيم الكهربائي غير الجراحي ومراقبة تخطيط القلب. وهي مخصصة للمرضى البالغين، ويجب استخدامها بواسطة أشخاص مدربين وفقًا لتعليمات الشركة المصنعة. يُرجى التأكد من توافق الجهاز ونوع الموصل ومحتويات العبوة وتاريخ انتهاء الصلاحية قبل الطلب."
+  },
+  "images": [
+    "/images/products/zoll/zoll-stat-padz.png"
+  ]
+},
+
+
+{
+  "id": 103,
+  "name": {
+    "en": "AED Replacement Batteries",
+    "ar": "بطاريات بديلة لأجهزة إزالة الرجفان الخارجي الآلي"
+  },
+  "slug": "aed-replacement-batteries",
+  "categoryId": 2,
+  "brandId": null,
+  "featured": false,
+"shortDescription": {
+  "en": "ZOLL, Philips, Smarty Saver, Nihon Kohden, Medtronic Physio-Control, and Cardiac Science G3/G5 AED replacement batteries.",
+  "ar": "بطاريات بديلة لأجهزة إزالة الرجفان من زول وفيليبس وسمارتي سيفر ونيهون كوهدن وميدترونيك فيزيو-كونترول وكارديك ساينس جي 3 وجي 5."
+},
+  "description": {
+    "en": "We supply replacement batteries for automated external defibrillators (AEDs) from multiple manufacturers. Supported brands and product families include ZOLL, Philips, Smarty Saver, Nihon Kohden, Medtronic Physio-Control, and Cardiac Science G3 and G5. Battery specifications, connectors, compatibility, and service life vary by AED model. Please provide the device manufacturer and exact model number so we can help identify the appropriate replacement battery. Availability and compatibility should be confirmed before ordering.",
+    "ar": "نوفر بطاريات بديلة لأجهزة إزالة الرجفان الخارجي الآلي من شركات متعددة. تشمل الشركات وسلاسل الأجهزة المتاحة زول وفيليبس وسمارتي سيفر ونيهون كوهدن وميدترونيك فيزيو-كونترول وكارديك ساينس من طرازي جي 3 وجي 5. تختلف مواصفات البطاريات والموصلات والتوافق والعمر التشغيلي بحسب طراز الجهاز. يُرجى تزويدنا باسم الشركة المصنعة ورقم طراز الجهاز للمساعدة في تحديد البطارية البديلة المناسبة. يجب التأكد من التوفر والتوافق قبل الطلب."
+  },
+  "images": [
+    "/images/products/generic/aed-replacement-batteries.png"
+  ]
+},
+
+{
+  "id": 104,
+  "name": {
+    "en": "ZOLL AED Plus Trainer2",
+    "ar": "جهاز زول التدريبي على إزالة الرجفان"
+  },
+  "slug": "zoll-aed-trainer",
+  "categoryId": 6,
+  "brandId": 9,
+  "featured": false,
+  "shortDescription": {
+    "en": "Training simulator designed to demonstrate AED operation and practice emergency response procedures without delivering a therapeutic shock.",
+    "ar": "جهاز محاكاة تدريبي لشرح طريقة استخدام مزيل الرجفان والتدرب على إجراءات الاستجابة للطوارئ دون إصدار صدمة علاجية."
+  },
+  "description": {
+    "en": "The ZOLL AED Plus Trainer2 is a training simulator designed to help instructors demonstrate AED operation and teach emergency response procedures. It simulates operating prompts and training scenarios for practice sessions. This device is intended for training and demonstration only and does not deliver therapeutic defibrillation energy. Training electrodes and accessories may be required separately. Please confirm the trainer model, included accessories, and compatibility with the intended training setup before ordering.",
+    "ar": "جهاز زول التدريبي على إزالة الرجفان هو جهاز محاكاة يساعد المدربين على شرح طريقة تشغيل مزيل الرجفان وتعليم إجراءات الاستجابة لحالات الطوارئ. يحاكي الجهاز الإرشادات التشغيلية والسيناريوهات التدريبية لاستخدامها أثناء جلسات التدريب. هذا الجهاز مخصص للتدريب والعرض فقط، ولا يصدر طاقة كهربائية علاجية لإزالة الرجفان. قد يلزم شراء الأقطاب التدريبية والملحقات بشكل منفصل. يُرجى التأكد من طراز الجهاز والملحقات المرفقة وتوافقها مع التجهيزات التدريبية المطلوبة قبل الطلب."
+  },
+  "images": [
+    "/images/products/zoll/zoll-aed-trainer.png"
+  ]
+},
+
+{
+  "id": 105,
+  "name": {
+    "en": "KYN B951KY Heavy-Duty Wheelchair",
+    "ar": "كرسي كاين المتحرك شديد التحمل طراز B951KY"
+  },
+  "slug": "kyn-b951ky-heavy-duty-wheelchair",
+  "categoryId": 7,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Heavy-duty wheelchair with a 51 cm seat width, padded seating, and a sturdy frame for comfortable everyday mobility.",
+    "ar": "كرسي متحرك شديد التحمل بعرض مقعد 51 سم، ومقعد مبطن وهيكل متين لتوفير الراحة أثناء التنقل اليومي."
+  },
+  "description": {
+    "en": "The KYN B951KY Heavy-Duty Wheelchair is designed to support everyday mobility with a sturdy frame and padded seat and backrest. Its 51 cm seat width provides a spacious seating area, making it suitable for users who need additional room and support. The wheelchair is intended for mobility assistance in appropriate care and home settings. Please confirm the maximum user weight, frame material, dimensions, foldability, and available accessories before ordering.",
+    "ar": "صُمم الكرسي المتحرك شديد التحمل من كاين، طراز B951KY، للمساعدة على التنقل اليومي، ويتميز بهيكل متين ومقعد ومسند ظهر مبطنين. يوفر عرض المقعد البالغ 51 سم مساحة جلوس واسعة للمستخدمين الذين يحتاجون إلى مساحة إضافية. يناسب الكرسي الاستخدام في المنزل وبيئات الرعاية المناسبة. يُرجى التأكد من الحد الأقصى لوزن المستخدم والمواد المصنوع منها الهيكل والأبعاد وإمكانية الطي والملحقات المتاحة قبل الطلب."
+  },
+  "images": [
+    "/images/products/generic/kyn-b951ky-wheelchair.png"
+  ]
+},
+
+{
+  "id": 106,
+  "name": {
+    "en": "Manual Wheelchair",
+    "ar": "كرسي متحرك يدوي"
+  },
+  "slug": "manual-wheelchair",
+  "categoryId": 7,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Manual wheelchair featuring a metal frame, blue seat and backrest, large rear wheels, and front caster wheels.",
+    "ar": "كرسي متحرك يدوي بإطار معدني ومقعد ومسند ظهر باللون الأزرق، مع عجلات خلفية كبيرة وعجلات أمامية دوارة."
+  },
+  "description": {
+    "en": "This manual wheelchair is designed to assist users with mobility in home, healthcare, and care environments. It features a metal frame, a blue seat and backrest, large rear wheels, and smaller front caster wheels for maneuverability. Its configuration is suitable for users who require a manually operated mobility aid. Please confirm the manufacturer, model number, maximum user weight, seat width, folding mechanism, and included accessories before ordering.",
+    "ar": "صُمم هذا الكرسي المتحرك اليدوي لمساعدة المستخدمين على التنقل في المنزل ومرافق الرعاية الصحية وبيئات الرعاية المختلفة. يتميز بإطار معدني ومقعد ومسند ظهر باللون الأزرق، وعجلات خلفية كبيرة وعجلات أمامية دوارة لتسهيل الحركة والتوجيه. يناسب الكرسي الأشخاص الذين يحتاجون إلى وسيلة مساعدة يدوية للتنقل. يُرجى التأكد من الشركة المصنعة ورقم الطراز والحد الأقصى لوزن المستخدم وعرض المقعد وآلية الطي والملحقات المرفقة قبل الطلب."
+  },
+  "images": [
+    "/images/products/generic/manual-wheelchair.png"
+  ]
+},
+
+{
+  "id": 107,
+  "name": {
+    "en": "Medical Equipment PPM & Quality Maintenance Contract",
+    "ar": "عقد الصيانة الوقائية وضمان جودة الأجهزة الطبية"
+  },
+  "slug": "medical-equipment-ppm-quality-maintenance",
+  "categoryId": 8,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Preventive maintenance and quality assurance contracts for medical equipment across healthcare facilities.",
+    "ar": "عقود للصيانة الوقائية وضمان جودة الأجهزة الطبية في المنشآت الصحية."
+  },
+  "description": {
+    "en": "Shifa Technologies provides preventive maintenance and quality assurance contracts for medical equipment across hospitals, clinics, and other healthcare facilities. Our maintenance services can include scheduled inspections, preventive servicing, functional and performance checks, safety assessments, and maintenance documentation, depending on the agreed contract scope. Our goal is to help healthcare facilities maintain equipment reliability, support patient safety, reduce unexpected downtime, and extend equipment service life. Contract coverage, maintenance frequency, response times, and included equipment are agreed upon according to the customer's requirements. Contact us to discuss a maintenance plan tailored to your facility.",
+    "ar": "تقدم شفاء تكنولوجيز عقود الصيانة الوقائية وضمان جودة الأجهزة الطبية للمستشفيات والعيادات ومختلف المنشآت الصحية. ويمكن أن تشمل خدمات الصيانة الفحوصات الدورية، والصيانة الوقائية، والتحقق من الوظائف والأداء، وتقييم السلامة، وتوثيق أعمال الصيانة، وفقًا لنطاق العقد المتفق عليه. نهدف إلى مساعدة المنشآت الصحية على الحفاظ على موثوقية الأجهزة، ودعم سلامة المرضى، وتقليل فترات التوقف غير المخطط لها، وإطالة العمر التشغيلي للمعدات. يتم تحديد الأجهزة المشمولة وتكرار الصيانة وأوقات الاستجابة والخدمات المقدمة وفقًا لمتطلبات العميل. تواصلوا معنا لمناقشة خطة صيانة تناسب منشأتكم."
+  },
+  "images": [
+    "/images/products/generic/medical-equipment-maintenance.png"
+  ]
 }
+
+
 ]
