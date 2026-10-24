@@ -33,7 +33,7 @@
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
 
-    <!-- Canonical URL (Matches Current Host to Avoid External Canonical Penalty) -->
+    <!-- Canonical URL -->
     <link
       rel="canonical"
       href="https://shifa-technology-final-test.vercel.app/"
@@ -56,10 +56,26 @@
       href="https://shifa-technology-final-test.vercel.app/"
     />
 
-    <!-- Theme Color -->
+    <!-- Mobile App & Theme Settings -->
     <meta
       name="theme-color"
       content="#2563eb"
+    />
+    <meta
+      name="apple-mobile-web-app-capable"
+      content="yes"
+    />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="default"
+    />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Shifa Tech"
+    />
+    <meta
+      name="format-detection"
+      content="telephone=no"
     />
 
     <!-- Favicon & Touch Icons -->
@@ -114,6 +130,14 @@
       content="https://shifa-technology-final-test.vercel.app/images/og-image.jpg"
     />
     <meta
+      property="og:image:secure_url"
+      content="https://shifa-technology-final-test.vercel.app/images/og-image.jpg"
+    />
+    <meta
+      property="og:image:type"
+      content="image/jpeg"
+    />
+    <meta
       property="og:image:width"
       content="1200"
     />
@@ -142,6 +166,10 @@
     <meta
       name="twitter:card"
       content="summary_large_image"
+    />
+    <meta
+      name="twitter:site"
+      content="@shifatechnologies"
     />
     <meta
       name="twitter:title"
@@ -189,7 +217,7 @@
       rel="stylesheet"
     />
 
-    <!-- Structured Data (JSON-LD) - Organization & MedicalBusiness Schema -->
+    <!-- Structured Data (JSON-LD) - Organization, WebSite & FAQ Schema -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -250,6 +278,36 @@
               "@id": "https://shifa-technology-final-test.vercel.app/#organization"
             },
             "inLanguage": ["en", "ar"]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://shifa-technology-final-test.vercel.app/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What medical equipment does Shifa Technologies supply in Saudi Arabia?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Shifa Technologies supplies vital signs monitors, ECG systems, defibrillators, electrosurgical units, ICU hospital beds, biomedical spare parts, and emergency resuscitation gear across Saudi Arabia."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you provide biomedical spare parts and maintenance services?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we provide certified biomedical replacement components including sensors, cables, xenon lamps, and planned preventive maintenance (PPM) services conducted by specialized biomedical engineers."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can hospitals and clinics request quotations?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can contact our sales team directly via our online contact form, phone at +966 53 384 5516, or instant WhatsApp support for official quotes and product specifications."
+                }
+              }
+            ]
           }
         ]
       }
@@ -261,7 +319,7 @@
       <!-- Pre-rendered Semantic HTML for SEO and Immediate First Paint -->
       <header style="background:#ffffff; border-bottom:1px solid #e2e8f0; padding:16px 24px;">
         <div style="max-width:1200px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
-          <a href="/" style="display:flex; align-items:center; gap:10px; text-decoration:none; color:#0f172a;">
+          <a href="/" title="Shifa Technologies Home" style="display:flex; align-items:center; gap:10px; text-decoration:none; color:#0f172a;">
             <img src="/images/logo.png" alt="Shifa Technologies Logo" width="60" height="60" style="object-fit:contain;" />
             <div>
               <span style="font-size:20px; font-weight:800; color:#2563eb; display:block; line-height:1.2;">Shifa <span style="color:#15803d;">Technologies Co.</span></span>
@@ -270,10 +328,11 @@
           </a>
           <nav aria-label="Main Navigation">
             <ul style="display:flex; gap:20px; list-style:none; margin:0; padding:0; font-weight:600; font-size:15px;">
-              <li><a href="/" style="color:#2563eb; text-decoration:none;">Home</a></li>
-              <li><a href="/category/medical-equipment" style="color:#334155; text-decoration:none;">Categories</a></li>
-              <li><a href="/about" style="color:#334155; text-decoration:none;">About Us</a></li>
-              <li><a href="/contact" style="color:#334155; text-decoration:none;">Contact Us</a></li>
+              <li><a href="/" title="Home Page" style="color:#2563eb; text-decoration:none;">Home</a></li>
+              <li><a href="/category/medical-equipment" title="Browse Medical Equipment" style="color:#334155; text-decoration:none;">Equipment</a></li>
+              <li><a href="/about" title="About Shifa Technologies" style="color:#334155; text-decoration:none;">About Us</a></li>
+              <li><a href="/contact" title="Contact Us for Inquiries" style="color:#334155; text-decoration:none;">Contact Us</a></li>
+              <li><a href="https://wa.me/966533845516" target="_blank" rel="noopener noreferrer" title="WhatsApp Customer Support" style="color:#16a34a; text-decoration:none;">WhatsApp Support</a></li>
             </ul>
           </nav>
         </div>
@@ -290,11 +349,12 @@
               Medical Equipment &amp; Healthcare Solutions in Saudi Arabia
             </h1>
             <p style="font-size:17px; line-height:1.7; color:#475569; max-width:850px; margin-bottom:24px;">
-              Shifa Technologies Medicals Co. (شركة شفاء للتقنيات) is a premier healthcare solutions and biomedical technology supplier based in Jeddah, serving hospitals, medical centers, clinics, and laboratories across the Kingdom of Saudi Arabia. We supply certified diagnostic equipment, biomedical spare parts, hospital furniture, emergency first aid gear, and planned preventive maintenance (PPM) services.
+              Shifa Technologies Medicals Co. (شركة شفاء للتقنيات) is a premier healthcare solutions and biomedical technology supplier based in Jeddah, serving hospitals, medical centers, clinics, and laboratories across the Kingdom of Saudi Arabia. We supply certified diagnostic equipment, biomedical spare parts, hospital furniture, emergency first aid gear, and planned preventive maintenance (PPM) services. Our mission is to empower healthcare providers with reliable clinical technologies and expert after-sales support.
             </p>
             <div style="display:flex; gap:16px; flex-wrap:wrap;">
-              <a href="/contact" style="background:#2563eb; color:#ffffff; padding:12px 24px; border-radius:8px; font-weight:600; text-decoration:none; display:inline-block;">Request a Quote</a>
-              <a href="/about" style="background:#ffffff; color:#0f172a; border:1px solid #cbd5e1; padding:12px 24px; border-radius:8px; font-weight:600; text-decoration:none; display:inline-block;">About Our Company</a>
+              <a href="/contact" title="Request an Equipment Quote" style="background:#2563eb; color:#ffffff; padding:12px 24px; border-radius:8px; font-weight:600; text-decoration:none; display:inline-block;">Request a Quote</a>
+              <a href="/about" title="Learn more about Shifa Technologies" style="background:#ffffff; color:#0f172a; border:1px solid #cbd5e1; padding:12px 24px; border-radius:8px; font-weight:600; text-decoration:none; display:inline-block;">About Our Company</a>
+              <a href="https://wa.me/966533845516" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp" style="background:#16a34a; color:#ffffff; padding:12px 24px; border-radius:8px; font-weight:600; text-decoration:none; display:inline-block;">Chat with Specialist</a>
             </div>
           </div>
         </section>
@@ -305,35 +365,35 @@
           <p style="color:#64748b; font-size:16px; margin-bottom:28px;">Browse our comprehensive catalog of hospital-grade medical devices and clinical supplies in Saudi Arabia.</p>
           <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:20px;">
             <article style="border:1px solid #e2e8f0; border-radius:12px; padding:20px; background:#ffffff;">
-              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/medical-equipment" style="color:#2563eb; text-decoration:none;">Medical Equipment</a></h3>
+              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/medical-equipment" title="View Medical Equipment" style="color:#2563eb; text-decoration:none;">Medical Equipment</a></h3>
               <p style="color:#64748b; font-size:14px; line-height:1.6;">Vital signs monitors, ECG machines, defibrillators, electrosurgical units, and diagnostic devices for hospitals and clinical centers.</p>
             </article>
             <article style="border:1px solid #e2e8f0; border-radius:12px; padding:20px; background:#ffffff;">
-              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/biomedical-spare-parts" style="color:#2563eb; text-decoration:none;">BioMedical Spare Parts</a></h3>
+              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/biomedical-spare-parts" title="View BioMedical Spare Parts" style="color:#2563eb; text-decoration:none;">BioMedical Spare Parts</a></h3>
               <p style="color:#64748b; font-size:14px; line-height:1.6;">High-grade replacement parts, sensors, cables, probes, xenon lamps, and medical batteries for bio-medical equipment.</p>
             </article>
             <article style="border:1px solid #e2e8f0; border-radius:12px; padding:20px; background:#ffffff;">
-              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/hospital-furniture" style="color:#2563eb; text-decoration:none;">Hospital Furniture</a></h3>
+              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/hospital-furniture" title="View Hospital Furniture" style="color:#2563eb; text-decoration:none;">Hospital Furniture</a></h3>
               <p style="color:#64748b; font-size:14px; line-height:1.6;">Electric ICU hospital beds, examination couches, bedside cabinets, overbed tables, and ergonomic clinical furniture.</p>
             </article>
             <article style="border:1px solid #e2e8f0; border-radius:12px; padding:20px; background:#ffffff;">
-              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/medical-disposable" style="color:#2563eb; text-decoration:none;">Medical Disposables</a></h3>
+              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/medical-disposable" title="View Medical Disposables" style="color:#2563eb; text-decoration:none;">Medical Disposables</a></h3>
               <p style="color:#64748b; font-size:14px; line-height:1.6;">Certified single-use medical consumables, sterile gloves, surgical face masks, sticky mats, and protective clinical supplies.</p>
             </article>
             <article style="border:1px solid #e2e8f0; border-radius:12px; padding:20px; background:#ffffff;">
-              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/healthcare-accessories" style="color:#2563eb; text-decoration:none;">Healthcare Accessories</a></h3>
+              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/healthcare-accessories" title="View Healthcare Accessories" style="color:#2563eb; text-decoration:none;">Healthcare Accessories</a></h3>
               <p style="color:#64748b; font-size:14px; line-height:1.6;">Stethoscopes, NIBP cuffs, pulse oximeter probes, temperature sensors, and clinical healthcare accessories.</p>
             </article>
             <article style="border:1px solid #e2e8f0; border-radius:12px; padding:20px; background:#ffffff;">
-              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/emergency-first-aid" style="color:#2563eb; text-decoration:none;">Emergency First Aid</a></h3>
+              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/emergency-first-aid" title="View Emergency First Aid Equipment" style="color:#2563eb; text-decoration:none;">Emergency First Aid</a></h3>
               <p style="color:#64748b; font-size:14px; line-height:1.6;">Automated external defibrillators (AED), resuscitation kits, suction units, and rapid trauma response equipment.</p>
             </article>
             <article style="border:1px solid #e2e8f0; border-radius:12px; padding:20px; background:#ffffff;">
-              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/mobility-aids" style="color:#2563eb; text-decoration:none;">Mobility Aids</a></h3>
+              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/mobility-aids" title="View Mobility Aids & Wheelchairs" style="color:#2563eb; text-decoration:none;">Mobility Aids</a></h3>
               <p style="color:#64748b; font-size:14px; line-height:1.6;">Manual and motorized wheelchairs, patient transfer aids, walking frames, and patient rehabilitation equipment.</p>
             </article>
             <article style="border:1px solid #e2e8f0; border-radius:12px; padding:20px; background:#ffffff;">
-              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/ppm-service" style="color:#2563eb; text-decoration:none;">PPM Service</a></h3>
+              <h3 style="font-size:18px; font-weight:600; margin-bottom:8px;"><a href="/category/ppm-service" title="View PPM Maintenance Services" style="color:#2563eb; text-decoration:none;">PPM Service</a></h3>
               <p style="color:#64748b; font-size:14px; line-height:1.6;">Planned preventive maintenance, periodic calibration, safety inspections, and engineering repair services across KSA.</p>
             </article>
           </div>
@@ -345,14 +405,14 @@
             <h2 style="font-size:28px; font-weight:700; color:#0f172a; margin-bottom:12px;">Authorized Medical Equipment Brands</h2>
             <p style="color:#64748b; font-size:16px; margin-bottom:24px;">We partner with world-renowned international medical manufacturers to deliver reliable healthcare technologies in Saudi Arabia.</p>
             <div style="display:flex; flex-wrap:wrap; gap:12px;">
-              <a href="/brands/sumit" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Sumit Medical</a>
-              <a href="/brands/medke" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Medke Technology</a>
-              <a href="/brands/philips" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Philips Healthcare</a>
-              <a href="/brands/bionet" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Bionet</a>
-              <a href="/brands/cami" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">CAMI Italy</a>
-              <a href="/brands/progetti" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Progetti Medical</a>
-              <a href="/brands/osteosys" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Osteosys</a>
-              <a href="/brands/mir" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">MIR Spirometry</a>
+              <a href="/brands/sumit" title="Sumit Medical Devices" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Sumit Medical</a>
+              <a href="/brands/medke" title="Medke Medical Accessories" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Medke Technology</a>
+              <a href="/brands/philips" title="Philips Healthcare Products" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Philips Healthcare</a>
+              <a href="/brands/bionet" title="Bionet Patient Monitors & ECG" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Bionet</a>
+              <a href="/brands/cami" title="CAMI Medical Suction Machines" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">CAMI Italy</a>
+              <a href="/brands/progetti" title="Progetti Defibrillators & Emergency Equipment" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Progetti Medical</a>
+              <a href="/brands/osteosys" title="Osteosys Bone Densitometers" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">Osteosys</a>
+              <a href="/brands/mir" title="MIR Medical Spirometers" style="background:#ffffff; border:1px solid #cbd5e1; padding:10px 18px; border-radius:8px; text-decoration:none; color:#1e293b; font-weight:600; font-size:14px;">MIR Spirometry</a>
             </div>
           </div>
         </section>
@@ -376,23 +436,58 @@
             </div>
           </div>
         </section>
+
+        <!-- FAQ Section for Enhanced Page Quality & Rich Results -->
+        <section style="padding:48px 24px; background:#f8fafc; border-top:1px solid #e2e8f0;">
+          <div style="max-width:1200px; margin:0 auto;">
+            <h2 style="font-size:28px; font-weight:700; color:#0f172a; margin-bottom:12px;">Frequently Asked Questions</h2>
+            <p style="color:#64748b; font-size:16px; margin-bottom:24px;">Find answers to common questions regarding medical equipment procurement, warranty, and technical service in Saudi Arabia.</p>
+            <div style="display:grid; gap:16px; max-width:900px;">
+              <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:20px;">
+                <h3 style="font-size:17px; font-weight:700; color:#0f172a; margin-bottom:8px;">What medical equipment does Shifa Technologies supply in Saudi Arabia?</h3>
+                <p style="color:#475569; font-size:14px; line-height:1.6; margin:0;">Shifa Technologies supplies comprehensive hospital solutions including multiparameter patient monitors, ECG machines, defibrillators, electrosurgical units, suction machines, hospital beds, biomedical spare parts, and emergency first aid supplies.</p>
+              </div>
+              <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:20px;">
+                <h3 style="font-size:17px; font-weight:700; color:#0f172a; margin-bottom:8px;">Do you provide biomedical spare parts and maintenance services?</h3>
+                <p style="color:#475569; font-size:14px; line-height:1.6; margin:0;">Yes, we stock authentic biomedical replacement parts, temperature and SpO2 probes, patient cables, and medical batteries. In addition, our certified engineers provide scheduled planned preventive maintenance (PPM) services throughout KSA.</p>
+              </div>
+              <div style="background:#ffffff; border:1px solid #e2e8f0; border-radius:8px; padding:20px;">
+                <h3 style="font-size:17px; font-weight:700; color:#0f172a; margin-bottom:8px;">How can healthcare facilities request an official quotation?</h3>
+                <p style="color:#475569; font-size:14px; line-height:1.6; margin:0;">You can submit an inquiry through our <a href="/contact" title="Go to Contact Page" style="color:#2563eb; text-decoration:underline;">contact form</a>, call our sales office directly at <a href="tel:+966533845516" title="Call Phone Number" style="color:#2563eb; text-decoration:underline;">+966 53 384 5516</a>, or initiate a live chat on WhatsApp for immediate support.</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <!-- Footer -->
-      <footer style="background:#0f172a; color:#cbd5e1; padding:48px 24px; margin-top:48px;">
+      <footer style="background:#0f172a; color:#cbd5e1; padding:48px 24px;">
         <div style="max-width:1200px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:32px;">
           <div>
             <h3 style="color:#ffffff; font-size:18px; font-weight:700; margin-bottom:12px;">Shifa Technologies</h3>
             <p style="font-size:14px; line-height:1.6; color:#94a3b8;">Supplying certified medical equipment, hospital furniture, biomedical parts and maintenance services across Saudi Arabia.</p>
+            <div style="margin-top:16px;">
+              <a href="https://wa.me/966533845516" target="_blank" rel="noopener noreferrer" title="Official WhatsApp Support" style="display:inline-block; background:#16a34a; color:#ffffff; padding:8px 16px; border-radius:6px; font-size:13px; font-weight:600; text-decoration:none;">WhatsApp: +966 53 384 5516</a>
+            </div>
           </div>
           <div>
             <h3 style="color:#ffffff; font-size:18px; font-weight:700; margin-bottom:12px;">Quick Links</h3>
             <ul style="list-style:none; padding:0; margin:0; line-height:2; font-size:14px;">
-              <li><a href="/" style="color:#cbd5e1; text-decoration:none;">Home</a></li>
-              <li><a href="/about" style="color:#cbd5e1; text-decoration:none;">About Us</a></li>
-              <li><a href="/contact" style="color:#cbd5e1; text-decoration:none;">Contact Us</a></li>
-              <li><a href="/privacy" style="color:#cbd5e1; text-decoration:none;">Privacy Policy</a></li>
-              <li><a href="/terms" style="color:#cbd5e1; text-decoration:none;">Terms &amp; Conditions</a></li>
+              <li><a href="/" title="Home Page" style="color:#cbd5e1; text-decoration:none;">Home</a></li>
+              <li><a href="/about" title="About Us" style="color:#cbd5e1; text-decoration:none;">About Us</a></li>
+              <li><a href="/contact" title="Contact Us" style="color:#cbd5e1; text-decoration:none;">Contact Us</a></li>
+              <li><a href="/privacy" title="Privacy Policy" style="color:#cbd5e1; text-decoration:none;">Privacy Policy</a></li>
+              <li><a href="/terms" title="Terms &amp; Conditions" style="color:#cbd5e1; text-decoration:none;">Terms &amp; Conditions</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 style="color:#ffffff; font-size:18px; font-weight:700; margin-bottom:12px;">Categories</h3>
+            <ul style="list-style:none; padding:0; margin:0; line-height:2; font-size:14px;">
+              <li><a href="/category/medical-equipment" title="Medical Equipment Catalog" style="color:#cbd5e1; text-decoration:none;">Medical Equipment</a></li>
+              <li><a href="/category/biomedical-spare-parts" title="BioMedical Spare Parts" style="color:#cbd5e1; text-decoration:none;">BioMedical Spare Parts</a></li>
+              <li><a href="/category/hospital-furniture" title="Hospital Furniture Range" style="color:#cbd5e1; text-decoration:none;">Hospital Furniture</a></li>
+              <li><a href="/category/emergency-first-aid" title="Emergency First Aid Kits" style="color:#cbd5e1; text-decoration:none;">Emergency First Aid</a></li>
+              <li><a href="/category/ppm-service" title="PPM Maintenance Solutions" style="color:#cbd5e1; text-decoration:none;">PPM Maintenance</a></li>
             </ul>
           </div>
           <div>
@@ -400,8 +495,9 @@
             <p style="font-size:14px; line-height:1.6; color:#94a3b8;">
               Al Hamra, 7438 Ibn A Rumi<br>
               Jeddah 23324, Saudi Arabia<br>
-              Phone: <a href="tel:+966533845516" style="color:#60a5fa; text-decoration:none;">+966 53 384 5516</a><br>
-              Email: <a href="mailto:shifatech279@gmail.com" style="color:#60a5fa; text-decoration:none;">shifatech279@gmail.com</a>
+              Phone: <a href="tel:+966533845516" title="Call Shifa Technologies" style="color:#60a5fa; text-decoration:none;">+966 53 384 5516</a><br>
+              Email: <a href="mailto:shifatech279@gmail.com" title="Email Inquiries" style="color:#60a5fa; text-decoration:none;">shifatech279@gmail.com</a><br>
+              <a href="https://maps.google.com/?q=Jeddah+Saudi+Arabia" target="_blank" rel="noopener noreferrer" title="View location on Google Maps" style="color:#60a5fa; text-decoration:underline; display:inline-block; margin-top:6px;">View on Google Maps</a>
             </p>
           </div>
         </div>
