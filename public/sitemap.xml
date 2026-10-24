@@ -1,221 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/about</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/about" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/about" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/contact</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/contact" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/contact" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/contact" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/privacy</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/privacy" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/terms</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/terms" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/category/medical-equipment</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/category/medical-equipment" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/category/medical-equipment" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/category/medical-equipment" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/category/biomedical-spare-parts</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/category/biomedical-spare-parts" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/category/biomedical-spare-parts" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/category/biomedical-spare-parts" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/category/hospital-furniture</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/category/hospital-furniture" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/category/hospital-furniture" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/category/hospital-furniture" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/category/medical-disposable</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/category/medical-disposable" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/category/medical-disposable" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/category/medical-disposable" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/category/healthcare-accessories</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/category/healthcare-accessories" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/category/healthcare-accessories" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/category/healthcare-accessories" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/category/emergency-first-aid</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/category/emergency-first-aid" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/category/emergency-first-aid" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/category/emergency-first-aid" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/category/mobility-aids</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/category/mobility-aids" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/category/mobility-aids" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/category/mobility-aids" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/category/ppm-service</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/category/ppm-service" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/category/ppm-service" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/category/ppm-service" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/sumit</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/sumit" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/sumit" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/sumit" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/medke</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/medke" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/medke" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/medke" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/philips</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/philips" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/philips" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/philips" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/bionet</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/bionet" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/bionet" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/bionet" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/cami</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/cami" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/cami" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/cami" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/progetti</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/progetti" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/progetti" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/progetti" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/osteosys</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/osteosys" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/osteosys" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/osteosys" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/mir</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/mir" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/mir" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/mir" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/zoll</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/zoll" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/zoll" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/zoll" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/axis</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/axis" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/axis" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/axis" />
   </url>
   <url>
     <loc>https://shifa-technology-final-test.vercel.app/brands/amnotec</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://shifa-technology-final-test.vercel.app/brands/amnotec" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shifa-technology-final-test.vercel.app/brands/amnotec" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shifa-technology-final-test.vercel.app/brands/amnotec" />
   </url>
 </urlset>

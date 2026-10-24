@@ -22,6 +22,19 @@ const links = [...html.matchAll(/<a\s+[^>]*href=["'](.*?)["'][^>]*>(.*?)<\/a>/gi
   text: m[2].replace(/<[^>]+>/g, '').trim(),
 }));
 
+// Find duplicate anchor texts
+const anchorCounts = {};
+links.forEach((l) => {
+  anchorCounts[l.text] = (anchorCounts[l.text] || 0) + 1;
+});
+const duplicates = Object.entries(anchorCounts).filter(([, count]) => count > 1);
+
+// Check alternate hreflang tags
+const hreflangs = [...html.matchAll(/<link\s+rel=["']alternate["']\s+hreflang=["'](.*?)["']\s+href=["'](.*?)["']/gis)].map((m) => ({
+  lang: m[1],
+  href: m[2],
+}));
+
 const textOnly = html
   .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
   .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '')
@@ -36,5 +49,10 @@ console.log(`Description (${desc.length} chars): "${desc}"`);
 console.log(`Canonical URL: ${canon}`);
 console.log(`H1 Count: ${h1s.length}`, h1s);
 console.log(`H2 Count: ${h2s.length}`, h2s);
-console.log(`Internal Links Count: ${links.length}`);
+console.log(`Total Links Count: ${links.length}`);
 console.log(`Total Word Count: ${words.length}`);
+console.log(`Hreflangs Count: ${hreflangs.length}`, hreflangs);
+console.log(`Duplicate Anchor Texts Count: ${duplicates.length}`);
+if (duplicates.length > 0) {
+  duplicates.forEach(([text, count]) => console.log(`  - "${text}": used ${count} times`));
+}

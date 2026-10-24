@@ -51,7 +51,7 @@ export default function Footer() {
                   to="/"
                   className="transition hover:text-white"
                 >
-                  {t("nav.home")}
+                  {t("footer.overview")}
                 </NavLink>
               </li>
 
@@ -60,7 +60,7 @@ export default function Footer() {
                   to="/about"
                   className="transition hover:text-white"
                 >
-                  {t("nav.about")}
+                  {t("footer.companyProfile")}
                 </NavLink>
               </li>
 
@@ -69,7 +69,7 @@ export default function Footer() {
                   to="/contact"
                   className="transition hover:text-white"
                 >
-                  {t("nav.contact")}
+                  {t("footer.reachOut")}
                 </NavLink>
               </li>
             </ul>
@@ -88,7 +88,7 @@ export default function Footer() {
                     to={`/category/${category.slug}`}
                     className="transition hover:text-white"
                   >
-                    {category.name[lang]}
+                    {category.name[lang]} {lang === "ar" ? "الطبية" : "Range"}
                   </NavLink>
                 </li>
               ))}

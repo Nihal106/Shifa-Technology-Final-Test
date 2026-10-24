@@ -93,10 +93,6 @@ export default function SEO({
       {/* Canonical URL */}
       <link rel="canonical" href={fullUrl} />
 
-      {/* Multilingual Hreflang Tags */}
-      <link rel="alternate" hreflang="en" href={fullUrl} />
-      <link rel="alternate" hreflang="ar" href={fullUrl} />
-      <link rel="alternate" hreflang="x-default" href={fullUrl} />
 
       {/* Open Graph Meta Tags */}
       <meta property="og:site_name" content={siteName} />
