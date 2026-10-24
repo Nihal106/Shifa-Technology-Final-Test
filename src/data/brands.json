@@ -2,7 +2,7 @@
 [
   {
     "id": 1,
-    "name": "Sumit",
+    "name": "Sumit Surgical",
     "slug": "sumit",
     "logo": "/images/brands/sumit.png"
   },
@@ -48,10 +48,22 @@
     "slug": "mir",
     "logo": "/images/brands/mir.svg"
   },
-    {
+  {
     "id": 9,
     "name": "ZOLL",
     "slug": "zoll",
     "logo": "/images/brands/zoll.png"
+  },
+  {
+    "id": 10,
+    "name": "Axis",
+    "slug": "axis",
+    "logo": "/images/brands/axis.png"
+  },
+  {
+    "id": 11,
+    "name": "Amnotec",
+    "slug": "amnotec",
+    "logo": "/images/brands/amnotec.png"
   }
 ]

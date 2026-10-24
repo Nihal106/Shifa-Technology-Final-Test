@@ -515,7 +515,7 @@
     "ar": "ملحق جراحة الأعصاب لطاولة العمليات من سوميت"
   },
   "slug": "sumit-neuro-attachment-operating-table",
-  "categoryId": 2,
+  "categoryId": 1,
   "brandId": 1,
   "featured": false,
   "shortDescription": {
@@ -537,7 +537,7 @@
     "ar": "ملحقات طاولة العمليات من سوميت"
   },
   "slug": "sumit-operating-table-accessories",
-  "categoryId": 2,
+  "categoryId": 1,
   "brandId": 1,
   "featured": false,
   "shortDescription": {
@@ -1430,6 +1430,75 @@
   },
   "images": [
     "/images/products/mir/new-spirolab.png"
+  ]
+},
+
+{
+  "id": 109,
+  "name": {
+    "en": "AXIS AXRM-100 Mini Rapid Biological Incubator",
+    "ar": "حاضنة بيولوجية سريعة صغيرة AXIS AXRM-100"
+  },
+  "slug": "axis-axrm-100-mini-rapid-biological-indicator-incubator",
+  "categoryId": 1,
+  "brandId": 10,
+  "featured": false,
+  "shortDescription": {
+    "en": "Compact rapid incubator designed for biological indicators used in laboratory and sterilization monitoring applications.",
+    "ar": "حاضنة سريعة مدمجة للمؤشرات البيولوجية المستخدمة في المختبرات ومراقبة عمليات التعقيم."
+  },
+  "description": {
+    "en": "The AXIS AXRM-100 Mini Rapid Biological Indicator Incubator is a compact device designed to incubate compatible biological indicators used in sterilization monitoring. Its small footprint makes it suitable for laboratory and healthcare environments. Please confirm the compatible biological indicator types, incubation temperature, readout time, capacity, and supported test configurations with the supplier before ordering.",
+    "ar": "حاضنة المؤشرات البيولوجية السريعة الصغيرة AXIS AXRM-100 هي جهاز مدمج مصمم لحضانة المؤشرات البيولوجية المتوافقة المستخدمة في مراقبة عمليات التعقيم. يناسب تصميمها الصغير المختبرات وبيئات الرعاية الصحية. يُرجى التأكد من أنواع المؤشرات البيولوجية المتوافقة ودرجة حرارة الحضانة ووقت قراءة النتائج والسعة وأنواع الاختبارات المدعومة مع المورد قبل الطلب."
+  },
+  "images": [
+    "/images/products/axis/100rapid.png"
+  ]
+},
+{
+  "id": 110,
+  "name": {
+    "en": "AXIS AX224 – Super Rapid Biological Indicator for Steam",
+    "ar": "مؤشر بيولوجي فائق السرعة للتعقيم بالبخار AXIS AX224"
+  },
+  "slug": "axis-ax224-super-rapid-biological-indicator-steam",
+  "categoryId": 1,
+  "brandId": 10,
+  "featured": false,
+  "shortDescription": {
+    "en": "Super rapid biological indicator designed to monitor steam sterilization cycles and support sterilization quality assurance.",
+    "ar": "مؤشر بيولوجي فائق السرعة لمراقبة دورات التعقيم بالبخار ودعم ضمان جودة التعقيم."
+  },
+  "description": {
+    "en": "The AXIS AX224 Super Rapid Biological Indicator is designed for monitoring steam sterilization processes and supporting quality assurance in healthcare and laboratory settings. Biological indicators help assess sterilization effectiveness by using a defined test system to detect the survival of resistant microorganisms after a sterilization cycle. Follow the manufacturer's instructions for the required incubation conditions, readout time, compatible reader or incubator, and interpretation of results. Please contact us to confirm product specifications, pack size, compatibility, and availability before ordering.",
+    "ar": "صُمم المؤشر البيولوجي فائق السرعة AXIS AX224 لمراقبة عمليات التعقيم بالبخار ودعم ضمان الجودة في المنشآت الصحية والمختبرات. تساعد المؤشرات البيولوجية على تقييم فعالية التعقيم باستخدام نظام اختبار محدد للكشف عن بقاء الكائنات الحية الدقيقة المقاومة بعد دورة التعقيم. يجب اتباع تعليمات الشركة المصنعة بشأن ظروف الحضانة ووقت قراءة النتائج والجهاز المتوافق لقراءة المؤشر أو حضانته وطريقة تفسير النتائج. يُرجى التواصل معنا للتأكد من المواصفات وحجم العبوة والتوافق والتوفر قبل الطلب."
+  },
+  "images": [
+    "/images/products/axis/ax224.png"
+  ]
+},
+
+
+{
+  "id": 111,
+  "name": {
+    "en": "AMNOTEC URS – Ureterorenoscope",
+    "ar": "منظار الحالب والكلية من أمونوتيك"
+  },
+  "slug": "amnotec-urs-ureterorenoscope",
+  "categoryId": 1,
+  "brandId": 11,
+  "featured": false,
+  "shortDescription": {
+    "en": "Rigid ureterorenoscope with a 430 mm working length, 6° offset eyepiece, and two instrument channels.",
+    "ar": "منظار صلب للحالب والكلية بطول 430 مم وعدسة عينية مائلة بزاوية 6 درجات وقناتين للأدوات."
+  },
+  "description": {
+    "en": "The AMNOTEC URS is a rigid ureterorenoscope designed for endoscopic examination and procedures involving the ureter and renal collecting system. The pictured specifications indicate a 430 mm length, a 6° offset eyepiece, and two instrument channels. Available configurations are shown with different diameter and instrument-channel dimensions. Please confirm the exact model, outer diameter, working-channel specifications, compatibility, and included accessories with the supplier before ordering.",
+    "ar": "منظار أمونوتيك الصلب للحالب والكلية هو جهاز تنظير يُستخدم لفحص الحالب والجهاز الجامع للكلى وإجراء التدخلات التنظيرية المناسبة. توضح المواصفات الظاهرة طولًا يبلغ 430 مم، وعدسة عينية مائلة بزاوية 6 درجات، وقناتين لإدخال الأدوات. تتوفر تكوينات مختلفة بأقطار وأبعاد متنوعة لقنوات الأدوات. يُرجى التأكد من الطراز الدقيق والقطر الخارجي ومواصفات قنوات العمل والتوافق والملحقات المرفقة مع المورد قبل الطلب."
+  },
+  "images": [
+    "/images/products/amnotec/urs.png"
   ]
 },
 {
@@ -2363,7 +2432,56 @@
   "images": [
     "/images/products/generic/medical-equipment-maintenance.png"
   ]
+},
+
+{
+  "id": 112,
+  "name": {
+    "en": "X-Ray Lead Protection Gown",
+    "ar": "مريلة واقية من الأشعة السينية"
+  },
+  "slug": "x-ray-lead-protection-gown",
+  "categoryId": 5,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "Protective lead apron designed to help reduce occupational exposure to X-rays during medical imaging procedures.",
+    "ar": "مريلة واقية مبطنة بالرصاص للمساعدة في تقليل التعرض المهني للأشعة السينية أثناء إجراءات التصوير الطبي."
+  },
+  "description": {
+    "en": "The X-Ray Lead Protection Gown is designed to provide radiation protection for healthcare professionals during diagnostic imaging procedures involving X-rays. Its apron-style design provides front-body coverage and is suitable for use in appropriate radiology and medical imaging environments. Protection depends on the garment's lead-equivalent thickness, coverage, fit, and condition. Please confirm the lead-equivalent rating, available sizes, material, and intended application with the supplier before ordering.",
+    "ar": "صُممت المريلة الواقية من الأشعة السينية لتوفير الحماية من الإشعاع للعاملين في الرعاية الصحية أثناء إجراءات التصوير التشخيصي التي تستخدم الأشعة السينية. يوفر تصميمها على شكل مريلة تغطية للجزء الأمامي من الجسم، وهي مناسبة للاستخدام في أقسام الأشعة وبيئات التصوير الطبي الملائمة. تعتمد درجة الحماية على مكافئ الرصاص ودرجة التغطية والمقاس وحالة المريلة. يُرجى التأكد من مكافئ الرصاص والمقاسات المتاحة والمواد المستخدمة والغرض من الاستخدام مع المورد قبل الطلب."
+  },
+  "images": [
+    "/images/products/generic/xraygown.png"
+  ]
+},
+
+
+
+{
+  "id": 113,
+  "name": {
+    "en": "Laboratory Refrigerator",
+    "ar": "ثلاجة مختبرات"
+  },
+  "slug": "laboratory-refrigerator",
+  "categoryId": 1,
+  "brandId": null,
+  "featured": false,
+  "shortDescription": {
+    "en": "130L laboratory refrigerator with a 2°C to 8°C temperature range, digital control, and multiple alarm functions.",
+    "ar": "ثلاجة مختبرات بسعة 130 لترًا، ونطاق تبريد من درجتين إلى 8 درجات مئوية، وتحكم رقمي وإنذارات متعددة."
+  },
+  "description": {
+    "en": "This laboratory refrigerator is designed for temperature-controlled storage in laboratory and pharmacy environments. The pictured model, MELING YC-130L, maintains a temperature range of 2°C to 8°C and features a digital temperature controller with 0.1°C display resolution. It includes audible and visual alarms for high or low temperature, sensor failure, power failure, and an open door. Additional features include automatic defrost, a built-in USB data logger, remote alarm contacts, an RS485 interface, adjustable leveling feet, and casters. Please confirm usable capacity, temperature uniformity, monitoring requirements, and suitability for the intended stored materials before ordering.",
+    "ar": "صُممت هذه الثلاجة للاستخدام في المختبرات والصيدليات لتخزين المواد التي تتطلب التحكم في درجة الحرارة. ويحافظ الطراز الظاهر في الصورة، ميلينغ YC-130L، على نطاق حراري من درجتين إلى 8 درجات مئوية، ويتميز بوحدة تحكم رقمية تعرض درجة الحرارة بدقة تصل إلى 0.1 درجة مئوية. وتشمل أنظمة الإنذار تنبيهات صوتية ومرئية لارتفاع درجة الحرارة أو انخفاضها، وتعطل المستشعر، وانقطاع الكهرباء، وترك الباب مفتوحًا. وتشمل الميزات الأخرى إزالة الصقيع تلقائيًا، ومسجل بيانات مدمجًا يعمل عبر منفذ يو إس بي، ووصلات للإنذار عن بُعد، وواجهة اتصال آر إس 485، وأقدامًا قابلة للتعديل وعجلات. يُرجى التأكد من السعة الفعلية وتجانس درجة الحرارة ومتطلبات المراقبة ومدى ملاءمة الثلاجة للمواد المراد تخزينها قبل الطلب."
+  },
+  "images": [
+    "/images/products/generic/labfridge.png"
+  ]
 }
+
 
 
 ]
